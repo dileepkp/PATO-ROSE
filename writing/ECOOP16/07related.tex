@@ -1,0 +1,61 @@
+Ontology has been used to build various knowledge bases in
+different domains, including biology~\cite{ashburner2000gene},
+ambient
+intelligence~\cite{ducatel2001scenarios,preuveneers2004towards,rodriguez2014survey},
+robotics~\cite{tenorth2009knowrob}, and
+others~\cite{matuszek2006introduction,niles2001towards,pease2002suggested}.
+This work was enlightened by these studies, but concentrates on the
+special challenges facing program analysis.
+
+In the software domain, ontology has been introduced, but mainly for
+software management and teaching of programming concepts, rather than
+program analysis. Specifically, Software Ontology
+(SWO)~\cite{malone2014software} in the domain of software engineering
+focuses on the meta information of software (e.g., licenses,
+publishing processes, data formats). COPS~\cite{lando2007towards}
+offers a sub-ontology for managing the knowledge related with image
+processing. Eden and others~\cite{eden2007problems} have provide some
+theoretical discussions on the unique aspects in designing an ontology
+for programs, but without exploring the use of ontology for program
+analysis. There are several ontology designs for teaching some
+programming
+languages~\cite{sosnovsky2006development,ganapathi2011towards}.  This
+current work, to our best knowledge, is the first proposal on a
+systematic integration of ontology into program analysis, and PATO
+is the first complete framework to do so.
+
+There is some prior work trying to ease the difficulties in the
+development of program analysis. OpenAnalysis~\cite{OpenAnalysis}
+advocates the separation of analysis from the IR of a program to allow
+the orthogonal development of compiler infrastructures and program
+analysis. Several other studies have tried to store some program
+components and relations in relational databases and they use logic
+programming to do program
+analysis~\cite{hajiyev2006codequest,bravenboer2009strictly,whaley2005using}.
+These work demonstrates some promising results on some specific tasks
+(e.g., points-to analysis). 
+
+The representations used in those work are in some customized format
+tied closely to some low-level form of the program (e.g., Java byte
+code~\cite{benton2007interactive}). Compared to ontology---a generic
+way for knowledge representation, they are subject to some principled
+limitations as the three limitations mentioned in the introduction
+section. For instance, they cannot be used to represent other types of
+knowledge that could be relevant to program analysis. An example is
+the GPU memory properties Section~\ref{sec:exp} describes for guiding
+data placement on the GPU. To apply the previous methods to that task,
+one has to design some additional ways to represent such hardware
+knowledge and develop much additional code to manipulate it and
+integrate it into the program analysis framework. These extra work
+largely throttles the productivity benefits of those methods. In
+comparison, ontology-based analysis allows a seamless integration of
+the hardware knowledge in the knowledge base, making it possible for
+the existing reasoning engine to automatically reason about data
+placements. It further eases the support of cooperations between different
+compilers and analysis tools, and avoids the many efforts in
+developing a preprocessing for each program analysis. 
+
+% intuitive
+% generic
+% auto inference
+% ecosystem

@@ -1,0 +1,5 @@
+check: output_report.txt
+output_report.txt: is.c.ttl run.pl
+	swipl -s run.pl is.c.ttl $@
+clean:
+	rm -rf output_report.txt

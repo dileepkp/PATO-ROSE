@@ -1,0 +1,17 @@
+digraph sample {
+  node [size=auto, ratio=auto,  fontsize="8", fontcolor="green"];
+  Top -> A;
+  "123_456_complex(name)" -> A;
+  Top [label="dot -Tpng -O test.dot"];
+  A -> B -> D;
+  B -> C[label="b to c",weight="0.4"];
+  A [label="Note A"];
+  "Str" [label="Node with \nstring name"];
+  A -> "Str";
+  C -> {A; B; D};
+  subgraph Rel {
+    edge [color=blue, dir=none];
+    D -> E;
+    A -> E;
+  }
+}

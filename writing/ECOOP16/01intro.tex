@@ -1,0 +1,222 @@
+Program analysis~\cite{nielson2004principles} is a common way for
+deriving various properties of a program from its code. It is
+fundamental for many aspects of modern computing, including program
+optimizations, vectorization and parallelization, performance or
+correctness bug identification, task scheduling, and so on.
+
+There are mainly two ways to implement a program analysis.  A
+traditional way is imperative, in which, thousands of lines of code
+(often in some imperative programming languages) is developed based on
+some compiler framework for analyzing program constructs, types,
+control or data flows to infer certain properties of the target
+program.  Programmers typically needs to go through some steep
+learning curve about the structure and internal details of a complex
+compiler, while the results are often unsatisfactory: The code is
+often difficult to maintain, and bugs are
+common~\cite{yang2011finding}. The analysis, being specific to a
+particular compiler, is hard to extend, to composite, or to reuse
+for other compilers.
+
+The second approach, {\em declarative program analysis}, has been
+proposed to overcome the productivity issues~\cite{Ullman_1988,Horwitz_1995,Dawson_1996}. With it, the
+developers just need to define some abstract domains and then use some
+logic programming language (e.g., DataLog~\cite{whaley_cloning-based_2004}) to describe the
+analysis rules that govern the relations or properties of
+interest. Some automatic tools can then automatically do the
+inferences over a certain representation of some relations in the
+target program to find out the wanted relations or properties of the
+program. Experiments have shown with this approach, the code size of a
+program analysis often reduces by orders of magnitude compared to the
+imperative approach, and the analyses become easier to maintain and
+extend~\cite{bravenboer_strictly_2009}. Moreover, with the substantial improvement in
+optimizations of the logic processing engines (e.g., bddbddb~\cite{whaley2005using}
+and numerous optimizations to inference engines~\cite{wielemaker2011}), the
+performance and scalability concerns of descriptive program analyses
+have been largely resolved. 
+%\TODO{add the missing references by reading the first two paragraphs of ``Using Datalog with Binary Decision Diagrams for Program Analysis''.}
+
+In this work, we aim to further improve this promising paradigm of
+program analysis, particularly, to address three most important
+limitations of the current declarative program analysis:
+
+\begin{itemize}
+\item {\em Cooperations.} 
+By expressing the analysis at a high level, different analysis tools
+could potentially reuse an analysis, and different analyses could get
+composed together into a more sophisticated analysis. However, in
+practice, these benefits have been difficult to achieve in general,
+due to the differences in the analysis-specific representations of
+programs and relations. In one analysis, the domain may be variable
+names and heap addresses, and the relation may be ``assigning one
+address to a variable''; in another analysis, the domain may be
+expressions and the relation may be ``calculated before a program
+point''. To composite the two analyses, the variable names and heap
+addresses in the first analysis may have to be mapped to the
+expressions in the second domain, which would require much code
+development (likely entwined with the code in the compilers),
+especially if the two analyses were developed by different users based
+on different compilers that use different intermediate representations
+(IRs).
+
+\item {\em Optimizations.} 
+So far, explorations of declarative program analysis have been focused
+on understanding program behaviors (largely for the purpose of
+debugging), for which, program-level knowledge has been enough. It
+is, however, insufficient for another important purpose of program
+analysis, guiding program optimizations. For the multi-facet dependence
+of performance, program optimizations often need knowledge from various
+sources: the program itself, the hardware, the algorithms, the program
+input datasets, and various domain-specific or problem-specific
+knowledge. Consequently, to provide useful optimization guidance,
+declarative program analysis must support the representations of the
+various kinds of knowledge, and allow easy linkage among them, even if
+the various kinds of knowledge may come from different sources. The
+analysis-specific nature of the current declarative analysis designs
+offers poor support to these needs.
+
+\item {\em Preprocessing.} A declarative program analysis typically
+requires some preprocessing to extract useful relations from the
+target programs to build up a relational database. This step
+unfortunately shares lots of drawbacks as the imperative program
+analysis has; as it is usually tightly coupled with some compiler
+framework, it is tedious and error-prone to develop. What makes this
+especially problematic is that different program analyses
+often \underline{use different relations or different ways to define
+the same or similar relations}. As a result, preprocessing needs to be
+developed for almost every newly developed program analysis,
+seriously throttling the productivity benefits of declarative program
+analysis.
+\end{itemize}
+
+In this work, we advocate the integration of Ontology into declarative
+program analysis to address the three limitations all together. Our
+proposal comes from the observation that all the three major
+limitations essentially stem from a single fundamental shortcoming in
+current declarative program analysis: the lack of a systematic
+conceptual framework to govern the definition, representation, and
+organization of the various knowledge (relations in a program, rules,
+domains, hardware configurations, etc.) related with program
+analysis. The ad-hoc analysis-specific approach used in today's
+designs of declarative program analysis is the fundamental reason for
+the many efforts required for preprocessing, and the barriers for
+supporting cooperations and optimizations.
+
+Ontology, a concept originated from Philosophy, refers to the study of
+the nature of being, as well as the basic categories of being and
+their relations~\cite{noy2001ontology}. In recent decades, it has
+become a branch in Information Science, serving as the primary way to
+standardize the concept definitions and knowledge representations for
+a domain. It includes three concrete components: A
+standard \underline{vocabulary} to define some common concepts and
+their relations in a given domain, a standard \underline{format}
+(e.g., the Web Ontology Language (OWL)) for representing the
+various instances and concepts in any concrete problems in the domain
+and their relations, and a whole set of \underline{tools} that have
+been developed in the last several decades for the development of an
+ontology and automatic logic inference upon it.
+
+The key idea in our proposal is to leverage ontology to help
+standardize the definitions of domains, relations, and other concepts
+in program analysis, and to establish a single flexible representation
+of program constructs as well as other kinds of knowledge related with
+program analysis and its usage. With that, knowledge from various
+sources may be linked seamlessly as long as they follow the
+standardized representation. Sharing the same conceptual framework and
+set of terminology, different program analyses will be easy to compose
+and interoperate together. The standardization will also make it
+possible to develop a single comprehensive database of the relations
+of a program to serve for various program analyses, removing the needs
+for the separate development of preprocessing for each analysis.
+
+Ultimately, it would be desirable to establish a standard Program
+Analysis Ontology to describe programs, analysis, and related
+concepts---liken how the Semantic Sensor Network Ontology by
+W3C~\cite{Compton201225} 
+%\TODO{add reference to http://www.w3.org/2005/Incubator/ssn/ssnx/ssn.} 
+facilitates the work
+in the sensor network domains. Reaching that goal would require the
+coordinated efforts from the community and goes beyond the scope of this
+paper.
+
+This work instead focuses on the following four-fold objectives:
+\begin{itemize}
+\item To introduce Ontology into program analysis. Particularly, we introduce the
+concept of {\em ontology-based program analysis}, referring to the
+integration of Ontology with declarative program analysis.
+\item To investigate the feasibility of having a single
+representation of a program in ontology to facilitate various program
+analyses and hence reduce the many efforts for developing program
+preprocessing as required in current declarative program analysis.
+\item To validate the promise of ontology as the representation
+of various kinds of knowledge related to program optimizations, and
+hence extend existing declarative program analysis to guide program
+optimizations.
+\item To confirm the benefits of ontology for facilitating
+easy cooperations of different analysis tools.
+\end{itemize}
+
+To reaching the four objectives, we have developed a prototype
+framework of ontology-based program analysis named PATO (which stands
+for Program Analysis Through Ontology). In this prototype, we explore
+the use of several principles to define a concept-proof ontology for C
+program analysis. Based on it, we have developed four different
+program analyses: canonical loop analysis, control flow graph
+construction, data access pattern analysis, and GPU data placement
+guidance. These analyses differ in domains, relations, scopes, and
+intended usage. Our experiments show that a single ontology-based
+representation can successfully support all these analyses (without
+separate preprocessing per analysis). The analyses inherit the
+productivity benefits of declarative program analysis, reducing the
+lines of code by tens of times compared to imperative
+implementations. Using the liveness analysis on two compilers
+(ROSE~\cite{ROSE} and LLVM~\cite{Lattner2004}), 
+%\TODO{add missing references} 
+we confirm the benefits of ontology for promoting cooperations among
+different analysis tools. 
+%\TODO{Mention benefits on autoPar when better liveness analysis is used} 
+And using GPU data placement optimization,
+we demonstrate the seamless linkage of various sources of knowledge
+(programs, domain experts, and hardware) enabled by ontology, and
+reveal the potential of ontology-based program analysis for guiding
+program optimizations.
+
+By demonstrating the promise of ontology-based program analysis, we
+hope that this work will prompt further investigations by the
+community into this promising direction, and stimulate some
+discussions in this new paradigm of program analysis.
+
+%% There are prior related studies. Some focus on ontology for programs and software in
+%% general~\cite{sosnovsky2006development, eden2007problems,
+%% lando2007towards,malone2014software}.  But they are limited to covering
+%% high-level language concepts, meta information of software for
+%% software management or teaching purposes. Other 
+%% work~\cite{hajiyev2006codequest,bravenboer2009strictly,whaley2005using,huang2011datalog,benton2007interactive}
+%% tries to alleviate the difficulty of program analysis development by
+%% advocating the use of %a common intermediate representation (IR) or
+%% declarative programming. They use some customized formats, often tied to low-level intermediate representation (IR), rather
+%% than a generic knowledge representation as ontology. Although 
+%% they have shown some promising results, none has received a wide
+%% adoption in supporting portable and reusable program analysis, due to the restricted
+%% expressiveness of the format they use, lack of tool support, and some
+%% other limitations (detailed in Section~\ref{sec:rel}).
+
+%% \begin{itemize}
+%% \item A new paradigm for program analysis.
+%% \item Revealing the major challenges and provide solutions.
+%% \item Validating its benefits through three analyses and two
+%%   versions of an optimization.
+%% \end{itemize}
+
+%% \paragraph{Structure of the paper} 
+
+%% In the rest of the paper, we first present the background on Ontology
+%% (Section~\ref{sec:back}), and then outline the main idea of
+%% ontology-based program analysis and list the major challenges for
+%% materializing it effectively (Section~\ref{sec:overview}). After that,
+%% we offer our solutions (Section~\ref{sec:solution}) and explain how we
+%% integrate them together to form {\em PATO} (Program Analysis Through
+%% Ontology), our first ontology-based framework for program analysis
+%% (Section~\ref{sec:PATO}). We demonstrate the benefits of the new
+%% paradigm through four types of program analysis and exemplify the end
+%% use of the analysis results in the optimizations of data placement on
+%% GPU memory (Section~\ref{sec:eval}).

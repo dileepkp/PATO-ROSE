@@ -1,0 +1,4835 @@
+//////////////////////////
+set OpenMP threads to be 1
+//////////////////////////
+Tue Jan 19 13:16:49 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  64x 64x 64
+ Iterations: 200   dt:   0.000800
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class A
+ accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0 1.0806346714637e+02 1.0806346714637e+02 6.9697495351091e-15
+           1 1.1319730901221e+01 1.1319730901221e+01 1.2554057017088e-15
+           2 2.5974354511583e+01 2.5974354511582e+01 3.2826659177686e-15
+           3 2.3665622544679e+01 2.3665622544679e+01 8.2566707030474e-15
+           4 2.5278963211749e+02 2.5278963211748e+02 1.3941600135453e-14
+ Comparison of RMS-norms of solution error
+           0 4.2348416040525e+00 4.2348416040525e+00 1.2583872117203e-15
+           1 4.4390282496995e-01 4.4390282496996e-01 5.7524142965539e-15
+           2 9.6692480136346e-01 9.6692480136346e-01 1.8371199465516e-15
+           3 8.8302063039766e-01 8.8302063039765e-01 1.7602218804053e-15
+           4 9.7379901770830e+00 9.7379901770829e+00 5.1076239140453e-15
+ Verification Successful
+
+
+ BT Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      200
+ Threads         =                        1
+ Time in seconds =                   215.89
+ Mop/s total     =                   779.50
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = (none)
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  64x 64x 64
+ Iterations: 200   dt:   0.000800
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class A
+ accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0 1.0806346714637e+02 1.0806346714637e+02 6.9697495351091e-15
+           1 1.1319730901221e+01 1.1319730901221e+01 1.2554057017088e-15
+           2 2.5974354511583e+01 2.5974354511582e+01 3.2826659177686e-15
+           3 2.3665622544679e+01 2.3665622544679e+01 8.2566707030474e-15
+           4 2.5278963211749e+02 2.5278963211748e+02 1.3941600135453e-14
+ Comparison of RMS-norms of solution error
+           0 4.2348416040525e+00 4.2348416040525e+00 1.2583872117203e-15
+           1 4.4390282496995e-01 4.4390282496996e-01 5.7524142965539e-15
+           2 9.6692480136346e-01 9.6692480136346e-01 1.8371199465516e-15
+           3 8.8302063039766e-01 8.8302063039765e-01 1.7602218804053e-15
+           4 9.7379901770830e+00 9.7379901770829e+00 5.1076239140453e-15
+ Verification Successful
+
+
+ BT Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      200
+ Threads         =                        1
+ Time in seconds =                   213.62
+ Mop/s total     =                   787.78
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = (none)
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  64x 64x 64
+ Iterations: 200   dt:   0.000800
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class A
+ accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0 1.0806346714637e+02 1.0806346714637e+02 6.9697495351091e-15
+           1 1.1319730901221e+01 1.1319730901221e+01 1.2554057017088e-15
+           2 2.5974354511583e+01 2.5974354511582e+01 3.2826659177686e-15
+           3 2.3665622544679e+01 2.3665622544679e+01 8.2566707030474e-15
+           4 2.5278963211749e+02 2.5278963211748e+02 1.3941600135453e-14
+ Comparison of RMS-norms of solution error
+           0 4.2348416040525e+00 4.2348416040525e+00 1.2583872117203e-15
+           1 4.4390282496995e-01 4.4390282496996e-01 5.7524142965539e-15
+           2 9.6692480136346e-01 9.6692480136346e-01 1.8371199465516e-15
+           3 8.8302063039766e-01 8.8302063039765e-01 1.7602218804053e-15
+           4 9.7379901770830e+00 9.7379901770829e+00 5.1076239140453e-15
+ Verification Successful
+
+
+ BT Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      200
+ Threads         =                        1
+ Time in seconds =                   213.20
+ Mop/s total     =                   789.31
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = (none)
+Tue Jan 19 13:27:37 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - CG Benchmark
+ Size:      14000
+ Iterations:    15
+   iteration           ||r||                 zeta
+        1       1.45123052265309e-13 1.9999758127704e+01
+        2       1.35125269853112e-15 1.7114049574551e+01
+        3       1.32526801840164e-15 1.7129666894614e+01
+        4       1.29027187299776e-15 1.7130211358119e+01
+        5       1.27604545972549e-15 1.7130233885635e+01
+        6       1.23255911398339e-15 1.7130234987948e+01
+        7       1.20825200573296e-15 1.7130235049892e+01
+        8       1.18834318283459e-15 1.7130235053751e+01
+        9       1.13946702710917e-15 1.7130235054010e+01
+       10       1.10197870926858e-15 1.7130235054028e+01
+       11       1.09123005508548e-15 1.7130235054030e+01
+       12       1.06326148372323e-15 1.7130235054030e+01
+       13       1.00299894278150e-15 1.7130235054030e+01
+       14       9.68570598419412e-16 1.7130235054030e+01
+       15       9.17129091410856e-16 1.7130235054030e+01
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ Zeta is      1.713023505403e+01
+ Error is     8.917311333789e-13
+
+
+ CG Benchmark Completed
+ Class           =                        A
+ Size            =                    14000
+ Iterations      =                       15
+ Threads         =                        1
+ Time in seconds =                     3.36
+ Mop/s total     =                   444.83
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - CG Benchmark
+ Size:      14000
+ Iterations:    15
+   iteration           ||r||                 zeta
+        1       1.45123052265309e-13 1.9999758127704e+01
+        2       1.35125269853112e-15 1.7114049574551e+01
+        3       1.32526801840164e-15 1.7129666894614e+01
+        4       1.29027187299776e-15 1.7130211358119e+01
+        5       1.27604545972549e-15 1.7130233885635e+01
+        6       1.23255911398339e-15 1.7130234987948e+01
+        7       1.20825200573296e-15 1.7130235049892e+01
+        8       1.18834318283459e-15 1.7130235053751e+01
+        9       1.13946702710917e-15 1.7130235054010e+01
+       10       1.10197870926858e-15 1.7130235054028e+01
+       11       1.09123005508548e-15 1.7130235054030e+01
+       12       1.06326148372323e-15 1.7130235054030e+01
+       13       1.00299894278150e-15 1.7130235054030e+01
+       14       9.68570598419412e-16 1.7130235054030e+01
+       15       9.17129091410856e-16 1.7130235054030e+01
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ Zeta is      1.713023505403e+01
+ Error is     8.917311333789e-13
+
+
+ CG Benchmark Completed
+ Class           =                        A
+ Size            =                    14000
+ Iterations      =                       15
+ Threads         =                        1
+ Time in seconds =                     3.35
+ Mop/s total     =                   446.15
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - CG Benchmark
+ Size:      14000
+ Iterations:    15
+   iteration           ||r||                 zeta
+        1       1.45123052265309e-13 1.9999758127704e+01
+        2       1.35125269853112e-15 1.7114049574551e+01
+        3       1.32526801840164e-15 1.7129666894614e+01
+        4       1.29027187299776e-15 1.7130211358119e+01
+        5       1.27604545972549e-15 1.7130233885635e+01
+        6       1.23255911398339e-15 1.7130234987948e+01
+        7       1.20825200573296e-15 1.7130235049892e+01
+        8       1.18834318283459e-15 1.7130235053751e+01
+        9       1.13946702710917e-15 1.7130235054010e+01
+       10       1.10197870926858e-15 1.7130235054028e+01
+       11       1.09123005508548e-15 1.7130235054030e+01
+       12       1.06326148372323e-15 1.7130235054030e+01
+       13       1.00299894278150e-15 1.7130235054030e+01
+       14       9.68570598419412e-16 1.7130235054030e+01
+       15       9.17129091410856e-16 1.7130235054030e+01
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ Zeta is      1.713023505403e+01
+ Error is     8.917311333789e-13
+
+
+ CG Benchmark Completed
+ Class           =                        A
+ Size            =                    14000
+ Iterations      =                       15
+ Threads         =                        1
+ Time in seconds =                     3.34
+ Mop/s total     =                   448.58
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randdp
+Tue Jan 19 13:27:48 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - EP Benchmark
+ Number of random numbers generated:     536870912
+Debug: 231, sx is:-5001.141718, sy is:-3457.188770
+EP Benchmark Results: 
+CPU Time =    36.4086
+N = 2^   28
+No. Gaussian Pairs =       210826522
+Sums =    -5.001141718284745e+03    -3.457188770421433e+03
+Counts:
+  0        98251012
+  1        93829430
+  2        17608825
+  3         1110543
+  4           26457
+  5             253
+  6               2
+  7               0
+  8               0
+  9               0
+
+
+ EP Benchmark Completed
+ Class           =                        A
+ Size            =                       29
+ Iterations      =                        0
+ Threads         =                        1
+ Time in seconds =                    36.41
+ Mop/s total     =                    14.75
+ Operation type  = Random numbers generated
+ Verification    =             UNSUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - EP Benchmark
+ Number of random numbers generated:     536870912
+Debug: 231, sx is:-5001.141718, sy is:-3457.188770
+EP Benchmark Results: 
+CPU Time =    36.4239
+N = 2^   28
+No. Gaussian Pairs =       210826522
+Sums =    -5.001141718284745e+03    -3.457188770421433e+03
+Counts:
+  0        98251012
+  1        93829430
+  2        17608825
+  3         1110543
+  4           26457
+  5             253
+  6               2
+  7               0
+  8               0
+  9               0
+
+
+ EP Benchmark Completed
+ Class           =                        A
+ Size            =                       29
+ Iterations      =                        0
+ Threads         =                        1
+ Time in seconds =                    36.42
+ Mop/s total     =                    14.74
+ Operation type  = Random numbers generated
+ Verification    =             UNSUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - EP Benchmark
+ Number of random numbers generated:     536870912
+Debug: 231, sx is:-5001.141718, sy is:-3457.188770
+EP Benchmark Results: 
+CPU Time =    36.3516
+N = 2^   28
+No. Gaussian Pairs =       210826522
+Sums =    -5.001141718284745e+03    -3.457188770421433e+03
+Counts:
+  0        98251012
+  1        93829430
+  2        17608825
+  3         1110543
+  4           26457
+  5             253
+  6               2
+  7               0
+  8               0
+  9               0
+
+
+ EP Benchmark Completed
+ Class           =                        A
+ Size            =                       29
+ Iterations      =                        0
+ Threads         =                        1
+ Time in seconds =                    36.35
+ Mop/s total     =                    14.77
+ Operation type  = Random numbers generated
+ Verification    =             UNSUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randdp
+Tue Jan 19 13:29:37 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - FT Benchmark
+
+ Size                : 256x256x128
+ Iterations          :           6
+T =     1     Checksum =     5.046735008193e+02     5.114047905510e+02
+T =     2     Checksum =     5.059412319734e+02     5.098809666433e+02
+T =     3     Checksum =     5.069376896287e+02     5.098144042213e+02
+T =     4     Checksum =     5.077892868474e+02     5.101336130759e+02
+T =     5     Checksum =     5.085233095391e+02     5.104914655194e+02
+T =     6     Checksum =     5.091487099959e+02     5.107917842803e+02
+Result verification successful
+cclass = A
+
+
+ FT Benchmark Completed
+ Class           =                        A
+ Size            =              256x256x128
+ Iterations      =                        6
+ Threads         =                        1
+ Time in seconds =                     6.74
+ Mop/s total     =                  1058.28
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - FT Benchmark
+
+ Size                : 256x256x128
+ Iterations          :           6
+T =     1     Checksum =     5.046735008193e+02     5.114047905510e+02
+T =     2     Checksum =     5.059412319734e+02     5.098809666433e+02
+T =     3     Checksum =     5.069376896287e+02     5.098144042213e+02
+T =     4     Checksum =     5.077892868474e+02     5.101336130759e+02
+T =     5     Checksum =     5.085233095391e+02     5.104914655194e+02
+T =     6     Checksum =     5.091487099959e+02     5.107917842803e+02
+Result verification successful
+cclass = A
+
+
+ FT Benchmark Completed
+ Class           =                        A
+ Size            =              256x256x128
+ Iterations      =                        6
+ Threads         =                        1
+ Time in seconds =                     6.77
+ Mop/s total     =                  1054.90
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - FT Benchmark
+
+ Size                : 256x256x128
+ Iterations          :           6
+T =     1     Checksum =     5.046735008193e+02     5.114047905510e+02
+T =     2     Checksum =     5.059412319734e+02     5.098809666433e+02
+T =     3     Checksum =     5.069376896287e+02     5.098144042213e+02
+T =     4     Checksum =     5.077892868474e+02     5.101336130759e+02
+T =     5     Checksum =     5.085233095391e+02     5.104914655194e+02
+T =     6     Checksum =     5.091487099959e+02     5.107917842803e+02
+Result verification successful
+cclass = A
+
+
+ FT Benchmark Completed
+ Class           =                        A
+ Size            =              256x256x128
+ Iterations      =                        6
+ Threads         =                        1
+ Time in seconds =                     6.77
+ Mop/s total     =                  1054.49
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randdp
+Tue Jan 19 13:30:04 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - IS Benchmark
+
+ Size:  8388608  (class A)
+ Iterations:   10
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        A
+ Size            =                  8388608
+ Iterations      =                       10
+ Threads         =                        1
+ Time in seconds =                     0.68
+ Mop/s total     =                   123.43
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randlc2
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - IS Benchmark
+
+ Size:  8388608  (class A)
+ Iterations:   10
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        A
+ Size            =                  8388608
+ Iterations      =                       10
+ Threads         =                        1
+ Time in seconds =                     0.68
+ Mop/s total     =                   123.15
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randlc2
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - IS Benchmark
+
+ Size:  8388608  (class A)
+ Iterations:   10
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        A
+ Size            =                  8388608
+ Iterations      =                       10
+ Threads         =                        1
+ Time in seconds =                     0.67
+ Mop/s total     =                   124.38
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randlc2
+Tue Jan 19 13:30:13 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - MG Benchmark
+
+ No input file. Using compiled defaults
+ Size: 256x256x256 (class A)
+ Iterations:   4
+ Initialization time:           3.236 seconds
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ L2 Norm is   2.433365309069e-06
+ Error is     6.948550079506e-17
+
+
+ MG Benchmark Completed
+ Class           =                        A
+ Size            =              256x256x256
+ Iterations      =                        4
+ Threads         =                        1
+ Time in seconds =                     3.63
+ Mop/s total     =                  1071.05
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - MG Benchmark
+
+ No input file. Using compiled defaults
+ Size: 256x256x256 (class A)
+ Iterations:   4
+ Initialization time:           3.161 seconds
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ L2 Norm is   2.433365309069e-06
+ Error is     6.948550079506e-17
+
+
+ MG Benchmark Completed
+ Class           =                        A
+ Size            =              256x256x256
+ Iterations      =                        4
+ Threads         =                        1
+ Time in seconds =                     3.63
+ Mop/s total     =                  1071.85
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - MG Benchmark
+
+ No input file. Using compiled defaults
+ Size: 256x256x256 (class A)
+ Iterations:   4
+ Initialization time:           3.173 seconds
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ L2 Norm is   2.433365309069e-06
+ Error is     6.948550079506e-17
+
+
+ MG Benchmark Completed
+ Class           =                        A
+ Size            =              256x256x256
+ Iterations      =                        4
+ Threads         =                        1
+ Time in seconds =                     3.61
+ Mop/s total     =                  1077.41
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randdp
+Tue Jan 19 13:30:33 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults Size:  64x 64x 64
+ Iterations: 400   dt:   0.001500
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for cclass A
+ accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0 2.4799822399302e+00 2.4799822399300e+00 7.0374318275763e-14
+           1 1.1276337964369e+00 1.1276337964369e+00 5.4150794830138e-14
+           2 1.5028977888770e+00 1.5028977888770e+00 1.8320295108875e-14
+           3 1.4217816211695e+00 1.4217816211695e+00 1.4367961541308e-14
+           4 2.1292113035139e+00 2.1292113035138e+00 2.6696936451070e-14
+ Comparison of RMS-norms of solution error
+           0 1.0900140297827e-04 1.0900140297821e-04 6.3609024320826e-13
+           1 3.7343951769288e-05 3.7343951769282e-05 1.5042656816013e-13
+           2 5.0092785406562e-05 5.0092785406542e-05 4.0798711402227e-13
+           3 4.7671093939551e-05 4.7671093939528e-05 4.7988548088415e-13
+           4 1.3621613399222e-04 1.3621613399213e-04 6.6839275764302e-13
+ Verification Successful
+
+
+ SP Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      400
+ Threads         =                        1
+ Time in seconds =                   133.26
+ Mop/s total     =                   637.94
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = (none)
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults Size:  64x 64x 64
+ Iterations: 400   dt:   0.001500
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for cclass A
+ accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0 2.4799822399302e+00 2.4799822399300e+00 7.0374318275763e-14
+           1 1.1276337964369e+00 1.1276337964369e+00 5.4150794830138e-14
+           2 1.5028977888770e+00 1.5028977888770e+00 1.8320295108875e-14
+           3 1.4217816211695e+00 1.4217816211695e+00 1.4367961541308e-14
+           4 2.1292113035139e+00 2.1292113035138e+00 2.6696936451070e-14
+ Comparison of RMS-norms of solution error
+           0 1.0900140297827e-04 1.0900140297821e-04 6.3609024320826e-13
+           1 3.7343951769288e-05 3.7343951769282e-05 1.5042656816013e-13
+           2 5.0092785406562e-05 5.0092785406542e-05 4.0798711402227e-13
+           3 4.7671093939551e-05 4.7671093939528e-05 4.7988548088415e-13
+           4 1.3621613399222e-04 1.3621613399213e-04 6.6839275764302e-13
+ Verification Successful
+
+
+ SP Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      400
+ Threads         =                        1
+ Time in seconds =                   133.04
+ Mop/s total     =                   638.99
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = (none)
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults Size:  64x 64x 64
+ Iterations: 400   dt:   0.001500
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for cclass A
+ accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0 2.4799822399302e+00 2.4799822399300e+00 7.0374318275763e-14
+           1 1.1276337964369e+00 1.1276337964369e+00 5.4150794830138e-14
+           2 1.5028977888770e+00 1.5028977888770e+00 1.8320295108875e-14
+           3 1.4217816211695e+00 1.4217816211695e+00 1.4367961541308e-14
+           4 2.1292113035139e+00 2.1292113035138e+00 2.6696936451070e-14
+ Comparison of RMS-norms of solution error
+           0 1.0900140297827e-04 1.0900140297821e-04 6.3609024320826e-13
+           1 3.7343951769288e-05 3.7343951769282e-05 1.5042656816013e-13
+           2 5.0092785406562e-05 5.0092785406542e-05 4.0798711402227e-13
+           3 4.7671093939551e-05 4.7671093939528e-05 4.7988548088415e-13
+           4 1.3621613399222e-04 1.3621613399213e-04 6.6839275764302e-13
+ Verification Successful
+
+
+ SP Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      400
+ Threads         =                        1
+ Time in seconds =                   134.35
+ Mop/s total     =                   632.74
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = (none)
+//////////////////////////
+set OpenMP threads to be 2
+//////////////////////////
+Tue Jan 19 13:37:16 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  64x 64x 64
+ Iterations: 200   dt:   0.000800
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class A
+ accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0 1.0806346714637e+02 1.0806346714637e+02 6.9697495351091e-15
+           1 1.1319730901221e+01 1.1319730901221e+01 1.2554057017088e-15
+           2 2.5974354511583e+01 2.5974354511582e+01 3.2826659177686e-15
+           3 2.3665622544679e+01 2.3665622544679e+01 8.2566707030474e-15
+           4 2.5278963211749e+02 2.5278963211748e+02 1.3941600135453e-14
+ Comparison of RMS-norms of solution error
+           0 4.2348416040525e+00 4.2348416040525e+00 1.2583872117203e-15
+           1 4.4390282496995e-01 4.4390282496996e-01 5.7524142965539e-15
+           2 9.6692480136346e-01 9.6692480136346e-01 1.8371199465516e-15
+           3 8.8302063039766e-01 8.8302063039765e-01 1.7602218804053e-15
+           4 9.7379901770830e+00 9.7379901770829e+00 5.1076239140453e-15
+ Verification Successful
+
+
+ BT Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      200
+ Threads         =                        1
+ Time in seconds =                   118.07
+ Mop/s total     =                  1425.35
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = (none)
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  64x 64x 64
+ Iterations: 200   dt:   0.000800
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class A
+ accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0 1.0806346714637e+02 1.0806346714637e+02 6.9697495351091e-15
+           1 1.1319730901221e+01 1.1319730901221e+01 1.2554057017088e-15
+           2 2.5974354511583e+01 2.5974354511582e+01 3.2826659177686e-15
+           3 2.3665622544679e+01 2.3665622544679e+01 8.2566707030474e-15
+           4 2.5278963211749e+02 2.5278963211748e+02 1.3941600135453e-14
+ Comparison of RMS-norms of solution error
+           0 4.2348416040525e+00 4.2348416040525e+00 1.2583872117203e-15
+           1 4.4390282496995e-01 4.4390282496996e-01 5.7524142965539e-15
+           2 9.6692480136346e-01 9.6692480136346e-01 1.8371199465516e-15
+           3 8.8302063039766e-01 8.8302063039765e-01 1.7602218804053e-15
+           4 9.7379901770830e+00 9.7379901770829e+00 5.1076239140453e-15
+ Verification Successful
+
+
+ BT Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      200
+ Threads         =                        1
+ Time in seconds =                   105.65
+ Mop/s total     =                  1592.81
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = (none)
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  64x 64x 64
+ Iterations: 200   dt:   0.000800
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class A
+ accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0 1.0806346714637e+02 1.0806346714637e+02 6.9697495351091e-15
+           1 1.1319730901221e+01 1.1319730901221e+01 1.2554057017088e-15
+           2 2.5974354511583e+01 2.5974354511582e+01 3.2826659177686e-15
+           3 2.3665622544679e+01 2.3665622544679e+01 8.2566707030474e-15
+           4 2.5278963211749e+02 2.5278963211748e+02 1.3941600135453e-14
+ Comparison of RMS-norms of solution error
+           0 4.2348416040525e+00 4.2348416040525e+00 1.2583872117203e-15
+           1 4.4390282496995e-01 4.4390282496996e-01 5.7524142965539e-15
+           2 9.6692480136346e-01 9.6692480136346e-01 1.8371199465516e-15
+           3 8.8302063039766e-01 8.8302063039765e-01 1.7602218804053e-15
+           4 9.7379901770830e+00 9.7379901770829e+00 5.1076239140453e-15
+ Verification Successful
+
+
+ BT Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      200
+ Threads         =                        1
+ Time in seconds =                   118.91
+ Mop/s total     =                  1415.18
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = (none)
+Tue Jan 19 13:43:02 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - CG Benchmark
+ Size:      14000
+ Iterations:    15
+   iteration           ||r||                 zeta
+        1       1.45015315347828e-13 1.9999758127704e+01
+        2       1.35022878654723e-15 1.7114049574551e+01
+        3       1.32846109592304e-15 1.7129666894614e+01
+        4       1.29106160547182e-15 1.7130211358119e+01
+        5       1.29216919831231e-15 1.7130233885635e+01
+        6       1.23357673643726e-15 1.7130234987948e+01
+        7       1.20416154811165e-15 1.7130235049892e+01
+        8       1.18463932912602e-15 1.7130235053751e+01
+        9       1.14095638671709e-15 1.7130235054010e+01
+       10       1.11041315400678e-15 1.7130235054028e+01
+       11       1.08968339266330e-15 1.7130235054030e+01
+       12       1.04902156567031e-15 1.7130235054030e+01
+       13       1.00935213775073e-15 1.7130235054030e+01
+       14       9.56094005271021e-16 1.7130235054030e+01
+       15       9.35707489588066e-16 1.7130235054030e+01
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ Zeta is      1.713023505403e+01
+ Error is     8.917311333789e-13
+
+
+ CG Benchmark Completed
+ Class           =                        A
+ Size            =                    14000
+ Iterations      =                       15
+ Threads         =                        1
+ Time in seconds =                     2.70
+ Mop/s total     =                   554.85
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - CG Benchmark
+ Size:      14000
+ Iterations:    15
+   iteration           ||r||                 zeta
+        1       1.45015315347828e-13 1.9999758127704e+01
+        2       1.35022878654723e-15 1.7114049574551e+01
+        3       1.32846109592304e-15 1.7129666894614e+01
+        4       1.29106160547182e-15 1.7130211358119e+01
+        5       1.29216919831231e-15 1.7130233885635e+01
+        6       1.23357673643726e-15 1.7130234987948e+01
+        7       1.20416154811165e-15 1.7130235049892e+01
+        8       1.18463932912602e-15 1.7130235053751e+01
+        9       1.14095638671709e-15 1.7130235054010e+01
+       10       1.11041315400678e-15 1.7130235054028e+01
+       11       1.08968339266330e-15 1.7130235054030e+01
+       12       1.04902156567031e-15 1.7130235054030e+01
+       13       1.00935213775073e-15 1.7130235054030e+01
+       14       9.56094005271021e-16 1.7130235054030e+01
+       15       9.35707489588066e-16 1.7130235054030e+01
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ Zeta is      1.713023505403e+01
+ Error is     8.917311333789e-13
+
+
+ CG Benchmark Completed
+ Class           =                        A
+ Size            =                    14000
+ Iterations      =                       15
+ Threads         =                        1
+ Time in seconds =                     2.70
+ Mop/s total     =                   554.21
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - CG Benchmark
+ Size:      14000
+ Iterations:    15
+   iteration           ||r||                 zeta
+        1       1.45015315347828e-13 1.9999758127704e+01
+        2       1.35022878654723e-15 1.7114049574551e+01
+        3       1.32846109592304e-15 1.7129666894614e+01
+        4       1.29106160547182e-15 1.7130211358119e+01
+        5       1.29216919831231e-15 1.7130233885635e+01
+        6       1.23357673643726e-15 1.7130234987948e+01
+        7       1.20416154811165e-15 1.7130235049892e+01
+        8       1.18463932912602e-15 1.7130235053751e+01
+        9       1.14095638671709e-15 1.7130235054010e+01
+       10       1.11041315400678e-15 1.7130235054028e+01
+       11       1.08968339266330e-15 1.7130235054030e+01
+       12       1.04902156567031e-15 1.7130235054030e+01
+       13       1.00935213775073e-15 1.7130235054030e+01
+       14       9.56094005271021e-16 1.7130235054030e+01
+       15       9.35707489588066e-16 1.7130235054030e+01
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ Zeta is      1.713023505403e+01
+ Error is     8.917311333789e-13
+
+
+ CG Benchmark Completed
+ Class           =                        A
+ Size            =                    14000
+ Iterations      =                       15
+ Threads         =                        1
+ Time in seconds =                     1.72
+ Mop/s total     =                   869.70
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randdp
+Tue Jan 19 13:43:10 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - EP Benchmark
+ Number of random numbers generated:     536870912
+Debug: 231, sx is:-5001.141718, sy is:-3457.188770
+EP Benchmark Results: 
+CPU Time =    18.2323
+N = 2^   28
+No. Gaussian Pairs =       210826522
+Sums =    -5.001141718281831e+03    -3.457188770419334e+03
+Counts:
+  0        98251012
+  1        93829430
+  2        17608825
+  3         1110543
+  4           26457
+  5             253
+  6               2
+  7               0
+  8               0
+  9               0
+
+
+ EP Benchmark Completed
+ Class           =                        A
+ Size            =                       29
+ Iterations      =                        0
+ Threads         =                        1
+ Time in seconds =                    18.23
+ Mop/s total     =                    29.45
+ Operation type  = Random numbers generated
+ Verification    =             UNSUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - EP Benchmark
+ Number of random numbers generated:     536870912
+Debug: 231, sx is:-5001.141718, sy is:-3457.188770
+EP Benchmark Results: 
+CPU Time =    18.2026
+N = 2^   28
+No. Gaussian Pairs =       210826522
+Sums =    -5.001141718281831e+03    -3.457188770419334e+03
+Counts:
+  0        98251012
+  1        93829430
+  2        17608825
+  3         1110543
+  4           26457
+  5             253
+  6               2
+  7               0
+  8               0
+  9               0
+
+
+ EP Benchmark Completed
+ Class           =                        A
+ Size            =                       29
+ Iterations      =                        0
+ Threads         =                        1
+ Time in seconds =                    18.20
+ Mop/s total     =                    29.49
+ Operation type  = Random numbers generated
+ Verification    =             UNSUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - EP Benchmark
+ Number of random numbers generated:     536870912
+Debug: 231, sx is:-5001.141718, sy is:-3457.188770
+EP Benchmark Results: 
+CPU Time =    18.2175
+N = 2^   28
+No. Gaussian Pairs =       210826522
+Sums =    -5.001141718281831e+03    -3.457188770419334e+03
+Counts:
+  0        98251012
+  1        93829430
+  2        17608825
+  3         1110543
+  4           26457
+  5             253
+  6               2
+  7               0
+  8               0
+  9               0
+
+
+ EP Benchmark Completed
+ Class           =                        A
+ Size            =                       29
+ Iterations      =                        0
+ Threads         =                        1
+ Time in seconds =                    18.22
+ Mop/s total     =                    29.47
+ Operation type  = Random numbers generated
+ Verification    =             UNSUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randdp
+Tue Jan 19 13:44:04 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - FT Benchmark
+
+ Size                : 256x256x128
+ Iterations          :           6
+T =     1     Checksum =     5.046735008193e+02     5.114047905510e+02
+T =     2     Checksum =     5.059412319734e+02     5.098809666433e+02
+T =     3     Checksum =     5.069376896287e+02     5.098144042213e+02
+T =     4     Checksum =     5.077892868474e+02     5.101336130759e+02
+T =     5     Checksum =     5.085233095391e+02     5.104914655194e+02
+T =     6     Checksum =     5.091487099959e+02     5.107917842803e+02
+Result verification successful
+cclass = A
+
+
+ FT Benchmark Completed
+ Class           =                        A
+ Size            =              256x256x128
+ Iterations      =                        6
+ Threads         =                        1
+ Time in seconds =                     4.18
+ Mop/s total     =                  1708.39
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - FT Benchmark
+
+ Size                : 256x256x128
+ Iterations          :           6
+T =     1     Checksum =     5.046735008193e+02     5.114047905510e+02
+T =     2     Checksum =     5.059412319734e+02     5.098809666433e+02
+T =     3     Checksum =     5.069376896287e+02     5.098144042213e+02
+T =     4     Checksum =     5.077892868474e+02     5.101336130759e+02
+T =     5     Checksum =     5.085233095391e+02     5.104914655194e+02
+T =     6     Checksum =     5.091487099959e+02     5.107917842803e+02
+Result verification successful
+cclass = A
+
+
+ FT Benchmark Completed
+ Class           =                        A
+ Size            =              256x256x128
+ Iterations      =                        6
+ Threads         =                        1
+ Time in seconds =                     4.48
+ Mop/s total     =                  1592.67
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - FT Benchmark
+
+ Size                : 256x256x128
+ Iterations          :           6
+T =     1     Checksum =     5.046735008193e+02     5.114047905510e+02
+T =     2     Checksum =     5.059412319734e+02     5.098809666433e+02
+T =     3     Checksum =     5.069376896287e+02     5.098144042213e+02
+T =     4     Checksum =     5.077892868474e+02     5.101336130759e+02
+T =     5     Checksum =     5.085233095391e+02     5.104914655194e+02
+T =     6     Checksum =     5.091487099959e+02     5.107917842803e+02
+Result verification successful
+cclass = A
+
+
+ FT Benchmark Completed
+ Class           =                        A
+ Size            =              256x256x128
+ Iterations      =                        6
+ Threads         =                        1
+ Time in seconds =                     3.84
+ Mop/s total     =                  1857.82
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randdp
+Tue Jan 19 13:44:22 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - IS Benchmark
+
+ Size:  8388608  (class A)
+ Iterations:   10
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        A
+ Size            =                  8388608
+ Iterations      =                       10
+ Threads         =                        1
+ Time in seconds =                     0.41
+ Mop/s total     =                   207.07
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randlc2
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - IS Benchmark
+
+ Size:  8388608  (class A)
+ Iterations:   10
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        A
+ Size            =                  8388608
+ Iterations      =                       10
+ Threads         =                        1
+ Time in seconds =                     0.38
+ Mop/s total     =                   221.68
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randlc2
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - IS Benchmark
+
+ Size:  8388608  (class A)
+ Iterations:   10
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        A
+ Size            =                  8388608
+ Iterations      =                       10
+ Threads         =                        1
+ Time in seconds =                     0.38
+ Mop/s total     =                   220.65
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randlc2
+Tue Jan 19 13:44:29 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - MG Benchmark
+
+ No input file. Using compiled defaults
+ Size: 256x256x256 (class A)
+ Iterations:   4
+ Initialization time:           2.726 seconds
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ L2 Norm is   2.433365309069e-06
+ Error is     6.948550079506e-17
+
+
+ MG Benchmark Completed
+ Class           =                        A
+ Size            =              256x256x256
+ Iterations      =                        4
+ Threads         =                        1
+ Time in seconds =                     2.41
+ Mop/s total     =                  1614.06
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - MG Benchmark
+
+ No input file. Using compiled defaults
+ Size: 256x256x256 (class A)
+ Iterations:   4
+ Initialization time:           2.727 seconds
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ L2 Norm is   2.433365309069e-06
+ Error is     6.948550079506e-17
+
+
+ MG Benchmark Completed
+ Class           =                        A
+ Size            =              256x256x256
+ Iterations      =                        4
+ Threads         =                        1
+ Time in seconds =                     2.39
+ Mop/s total     =                  1627.49
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - MG Benchmark
+
+ No input file. Using compiled defaults
+ Size: 256x256x256 (class A)
+ Iterations:   4
+ Initialization time:           2.430 seconds
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ L2 Norm is   2.433365309069e-06
+ Error is     6.948550079506e-17
+
+
+ MG Benchmark Completed
+ Class           =                        A
+ Size            =              256x256x256
+ Iterations      =                        4
+ Threads         =                        1
+ Time in seconds =                     1.86
+ Mop/s total     =                  2096.20
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randdp
+Tue Jan 19 13:44:44 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults Size:  64x 64x 64
+ Iterations: 400   dt:   0.001500
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for cclass A
+ accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0 2.4799822399302e+00 2.4799822399300e+00 7.0374318275763e-14
+           1 1.1276337964369e+00 1.1276337964369e+00 5.4150794830138e-14
+           2 1.5028977888770e+00 1.5028977888770e+00 1.8320295108875e-14
+           3 1.4217816211695e+00 1.4217816211695e+00 1.4367961541308e-14
+           4 2.1292113035139e+00 2.1292113035138e+00 2.6696936451070e-14
+ Comparison of RMS-norms of solution error
+           0 1.0900140297827e-04 1.0900140297821e-04 6.3609024320826e-13
+           1 3.7343951769288e-05 3.7343951769282e-05 1.5042656816013e-13
+           2 5.0092785406562e-05 5.0092785406542e-05 4.0798711402227e-13
+           3 4.7671093939551e-05 4.7671093939528e-05 4.7988548088415e-13
+           4 1.3621613399222e-04 1.3621613399213e-04 6.6839275764302e-13
+ Verification Successful
+
+
+ SP Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      400
+ Threads         =                        1
+ Time in seconds =                    84.03
+ Mop/s total     =                  1011.64
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = (none)
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults Size:  64x 64x 64
+ Iterations: 400   dt:   0.001500
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for cclass A
+ accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0 2.4799822399302e+00 2.4799822399300e+00 7.0374318275763e-14
+           1 1.1276337964369e+00 1.1276337964369e+00 5.4150794830138e-14
+           2 1.5028977888770e+00 1.5028977888770e+00 1.8320295108875e-14
+           3 1.4217816211695e+00 1.4217816211695e+00 1.4367961541308e-14
+           4 2.1292113035139e+00 2.1292113035138e+00 2.6696936451070e-14
+ Comparison of RMS-norms of solution error
+           0 1.0900140297827e-04 1.0900140297821e-04 6.3609024320826e-13
+           1 3.7343951769288e-05 3.7343951769282e-05 1.5042656816013e-13
+           2 5.0092785406562e-05 5.0092785406542e-05 4.0798711402227e-13
+           3 4.7671093939551e-05 4.7671093939528e-05 4.7988548088415e-13
+           4 1.3621613399222e-04 1.3621613399213e-04 6.6839275764302e-13
+ Verification Successful
+
+
+ SP Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      400
+ Threads         =                        1
+ Time in seconds =                    78.51
+ Mop/s total     =                  1082.74
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = (none)
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults Size:  64x 64x 64
+ Iterations: 400   dt:   0.001500
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for cclass A
+ accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0 2.4799822399302e+00 2.4799822399300e+00 7.0374318275763e-14
+           1 1.1276337964369e+00 1.1276337964369e+00 5.4150794830138e-14
+           2 1.5028977888770e+00 1.5028977888770e+00 1.8320295108875e-14
+           3 1.4217816211695e+00 1.4217816211695e+00 1.4367961541308e-14
+           4 2.1292113035139e+00 2.1292113035138e+00 2.6696936451070e-14
+ Comparison of RMS-norms of solution error
+           0 1.0900140297827e-04 1.0900140297821e-04 6.3609024320826e-13
+           1 3.7343951769288e-05 3.7343951769282e-05 1.5042656816013e-13
+           2 5.0092785406562e-05 5.0092785406542e-05 4.0798711402227e-13
+           3 4.7671093939551e-05 4.7671093939528e-05 4.7988548088415e-13
+           4 1.3621613399222e-04 1.3621613399213e-04 6.6839275764302e-13
+ Verification Successful
+
+
+ SP Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      400
+ Threads         =                        1
+ Time in seconds =                    80.44
+ Mop/s total     =                  1056.82
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = (none)
+//////////////////////////
+set OpenMP threads to be 4
+//////////////////////////
+Tue Jan 19 13:48:49 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  64x 64x 64
+ Iterations: 200   dt:   0.000800
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class A
+ accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0 1.0806346714637e+02 1.0806346714637e+02 6.9697495351091e-15
+           1 1.1319730901221e+01 1.1319730901221e+01 1.2554057017088e-15
+           2 2.5974354511583e+01 2.5974354511582e+01 3.2826659177686e-15
+           3 2.3665622544679e+01 2.3665622544679e+01 8.2566707030474e-15
+           4 2.5278963211749e+02 2.5278963211748e+02 1.3941600135453e-14
+ Comparison of RMS-norms of solution error
+           0 4.2348416040525e+00 4.2348416040525e+00 1.2583872117203e-15
+           1 4.4390282496995e-01 4.4390282496996e-01 5.7524142965539e-15
+           2 9.6692480136346e-01 9.6692480136346e-01 1.8371199465516e-15
+           3 8.8302063039766e-01 8.8302063039765e-01 1.7602218804053e-15
+           4 9.7379901770830e+00 9.7379901770829e+00 5.1076239140453e-15
+ Verification Successful
+
+
+ BT Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      200
+ Threads         =                        1
+ Time in seconds =                    74.49
+ Mop/s total     =                  2259.13
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = (none)
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  64x 64x 64
+ Iterations: 200   dt:   0.000800
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class A
+ accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0 1.0806346714637e+02 1.0806346714637e+02 6.9697495351091e-15
+           1 1.1319730901221e+01 1.1319730901221e+01 1.2554057017088e-15
+           2 2.5974354511583e+01 2.5974354511582e+01 3.2826659177686e-15
+           3 2.3665622544679e+01 2.3665622544679e+01 8.2566707030474e-15
+           4 2.5278963211749e+02 2.5278963211748e+02 1.3941600135453e-14
+ Comparison of RMS-norms of solution error
+           0 4.2348416040525e+00 4.2348416040525e+00 1.2583872117203e-15
+           1 4.4390282496995e-01 4.4390282496996e-01 5.7524142965539e-15
+           2 9.6692480136346e-01 9.6692480136346e-01 1.8371199465516e-15
+           3 8.8302063039766e-01 8.8302063039765e-01 1.7602218804053e-15
+           4 9.7379901770830e+00 9.7379901770829e+00 5.1076239140453e-15
+ Verification Successful
+
+
+ BT Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      200
+ Threads         =                        1
+ Time in seconds =                    74.50
+ Mop/s total     =                  2258.98
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = (none)
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  64x 64x 64
+ Iterations: 200   dt:   0.000800
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class A
+ accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0 1.0806346714637e+02 1.0806346714637e+02 6.9697495351091e-15
+           1 1.1319730901221e+01 1.1319730901221e+01 1.2554057017088e-15
+           2 2.5974354511583e+01 2.5974354511582e+01 3.2826659177686e-15
+           3 2.3665622544679e+01 2.3665622544679e+01 8.2566707030474e-15
+           4 2.5278963211749e+02 2.5278963211748e+02 1.3941600135453e-14
+ Comparison of RMS-norms of solution error
+           0 4.2348416040525e+00 4.2348416040525e+00 1.2583872117203e-15
+           1 4.4390282496995e-01 4.4390282496996e-01 5.7524142965539e-15
+           2 9.6692480136346e-01 9.6692480136346e-01 1.8371199465516e-15
+           3 8.8302063039766e-01 8.8302063039765e-01 1.7602218804053e-15
+           4 9.7379901770830e+00 9.7379901770829e+00 5.1076239140453e-15
+ Verification Successful
+
+
+ BT Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      200
+ Threads         =                        1
+ Time in seconds =                    74.40
+ Mop/s total     =                  2261.95
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = (none)
+Tue Jan 19 13:52:34 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - CG Benchmark
+ Size:      14000
+ Iterations:    15
+   iteration           ||r||                 zeta
+        1       1.45622076195891e-13 1.9999758127704e+01
+        2       1.35390737695592e-15 1.7114049574551e+01
+        3       1.32757393689958e-15 1.7129666894614e+01
+        4       1.29619811030600e-15 1.7130211358119e+01
+        5       1.27916561612536e-15 1.7130233885635e+01
+        6       1.23789961012786e-15 1.7130234987948e+01
+        7       1.21689093524322e-15 1.7130235049892e+01
+        8       1.18477827123845e-15 1.7130235053751e+01
+        9       1.14677832505000e-15 1.7130235054010e+01
+       10       1.10620534120555e-15 1.7130235054028e+01
+       11       1.08802803087309e-15 1.7130235054030e+01
+       12       1.03795568225899e-15 1.7130235054030e+01
+       13       9.98764693284662e-16 1.7130235054030e+01
+       14       9.58793900927366e-16 1.7130235054030e+01
+       15       9.28428182586117e-16 1.7130235054030e+01
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ Zeta is      1.713023505403e+01
+ Error is     8.917311333789e-13
+
+
+ CG Benchmark Completed
+ Class           =                        A
+ Size            =                    14000
+ Iterations      =                       15
+ Threads         =                        1
+ Time in seconds =                     0.66
+ Mop/s total     =                  2269.70
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - CG Benchmark
+ Size:      14000
+ Iterations:    15
+   iteration           ||r||                 zeta
+        1       1.45622076195891e-13 1.9999758127704e+01
+        2       1.35390737695592e-15 1.7114049574551e+01
+        3       1.32757393689958e-15 1.7129666894614e+01
+        4       1.29619811030600e-15 1.7130211358119e+01
+        5       1.27916561612536e-15 1.7130233885635e+01
+        6       1.23789961012786e-15 1.7130234987948e+01
+        7       1.21689093524322e-15 1.7130235049892e+01
+        8       1.18477827123845e-15 1.7130235053751e+01
+        9       1.14677832505000e-15 1.7130235054010e+01
+       10       1.10620534120555e-15 1.7130235054028e+01
+       11       1.08802803087309e-15 1.7130235054030e+01
+       12       1.03795568225899e-15 1.7130235054030e+01
+       13       9.98764693284662e-16 1.7130235054030e+01
+       14       9.58793900927366e-16 1.7130235054030e+01
+       15       9.28428182586117e-16 1.7130235054030e+01
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ Zeta is      1.713023505403e+01
+ Error is     8.917311333789e-13
+
+
+ CG Benchmark Completed
+ Class           =                        A
+ Size            =                    14000
+ Iterations      =                       15
+ Threads         =                        1
+ Time in seconds =                     0.65
+ Mop/s total     =                  2291.83
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - CG Benchmark
+ Size:      14000
+ Iterations:    15
+   iteration           ||r||                 zeta
+        1       1.45622076195891e-13 1.9999758127704e+01
+        2       1.35390737695592e-15 1.7114049574551e+01
+        3       1.32757393689958e-15 1.7129666894614e+01
+        4       1.29619811030600e-15 1.7130211358119e+01
+        5       1.27916561612536e-15 1.7130233885635e+01
+        6       1.23789961012786e-15 1.7130234987948e+01
+        7       1.21689093524322e-15 1.7130235049892e+01
+        8       1.18477827123845e-15 1.7130235053751e+01
+        9       1.14677832505000e-15 1.7130235054010e+01
+       10       1.10620534120555e-15 1.7130235054028e+01
+       11       1.08802803087309e-15 1.7130235054030e+01
+       12       1.03795568225899e-15 1.7130235054030e+01
+       13       9.98764693284662e-16 1.7130235054030e+01
+       14       9.58793900927366e-16 1.7130235054030e+01
+       15       9.28428182586117e-16 1.7130235054030e+01
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ Zeta is      1.713023505403e+01
+ Error is     8.917311333789e-13
+
+
+ CG Benchmark Completed
+ Class           =                        A
+ Size            =                    14000
+ Iterations      =                       15
+ Threads         =                        1
+ Time in seconds =                     0.76
+ Mop/s total     =                  1959.00
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randdp
+Tue Jan 19 13:52:36 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - EP Benchmark
+ Number of random numbers generated:     536870912
+Debug: 231, sx is:-5001.141718, sy is:-3457.188770
+EP Benchmark Results: 
+CPU Time =     9.1270
+N = 2^   28
+No. Gaussian Pairs =       210826522
+Sums =    -5.001141718288847e+03    -3.457188770420879e+03
+Counts:
+  0        98251012
+  1        93829430
+  2        17608825
+  3         1110543
+  4           26457
+  5             253
+  6               2
+  7               0
+  8               0
+  9               0
+
+
+ EP Benchmark Completed
+ Class           =                        A
+ Size            =                       29
+ Iterations      =                        0
+ Threads         =                        1
+ Time in seconds =                     9.13
+ Mop/s total     =                    58.82
+ Operation type  = Random numbers generated
+ Verification    =             UNSUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - EP Benchmark
+ Number of random numbers generated:     536870912
+Debug: 231, sx is:-5001.141718, sy is:-3457.188770
+EP Benchmark Results: 
+CPU Time =     9.1242
+N = 2^   28
+No. Gaussian Pairs =       210826522
+Sums =    -5.001141718288847e+03    -3.457188770420879e+03
+Counts:
+  0        98251012
+  1        93829430
+  2        17608825
+  3         1110543
+  4           26457
+  5             253
+  6               2
+  7               0
+  8               0
+  9               0
+
+
+ EP Benchmark Completed
+ Class           =                        A
+ Size            =                       29
+ Iterations      =                        0
+ Threads         =                        1
+ Time in seconds =                     9.12
+ Mop/s total     =                    58.84
+ Operation type  = Random numbers generated
+ Verification    =             UNSUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - EP Benchmark
+ Number of random numbers generated:     536870912
+Debug: 231, sx is:-5001.141718, sy is:-3457.188770
+EP Benchmark Results: 
+CPU Time =     9.1225
+N = 2^   28
+No. Gaussian Pairs =       210826522
+Sums =    -5.001141718288847e+03    -3.457188770420879e+03
+Counts:
+  0        98251012
+  1        93829430
+  2        17608825
+  3         1110543
+  4           26457
+  5             253
+  6               2
+  7               0
+  8               0
+  9               0
+
+
+ EP Benchmark Completed
+ Class           =                        A
+ Size            =                       29
+ Iterations      =                        0
+ Threads         =                        1
+ Time in seconds =                     9.12
+ Mop/s total     =                    58.85
+ Operation type  = Random numbers generated
+ Verification    =             UNSUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randdp
+Tue Jan 19 13:53:04 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - FT Benchmark
+
+ Size                : 256x256x128
+ Iterations          :           6
+T =     1     Checksum =     5.046735008193e+02     5.114047905510e+02
+T =     2     Checksum =     5.059412319734e+02     5.098809666433e+02
+T =     3     Checksum =     5.069376896287e+02     5.098144042213e+02
+T =     4     Checksum =     5.077892868474e+02     5.101336130759e+02
+T =     5     Checksum =     5.085233095391e+02     5.104914655194e+02
+T =     6     Checksum =     5.091487099959e+02     5.107917842803e+02
+Result verification successful
+cclass = A
+
+
+ FT Benchmark Completed
+ Class           =                        A
+ Size            =              256x256x128
+ Iterations      =                        6
+ Threads         =                        1
+ Time in seconds =                     2.68
+ Mop/s total     =                  2658.42
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - FT Benchmark
+
+ Size                : 256x256x128
+ Iterations          :           6
+T =     1     Checksum =     5.046735008193e+02     5.114047905510e+02
+T =     2     Checksum =     5.059412319734e+02     5.098809666433e+02
+T =     3     Checksum =     5.069376896287e+02     5.098144042213e+02
+T =     4     Checksum =     5.077892868474e+02     5.101336130759e+02
+T =     5     Checksum =     5.085233095391e+02     5.104914655194e+02
+T =     6     Checksum =     5.091487099959e+02     5.107917842803e+02
+Result verification successful
+cclass = A
+
+
+ FT Benchmark Completed
+ Class           =                        A
+ Size            =              256x256x128
+ Iterations      =                        6
+ Threads         =                        1
+ Time in seconds =                     2.68
+ Mop/s total     =                  2661.39
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - FT Benchmark
+
+ Size                : 256x256x128
+ Iterations          :           6
+T =     1     Checksum =     5.046735008193e+02     5.114047905510e+02
+T =     2     Checksum =     5.059412319734e+02     5.098809666433e+02
+T =     3     Checksum =     5.069376896287e+02     5.098144042213e+02
+T =     4     Checksum =     5.077892868474e+02     5.101336130759e+02
+T =     5     Checksum =     5.085233095391e+02     5.104914655194e+02
+T =     6     Checksum =     5.091487099959e+02     5.107917842803e+02
+Result verification successful
+cclass = A
+
+
+ FT Benchmark Completed
+ Class           =                        A
+ Size            =              256x256x128
+ Iterations      =                        6
+ Threads         =                        1
+ Time in seconds =                     2.68
+ Mop/s total     =                  2662.27
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randdp
+Tue Jan 19 13:53:16 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - IS Benchmark
+
+ Size:  8388608  (class A)
+ Iterations:   10
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        A
+ Size            =                  8388608
+ Iterations      =                       10
+ Threads         =                        1
+ Time in seconds =                     0.27
+ Mop/s total     =                   307.75
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randlc2
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - IS Benchmark
+
+ Size:  8388608  (class A)
+ Iterations:   10
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        A
+ Size            =                  8388608
+ Iterations      =                       10
+ Threads         =                        1
+ Time in seconds =                     0.27
+ Mop/s total     =                   309.58
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randlc2
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - IS Benchmark
+
+ Size:  8388608  (class A)
+ Iterations:   10
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        A
+ Size            =                  8388608
+ Iterations      =                       10
+ Threads         =                        1
+ Time in seconds =                     0.28
+ Mop/s total     =                   304.19
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randlc2
+Tue Jan 19 13:53:23 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - MG Benchmark
+
+ No input file. Using compiled defaults
+ Size: 256x256x256 (class A)
+ Iterations:   4
+ Initialization time:           2.214 seconds
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ L2 Norm is   2.433365309069e-06
+ Error is     6.948550079506e-17
+
+
+ MG Benchmark Completed
+ Class           =                        A
+ Size            =              256x256x256
+ Iterations      =                        4
+ Threads         =                        1
+ Time in seconds =                     1.22
+ Mop/s total     =                  3199.56
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - MG Benchmark
+
+ No input file. Using compiled defaults
+ Size: 256x256x256 (class A)
+ Iterations:   4
+ Initialization time:           2.208 seconds
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ L2 Norm is   2.433365309069e-06
+ Error is     6.948550079506e-17
+
+
+ MG Benchmark Completed
+ Class           =                        A
+ Size            =              256x256x256
+ Iterations      =                        4
+ Threads         =                        1
+ Time in seconds =                     1.23
+ Mop/s total     =                  3169.21
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - MG Benchmark
+
+ No input file. Using compiled defaults
+ Size: 256x256x256 (class A)
+ Iterations:   4
+ Initialization time:           2.206 seconds
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ L2 Norm is   2.433365309069e-06
+ Error is     6.948550079506e-17
+
+
+ MG Benchmark Completed
+ Class           =                        A
+ Size            =              256x256x256
+ Iterations      =                        4
+ Threads         =                        1
+ Time in seconds =                     1.29
+ Mop/s total     =                  3010.33
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randdp
+Tue Jan 19 13:53:33 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults Size:  64x 64x 64
+ Iterations: 400   dt:   0.001500
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for cclass A
+ accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0 2.4799822399302e+00 2.4799822399300e+00 7.0374318275763e-14
+           1 1.1276337964369e+00 1.1276337964369e+00 5.4150794830138e-14
+           2 1.5028977888770e+00 1.5028977888770e+00 1.8320295108875e-14
+           3 1.4217816211695e+00 1.4217816211695e+00 1.4367961541308e-14
+           4 2.1292113035139e+00 2.1292113035138e+00 2.6696936451070e-14
+ Comparison of RMS-norms of solution error
+           0 1.0900140297827e-04 1.0900140297821e-04 6.3609024320826e-13
+           1 3.7343951769288e-05 3.7343951769282e-05 1.5042656816013e-13
+           2 5.0092785406562e-05 5.0092785406542e-05 4.0798711402227e-13
+           3 4.7671093939551e-05 4.7671093939528e-05 4.7988548088415e-13
+           4 1.3621613399222e-04 1.3621613399213e-04 6.6839275764302e-13
+ Verification Successful
+
+
+ SP Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      400
+ Threads         =                        1
+ Time in seconds =                    58.34
+ Mop/s total     =                  1457.07
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = (none)
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults Size:  64x 64x 64
+ Iterations: 400   dt:   0.001500
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for cclass A
+ accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0 2.4799822399302e+00 2.4799822399300e+00 7.0374318275763e-14
+           1 1.1276337964369e+00 1.1276337964369e+00 5.4150794830138e-14
+           2 1.5028977888770e+00 1.5028977888770e+00 1.8320295108875e-14
+           3 1.4217816211695e+00 1.4217816211695e+00 1.4367961541308e-14
+           4 2.1292113035139e+00 2.1292113035138e+00 2.6696936451070e-14
+ Comparison of RMS-norms of solution error
+           0 1.0900140297827e-04 1.0900140297821e-04 6.3609024320826e-13
+           1 3.7343951769288e-05 3.7343951769282e-05 1.5042656816013e-13
+           2 5.0092785406562e-05 5.0092785406542e-05 4.0798711402227e-13
+           3 4.7671093939551e-05 4.7671093939528e-05 4.7988548088415e-13
+           4 1.3621613399222e-04 1.3621613399213e-04 6.6839275764302e-13
+ Verification Successful
+
+
+ SP Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      400
+ Threads         =                        1
+ Time in seconds =                    57.73
+ Mop/s total     =                  1472.59
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = (none)
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults Size:  64x 64x 64
+ Iterations: 400   dt:   0.001500
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for cclass A
+ accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0 2.4799822399302e+00 2.4799822399300e+00 7.0374318275763e-14
+           1 1.1276337964369e+00 1.1276337964369e+00 5.4150794830138e-14
+           2 1.5028977888770e+00 1.5028977888770e+00 1.8320295108875e-14
+           3 1.4217816211695e+00 1.4217816211695e+00 1.4367961541308e-14
+           4 2.1292113035139e+00 2.1292113035138e+00 2.6696936451070e-14
+ Comparison of RMS-norms of solution error
+           0 1.0900140297827e-04 1.0900140297821e-04 6.3609024320826e-13
+           1 3.7343951769288e-05 3.7343951769282e-05 1.5042656816013e-13
+           2 5.0092785406562e-05 5.0092785406542e-05 4.0798711402227e-13
+           3 4.7671093939551e-05 4.7671093939528e-05 4.7988548088415e-13
+           4 1.3621613399222e-04 1.3621613399213e-04 6.6839275764302e-13
+ Verification Successful
+
+
+ SP Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      400
+ Threads         =                        1
+ Time in seconds =                    57.63
+ Mop/s total     =                  1475.07
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = (none)
+//////////////////////////
+set OpenMP threads to be 6
+//////////////////////////
+Tue Jan 19 13:56:29 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  64x 64x 64
+ Iterations: 200   dt:   0.000800
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class A
+ accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0 1.0806346714637e+02 1.0806346714637e+02 6.9697495351091e-15
+           1 1.1319730901221e+01 1.1319730901221e+01 1.2554057017088e-15
+           2 2.5974354511583e+01 2.5974354511582e+01 3.2826659177686e-15
+           3 2.3665622544679e+01 2.3665622544679e+01 8.2566707030474e-15
+           4 2.5278963211749e+02 2.5278963211748e+02 1.3941600135453e-14
+ Comparison of RMS-norms of solution error
+           0 4.2348416040525e+00 4.2348416040525e+00 1.2583872117203e-15
+           1 4.4390282496995e-01 4.4390282496996e-01 5.7524142965539e-15
+           2 9.6692480136346e-01 9.6692480136346e-01 1.8371199465516e-15
+           3 8.8302063039766e-01 8.8302063039765e-01 1.7602218804053e-15
+           4 9.7379901770830e+00 9.7379901770829e+00 5.1076239140453e-15
+ Verification Successful
+
+
+ BT Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      200
+ Threads         =                        1
+ Time in seconds =                    79.00
+ Mop/s total     =                  2130.11
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = (none)
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  64x 64x 64
+ Iterations: 200   dt:   0.000800
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class A
+ accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0 1.0806346714637e+02 1.0806346714637e+02 6.9697495351091e-15
+           1 1.1319730901221e+01 1.1319730901221e+01 1.2554057017088e-15
+           2 2.5974354511583e+01 2.5974354511582e+01 3.2826659177686e-15
+           3 2.3665622544679e+01 2.3665622544679e+01 8.2566707030474e-15
+           4 2.5278963211749e+02 2.5278963211748e+02 1.3941600135453e-14
+ Comparison of RMS-norms of solution error
+           0 4.2348416040525e+00 4.2348416040525e+00 1.2583872117203e-15
+           1 4.4390282496995e-01 4.4390282496996e-01 5.7524142965539e-15
+           2 9.6692480136346e-01 9.6692480136346e-01 1.8371199465516e-15
+           3 8.8302063039766e-01 8.8302063039765e-01 1.7602218804053e-15
+           4 9.7379901770830e+00 9.7379901770829e+00 5.1076239140453e-15
+ Verification Successful
+
+
+ BT Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      200
+ Threads         =                        1
+ Time in seconds =                    78.21
+ Mop/s total     =                  2151.62
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = (none)
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  64x 64x 64
+ Iterations: 200   dt:   0.000800
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class A
+ accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0 1.0806346714637e+02 1.0806346714637e+02 6.9697495351091e-15
+           1 1.1319730901221e+01 1.1319730901221e+01 1.2554057017088e-15
+           2 2.5974354511583e+01 2.5974354511582e+01 3.2826659177686e-15
+           3 2.3665622544679e+01 2.3665622544679e+01 8.2566707030474e-15
+           4 2.5278963211749e+02 2.5278963211748e+02 1.3941600135453e-14
+ Comparison of RMS-norms of solution error
+           0 4.2348416040525e+00 4.2348416040525e+00 1.2583872117203e-15
+           1 4.4390282496995e-01 4.4390282496996e-01 5.7524142965539e-15
+           2 9.6692480136346e-01 9.6692480136346e-01 1.8371199465516e-15
+           3 8.8302063039766e-01 8.8302063039765e-01 1.7602218804053e-15
+           4 9.7379901770830e+00 9.7379901770829e+00 5.1076239140453e-15
+ Verification Successful
+
+
+ BT Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      200
+ Threads         =                        1
+ Time in seconds =                    80.39
+ Mop/s total     =                  2093.43
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = (none)
+Tue Jan 19 14:00:28 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - CG Benchmark
+ Size:      14000
+ Iterations:    15
+   iteration           ||r||                 zeta
+        1       1.45630117099501e-13 1.9999758127704e+01
+        2       1.34986664259846e-15 1.7114049574551e+01
+        3       1.32115740780863e-15 1.7129666894614e+01
+        4       1.28778483951463e-15 1.7130211358119e+01
+        5       1.28272298211781e-15 1.7130233885635e+01
+        6       1.22263515018701e-15 1.7130234987948e+01
+        7       1.20470338428307e-15 1.7130235049892e+01
+        8       1.18366906206520e-15 1.7130235053751e+01
+        9       1.14628705623995e-15 1.7130235054010e+01
+       10       1.11207911825942e-15 1.7130235054028e+01
+       11       1.09392392614042e-15 1.7130235054030e+01
+       12       1.03373762159843e-15 1.7130235054030e+01
+       13       1.00187492651937e-15 1.7130235054030e+01
+       14       9.90231689512687e-16 1.7130235054030e+01
+       15       9.38884321470283e-16 1.7130235054030e+01
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ Zeta is      1.713023505403e+01
+ Error is     8.917311333789e-13
+
+
+ CG Benchmark Completed
+ Class           =                        A
+ Size            =                    14000
+ Iterations      =                       15
+ Threads         =                        1
+ Time in seconds =                     1.00
+ Mop/s total     =                  1495.51
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - CG Benchmark
+ Size:      14000
+ Iterations:    15
+   iteration           ||r||                 zeta
+        1       1.45630117099501e-13 1.9999758127704e+01
+        2       1.34986664259846e-15 1.7114049574551e+01
+        3       1.32115740780863e-15 1.7129666894614e+01
+        4       1.28778483951463e-15 1.7130211358119e+01
+        5       1.28272298211781e-15 1.7130233885635e+01
+        6       1.22263515018701e-15 1.7130234987948e+01
+        7       1.20470338428307e-15 1.7130235049892e+01
+        8       1.18366906206520e-15 1.7130235053751e+01
+        9       1.14628705623995e-15 1.7130235054010e+01
+       10       1.11207911825942e-15 1.7130235054028e+01
+       11       1.09392392614042e-15 1.7130235054030e+01
+       12       1.03373762159843e-15 1.7130235054030e+01
+       13       1.00187492651937e-15 1.7130235054030e+01
+       14       9.90231689512687e-16 1.7130235054030e+01
+       15       9.38884321470283e-16 1.7130235054030e+01
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ Zeta is      1.713023505403e+01
+ Error is     8.917311333789e-13
+
+
+ CG Benchmark Completed
+ Class           =                        A
+ Size            =                    14000
+ Iterations      =                       15
+ Threads         =                        1
+ Time in seconds =                     0.80
+ Mop/s total     =                  1873.05
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - CG Benchmark
+ Size:      14000
+ Iterations:    15
+   iteration           ||r||                 zeta
+        1       1.45630117099501e-13 1.9999758127704e+01
+        2       1.34986664259846e-15 1.7114049574551e+01
+        3       1.32115740780863e-15 1.7129666894614e+01
+        4       1.28778483951463e-15 1.7130211358119e+01
+        5       1.28272298211781e-15 1.7130233885635e+01
+        6       1.22263515018701e-15 1.7130234987948e+01
+        7       1.20470338428307e-15 1.7130235049892e+01
+        8       1.18366906206520e-15 1.7130235053751e+01
+        9       1.14628705623995e-15 1.7130235054010e+01
+       10       1.11207911825942e-15 1.7130235054028e+01
+       11       1.09392392614042e-15 1.7130235054030e+01
+       12       1.03373762159843e-15 1.7130235054030e+01
+       13       1.00187492651937e-15 1.7130235054030e+01
+       14       9.90231689512687e-16 1.7130235054030e+01
+       15       9.38884321470283e-16 1.7130235054030e+01
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ Zeta is      1.713023505403e+01
+ Error is     8.917311333789e-13
+
+
+ CG Benchmark Completed
+ Class           =                        A
+ Size            =                    14000
+ Iterations      =                       15
+ Threads         =                        1
+ Time in seconds =                     1.23
+ Mop/s total     =                  1217.68
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randdp
+Tue Jan 19 14:00:32 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - EP Benchmark
+ Number of random numbers generated:     536870912
+Debug: 231, sx is:-5001.141718, sy is:-3457.188770
+EP Benchmark Results: 
+CPU Time =     6.0764
+N = 2^   28
+No. Gaussian Pairs =       210826522
+Sums =    -5.001141718290261e+03    -3.457188770420406e+03
+Counts:
+  0        98251012
+  1        93829430
+  2        17608825
+  3         1110543
+  4           26457
+  5             253
+  6               2
+  7               0
+  8               0
+  9               0
+
+
+ EP Benchmark Completed
+ Class           =                        A
+ Size            =                       29
+ Iterations      =                        0
+ Threads         =                        1
+ Time in seconds =                     6.08
+ Mop/s total     =                    88.35
+ Operation type  = Random numbers generated
+ Verification    =             UNSUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - EP Benchmark
+ Number of random numbers generated:     536870912
+Debug: 231, sx is:-5001.141718, sy is:-3457.188770
+EP Benchmark Results: 
+CPU Time =     6.0918
+N = 2^   28
+No. Gaussian Pairs =       210826522
+Sums =    -5.001141718290261e+03    -3.457188770420406e+03
+Counts:
+  0        98251012
+  1        93829430
+  2        17608825
+  3         1110543
+  4           26457
+  5             253
+  6               2
+  7               0
+  8               0
+  9               0
+
+
+ EP Benchmark Completed
+ Class           =                        A
+ Size            =                       29
+ Iterations      =                        0
+ Threads         =                        1
+ Time in seconds =                     6.09
+ Mop/s total     =                    88.13
+ Operation type  = Random numbers generated
+ Verification    =             UNSUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - EP Benchmark
+ Number of random numbers generated:     536870912
+Debug: 231, sx is:-5001.141718, sy is:-3457.188770
+EP Benchmark Results: 
+CPU Time =     6.0951
+N = 2^   28
+No. Gaussian Pairs =       210826522
+Sums =    -5.001141718290261e+03    -3.457188770420406e+03
+Counts:
+  0        98251012
+  1        93829430
+  2        17608825
+  3         1110543
+  4           26457
+  5             253
+  6               2
+  7               0
+  8               0
+  9               0
+
+
+ EP Benchmark Completed
+ Class           =                        A
+ Size            =                       29
+ Iterations      =                        0
+ Threads         =                        1
+ Time in seconds =                     6.10
+ Mop/s total     =                    88.08
+ Operation type  = Random numbers generated
+ Verification    =             UNSUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randdp
+Tue Jan 19 14:00:50 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - FT Benchmark
+
+ Size                : 256x256x128
+ Iterations          :           6
+T =     1     Checksum =     5.046735008193e+02     5.114047905510e+02
+T =     2     Checksum =     5.059412319734e+02     5.098809666433e+02
+T =     3     Checksum =     5.069376896287e+02     5.098144042213e+02
+T =     4     Checksum =     5.077892868474e+02     5.101336130759e+02
+T =     5     Checksum =     5.085233095391e+02     5.104914655194e+02
+T =     6     Checksum =     5.091487099959e+02     5.107917842803e+02
+Result verification successful
+cclass = A
+
+
+ FT Benchmark Completed
+ Class           =                        A
+ Size            =              256x256x128
+ Iterations      =                        6
+ Threads         =                        1
+ Time in seconds =                     2.33
+ Mop/s total     =                  3058.75
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - FT Benchmark
+
+ Size                : 256x256x128
+ Iterations          :           6
+T =     1     Checksum =     5.046735008193e+02     5.114047905510e+02
+T =     2     Checksum =     5.059412319734e+02     5.098809666433e+02
+T =     3     Checksum =     5.069376896287e+02     5.098144042213e+02
+T =     4     Checksum =     5.077892868474e+02     5.101336130759e+02
+T =     5     Checksum =     5.085233095391e+02     5.104914655194e+02
+T =     6     Checksum =     5.091487099959e+02     5.107917842803e+02
+Result verification successful
+cclass = A
+
+
+ FT Benchmark Completed
+ Class           =                        A
+ Size            =              256x256x128
+ Iterations      =                        6
+ Threads         =                        1
+ Time in seconds =                     2.47
+ Mop/s total     =                  2892.64
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - FT Benchmark
+
+ Size                : 256x256x128
+ Iterations          :           6
+T =     1     Checksum =     5.046735008193e+02     5.114047905510e+02
+T =     2     Checksum =     5.059412319734e+02     5.098809666433e+02
+T =     3     Checksum =     5.069376896287e+02     5.098144042213e+02
+T =     4     Checksum =     5.077892868474e+02     5.101336130759e+02
+T =     5     Checksum =     5.085233095391e+02     5.104914655194e+02
+T =     6     Checksum =     5.091487099959e+02     5.107917842803e+02
+Result verification successful
+cclass = A
+
+
+ FT Benchmark Completed
+ Class           =                        A
+ Size            =              256x256x128
+ Iterations      =                        6
+ Threads         =                        1
+ Time in seconds =                     2.36
+ Mop/s total     =                  3021.97
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randdp
+Tue Jan 19 14:01:00 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - IS Benchmark
+
+ Size:  8388608  (class A)
+ Iterations:   10
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        A
+ Size            =                  8388608
+ Iterations      =                       10
+ Threads         =                        1
+ Time in seconds =                     0.31
+ Mop/s total     =                   271.82
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randlc2
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - IS Benchmark
+
+ Size:  8388608  (class A)
+ Iterations:   10
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        A
+ Size            =                  8388608
+ Iterations      =                       10
+ Threads         =                        1
+ Time in seconds =                     0.31
+ Mop/s total     =                   273.80
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randlc2
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - IS Benchmark
+
+ Size:  8388608  (class A)
+ Iterations:   10
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        A
+ Size            =                  8388608
+ Iterations      =                       10
+ Threads         =                        1
+ Time in seconds =                     0.29
+ Mop/s total     =                   286.15
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randlc2
+Tue Jan 19 14:01:08 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - MG Benchmark
+
+ No input file. Using compiled defaults
+ Size: 256x256x256 (class A)
+ Iterations:   4
+ Initialization time:           2.236 seconds
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ L2 Norm is   2.433365309069e-06
+ Error is     6.948550079506e-17
+
+
+ MG Benchmark Completed
+ Class           =                        A
+ Size            =              256x256x256
+ Iterations      =                        4
+ Threads         =                        1
+ Time in seconds =                     1.34
+ Mop/s total     =                  2914.11
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - MG Benchmark
+
+ No input file. Using compiled defaults
+ Size: 256x256x256 (class A)
+ Iterations:   4
+ Initialization time:           2.238 seconds
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ L2 Norm is   2.433365309069e-06
+ Error is     6.948550079506e-17
+
+
+ MG Benchmark Completed
+ Class           =                        A
+ Size            =              256x256x256
+ Iterations      =                        4
+ Threads         =                        1
+ Time in seconds =                     1.29
+ Mop/s total     =                  3006.46
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - MG Benchmark
+
+ No input file. Using compiled defaults
+ Size: 256x256x256 (class A)
+ Iterations:   4
+ Initialization time:           2.254 seconds
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ L2 Norm is   2.433365309069e-06
+ Error is     6.948550079506e-17
+
+
+ MG Benchmark Completed
+ Class           =                        A
+ Size            =              256x256x256
+ Iterations      =                        4
+ Threads         =                        1
+ Time in seconds =                     1.29
+ Mop/s total     =                  3007.83
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randdp
+Tue Jan 19 14:01:19 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults Size:  64x 64x 64
+ Iterations: 400   dt:   0.001500
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for cclass A
+ accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0 2.4799822399302e+00 2.4799822399300e+00 7.0374318275763e-14
+           1 1.1276337964369e+00 1.1276337964369e+00 5.4150794830138e-14
+           2 1.5028977888770e+00 1.5028977888770e+00 1.8320295108875e-14
+           3 1.4217816211695e+00 1.4217816211695e+00 1.4367961541308e-14
+           4 2.1292113035139e+00 2.1292113035138e+00 2.6696936451070e-14
+ Comparison of RMS-norms of solution error
+           0 1.0900140297827e-04 1.0900140297821e-04 6.3609024320826e-13
+           1 3.7343951769288e-05 3.7343951769282e-05 1.5042656816013e-13
+           2 5.0092785406562e-05 5.0092785406542e-05 4.0798711402227e-13
+           3 4.7671093939551e-05 4.7671093939528e-05 4.7988548088415e-13
+           4 1.3621613399222e-04 1.3621613399213e-04 6.6839275764302e-13
+ Verification Successful
+
+
+ SP Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      400
+ Threads         =                        1
+ Time in seconds =                    66.62
+ Mop/s total     =                  1275.95
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = (none)
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults Size:  64x 64x 64
+ Iterations: 400   dt:   0.001500
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for cclass A
+ accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0 2.4799822399302e+00 2.4799822399300e+00 7.0374318275763e-14
+           1 1.1276337964369e+00 1.1276337964369e+00 5.4150794830138e-14
+           2 1.5028977888770e+00 1.5028977888770e+00 1.8320295108875e-14
+           3 1.4217816211695e+00 1.4217816211695e+00 1.4367961541308e-14
+           4 2.1292113035139e+00 2.1292113035138e+00 2.6696936451070e-14
+ Comparison of RMS-norms of solution error
+           0 1.0900140297827e-04 1.0900140297821e-04 6.3609024320826e-13
+           1 3.7343951769288e-05 3.7343951769282e-05 1.5042656816013e-13
+           2 5.0092785406562e-05 5.0092785406542e-05 4.0798711402227e-13
+           3 4.7671093939551e-05 4.7671093939528e-05 4.7988548088415e-13
+           4 1.3621613399222e-04 1.3621613399213e-04 6.6839275764302e-13
+ Verification Successful
+
+
+ SP Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      400
+ Threads         =                        1
+ Time in seconds =                    70.72
+ Mop/s total     =                  1202.12
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = (none)
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults Size:  64x 64x 64
+ Iterations: 400   dt:   0.001500
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for cclass A
+ accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0 2.4799822399302e+00 2.4799822399300e+00 7.0374318275763e-14
+           1 1.1276337964369e+00 1.1276337964369e+00 5.4150794830138e-14
+           2 1.5028977888770e+00 1.5028977888770e+00 1.8320295108875e-14
+           3 1.4217816211695e+00 1.4217816211695e+00 1.4367961541308e-14
+           4 2.1292113035139e+00 2.1292113035138e+00 2.6696936451070e-14
+ Comparison of RMS-norms of solution error
+           0 1.0900140297827e-04 1.0900140297821e-04 6.3609024320826e-13
+           1 3.7343951769288e-05 3.7343951769282e-05 1.5042656816013e-13
+           2 5.0092785406562e-05 5.0092785406542e-05 4.0798711402227e-13
+           3 4.7671093939551e-05 4.7671093939528e-05 4.7988548088415e-13
+           4 1.3621613399222e-04 1.3621613399213e-04 6.6839275764302e-13
+ Verification Successful
+
+
+ SP Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      400
+ Threads         =                        1
+ Time in seconds =                    66.37
+ Mop/s total     =                  1280.78
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = (none)
+//////////////////////////
+set OpenMP threads to be 8
+//////////////////////////
+Tue Jan 19 14:04:44 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  64x 64x 64
+ Iterations: 200   dt:   0.000800
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class A
+ accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0 1.0806346714637e+02 1.0806346714637e+02 6.9697495351091e-15
+           1 1.1319730901221e+01 1.1319730901221e+01 1.2554057017088e-15
+           2 2.5974354511583e+01 2.5974354511582e+01 3.2826659177686e-15
+           3 2.3665622544679e+01 2.3665622544679e+01 8.2566707030474e-15
+           4 2.5278963211749e+02 2.5278963211748e+02 1.3941600135453e-14
+ Comparison of RMS-norms of solution error
+           0 4.2348416040525e+00 4.2348416040525e+00 1.2583872117203e-15
+           1 4.4390282496995e-01 4.4390282496996e-01 5.7524142965539e-15
+           2 9.6692480136346e-01 9.6692480136346e-01 1.8371199465516e-15
+           3 8.8302063039766e-01 8.8302063039765e-01 1.7602218804053e-15
+           4 9.7379901770830e+00 9.7379901770829e+00 5.1076239140453e-15
+ Verification Successful
+
+
+ BT Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      200
+ Threads         =                        1
+ Time in seconds =                    69.43
+ Mop/s total     =                  2423.70
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = (none)
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  64x 64x 64
+ Iterations: 200   dt:   0.000800
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class A
+ accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0 1.0806346714637e+02 1.0806346714637e+02 6.9697495351091e-15
+           1 1.1319730901221e+01 1.1319730901221e+01 1.2554057017088e-15
+           2 2.5974354511583e+01 2.5974354511582e+01 3.2826659177686e-15
+           3 2.3665622544679e+01 2.3665622544679e+01 8.2566707030474e-15
+           4 2.5278963211749e+02 2.5278963211748e+02 1.3941600135453e-14
+ Comparison of RMS-norms of solution error
+           0 4.2348416040525e+00 4.2348416040525e+00 1.2583872117203e-15
+           1 4.4390282496995e-01 4.4390282496996e-01 5.7524142965539e-15
+           2 9.6692480136346e-01 9.6692480136346e-01 1.8371199465516e-15
+           3 8.8302063039766e-01 8.8302063039765e-01 1.7602218804053e-15
+           4 9.7379901770830e+00 9.7379901770829e+00 5.1076239140453e-15
+ Verification Successful
+
+
+ BT Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      200
+ Threads         =                        1
+ Time in seconds =                    69.57
+ Mop/s total     =                  2418.84
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = (none)
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  64x 64x 64
+ Iterations: 200   dt:   0.000800
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class A
+ accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0 1.0806346714637e+02 1.0806346714637e+02 6.9697495351091e-15
+           1 1.1319730901221e+01 1.1319730901221e+01 1.2554057017088e-15
+           2 2.5974354511583e+01 2.5974354511582e+01 3.2826659177686e-15
+           3 2.3665622544679e+01 2.3665622544679e+01 8.2566707030474e-15
+           4 2.5278963211749e+02 2.5278963211748e+02 1.3941600135453e-14
+ Comparison of RMS-norms of solution error
+           0 4.2348416040525e+00 4.2348416040525e+00 1.2583872117203e-15
+           1 4.4390282496995e-01 4.4390282496996e-01 5.7524142965539e-15
+           2 9.6692480136346e-01 9.6692480136346e-01 1.8371199465516e-15
+           3 8.8302063039766e-01 8.8302063039765e-01 1.7602218804053e-15
+           4 9.7379901770830e+00 9.7379901770829e+00 5.1076239140453e-15
+ Verification Successful
+
+
+ BT Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      200
+ Threads         =                        1
+ Time in seconds =                    69.58
+ Mop/s total     =                  2418.50
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = (none)
+Tue Jan 19 14:08:14 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - CG Benchmark
+ Size:      14000
+ Iterations:    15
+   iteration           ||r||                 zeta
+        1       1.45624996364860e-13 1.9999758127704e+01
+        2       1.35444534297757e-15 1.7114049574551e+01
+        3       1.33442674485413e-15 1.7129666894614e+01
+        4       1.28976177433234e-15 1.7130211358119e+01
+        5       1.27396562166344e-15 1.7130233885635e+01
+        6       1.24331939136504e-15 1.7130234987948e+01
+        7       1.22691483407358e-15 1.7130235049892e+01
+        8       1.17356745360415e-15 1.7130235053751e+01
+        9       1.15474583049638e-15 1.7130235054010e+01
+       10       1.11747134389984e-15 1.7130235054028e+01
+       11       1.07759095547755e-15 1.7130235054030e+01
+       12       1.02870401091527e-15 1.7130235054030e+01
+       13       1.00343934490106e-15 1.7130235054030e+01
+       14       9.70804446765060e-16 1.7130235054030e+01
+       15       9.32581532693215e-16 1.7130235054030e+01
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ Zeta is      1.713023505403e+01
+ Error is     8.917311333789e-13
+
+
+ CG Benchmark Completed
+ Class           =                        A
+ Size            =                    14000
+ Iterations      =                       15
+ Threads         =                        1
+ Time in seconds =                     0.50
+ Mop/s total     =                  3017.70
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - CG Benchmark
+ Size:      14000
+ Iterations:    15
+   iteration           ||r||                 zeta
+        1       1.45624996364860e-13 1.9999758127704e+01
+        2       1.35444534297757e-15 1.7114049574551e+01
+        3       1.33442674485413e-15 1.7129666894614e+01
+        4       1.28976177433234e-15 1.7130211358119e+01
+        5       1.27396562166344e-15 1.7130233885635e+01
+        6       1.24331939136504e-15 1.7130234987948e+01
+        7       1.22691483407358e-15 1.7130235049892e+01
+        8       1.17356745360415e-15 1.7130235053751e+01
+        9       1.15474583049638e-15 1.7130235054010e+01
+       10       1.11747134389984e-15 1.7130235054028e+01
+       11       1.07759095547755e-15 1.7130235054030e+01
+       12       1.02870401091527e-15 1.7130235054030e+01
+       13       1.00343934490106e-15 1.7130235054030e+01
+       14       9.70804446765060e-16 1.7130235054030e+01
+       15       9.32581532693215e-16 1.7130235054030e+01
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ Zeta is      1.713023505403e+01
+ Error is     8.917311333789e-13
+
+
+ CG Benchmark Completed
+ Class           =                        A
+ Size            =                    14000
+ Iterations      =                       15
+ Threads         =                        1
+ Time in seconds =                     0.79
+ Mop/s total     =                  1900.64
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - CG Benchmark
+ Size:      14000
+ Iterations:    15
+   iteration           ||r||                 zeta
+        1       1.45624996364860e-13 1.9999758127704e+01
+        2       1.35444534297757e-15 1.7114049574551e+01
+        3       1.33442674485413e-15 1.7129666894614e+01
+        4       1.28976177433234e-15 1.7130211358119e+01
+        5       1.27396562166344e-15 1.7130233885635e+01
+        6       1.24331939136504e-15 1.7130234987948e+01
+        7       1.22691483407358e-15 1.7130235049892e+01
+        8       1.17356745360415e-15 1.7130235053751e+01
+        9       1.15474583049638e-15 1.7130235054010e+01
+       10       1.11747134389984e-15 1.7130235054028e+01
+       11       1.07759095547755e-15 1.7130235054030e+01
+       12       1.02870401091527e-15 1.7130235054030e+01
+       13       1.00343934490106e-15 1.7130235054030e+01
+       14       9.70804446765060e-16 1.7130235054030e+01
+       15       9.32581532693215e-16 1.7130235054030e+01
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ Zeta is      1.713023505403e+01
+ Error is     8.917311333789e-13
+
+
+ CG Benchmark Completed
+ Class           =                        A
+ Size            =                    14000
+ Iterations      =                       15
+ Threads         =                        1
+ Time in seconds =                     0.50
+ Mop/s total     =                  2966.92
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randdp
+Tue Jan 19 14:08:16 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - EP Benchmark
+ Number of random numbers generated:     536870912
+Debug: 231, sx is:-5001.141718, sy is:-3457.188770
+EP Benchmark Results: 
+CPU Time =     4.6328
+N = 2^   28
+No. Gaussian Pairs =       210826523
+Sums =    -5.001141718292249e+03    -3.457188770419780e+03
+Counts:
+  0        98251013
+  1        93829430
+  2        17608825
+  3         1110543
+  4           26457
+  5             253
+  6               2
+  7               0
+  8               0
+  9               0
+
+
+ EP Benchmark Completed
+ Class           =                        A
+ Size            =                       29
+ Iterations      =                        0
+ Threads         =                        1
+ Time in seconds =                     4.63
+ Mop/s total     =                   115.88
+ Operation type  = Random numbers generated
+ Verification    =             UNSUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - EP Benchmark
+ Number of random numbers generated:     536870912
+Debug: 231, sx is:-5001.141718, sy is:-3457.188770
+EP Benchmark Results: 
+CPU Time =     5.0208
+N = 2^   28
+No. Gaussian Pairs =       210826523
+Sums =    -5.001141718292249e+03    -3.457188770419780e+03
+Counts:
+  0        98251013
+  1        93829430
+  2        17608825
+  3         1110543
+  4           26457
+  5             253
+  6               2
+  7               0
+  8               0
+  9               0
+
+
+ EP Benchmark Completed
+ Class           =                        A
+ Size            =                       29
+ Iterations      =                        0
+ Threads         =                        1
+ Time in seconds =                     5.02
+ Mop/s total     =                   106.93
+ Operation type  = Random numbers generated
+ Verification    =             UNSUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - EP Benchmark
+ Number of random numbers generated:     536870912
+Debug: 231, sx is:-5001.141718, sy is:-3457.188770
+EP Benchmark Results: 
+CPU Time =     4.6340
+N = 2^   28
+No. Gaussian Pairs =       210826523
+Sums =    -5.001141718292249e+03    -3.457188770419780e+03
+Counts:
+  0        98251013
+  1        93829430
+  2        17608825
+  3         1110543
+  4           26457
+  5             253
+  6               2
+  7               0
+  8               0
+  9               0
+
+
+ EP Benchmark Completed
+ Class           =                        A
+ Size            =                       29
+ Iterations      =                        0
+ Threads         =                        1
+ Time in seconds =                     4.63
+ Mop/s total     =                   115.85
+ Operation type  = Random numbers generated
+ Verification    =             UNSUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randdp
+Tue Jan 19 14:08:31 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - FT Benchmark
+
+ Size                : 256x256x128
+ Iterations          :           6
+T =     1     Checksum =     5.046735008193e+02     5.114047905510e+02
+T =     2     Checksum =     5.059412319734e+02     5.098809666433e+02
+T =     3     Checksum =     5.069376896287e+02     5.098144042213e+02
+T =     4     Checksum =     5.077892868474e+02     5.101336130759e+02
+T =     5     Checksum =     5.085233095391e+02     5.104914655194e+02
+T =     6     Checksum =     5.091487099959e+02     5.107917842803e+02
+Result verification successful
+cclass = A
+
+
+ FT Benchmark Completed
+ Class           =                        A
+ Size            =              256x256x128
+ Iterations      =                        6
+ Threads         =                        1
+ Time in seconds =                     2.13
+ Mop/s total     =                  3349.82
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - FT Benchmark
+
+ Size                : 256x256x128
+ Iterations          :           6
+T =     1     Checksum =     5.046735008193e+02     5.114047905510e+02
+T =     2     Checksum =     5.059412319734e+02     5.098809666433e+02
+T =     3     Checksum =     5.069376896287e+02     5.098144042213e+02
+T =     4     Checksum =     5.077892868474e+02     5.101336130759e+02
+T =     5     Checksum =     5.085233095391e+02     5.104914655194e+02
+T =     6     Checksum =     5.091487099959e+02     5.107917842803e+02
+Result verification successful
+cclass = A
+
+
+ FT Benchmark Completed
+ Class           =                        A
+ Size            =              256x256x128
+ Iterations      =                        6
+ Threads         =                        1
+ Time in seconds =                     2.20
+ Mop/s total     =                  3242.30
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - FT Benchmark
+
+ Size                : 256x256x128
+ Iterations          :           6
+T =     1     Checksum =     5.046735008193e+02     5.114047905510e+02
+T =     2     Checksum =     5.059412319734e+02     5.098809666433e+02
+T =     3     Checksum =     5.069376896287e+02     5.098144042213e+02
+T =     4     Checksum =     5.077892868474e+02     5.101336130759e+02
+T =     5     Checksum =     5.085233095391e+02     5.104914655194e+02
+T =     6     Checksum =     5.091487099959e+02     5.107917842803e+02
+Result verification successful
+cclass = A
+
+
+ FT Benchmark Completed
+ Class           =                        A
+ Size            =              256x256x128
+ Iterations      =                        6
+ Threads         =                        1
+ Time in seconds =                     2.13
+ Mop/s total     =                  3351.85
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randdp
+Tue Jan 19 14:08:40 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - IS Benchmark
+
+ Size:  8388608  (class A)
+ Iterations:   10
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        A
+ Size            =                  8388608
+ Iterations      =                       10
+ Threads         =                        1
+ Time in seconds =                     0.35
+ Mop/s total     =                   242.89
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randlc2
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - IS Benchmark
+
+ Size:  8388608  (class A)
+ Iterations:   10
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        A
+ Size            =                  8388608
+ Iterations      =                       10
+ Threads         =                        1
+ Time in seconds =                     0.34
+ Mop/s total     =                   249.75
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randlc2
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - IS Benchmark
+
+ Size:  8388608  (class A)
+ Iterations:   10
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        A
+ Size            =                  8388608
+ Iterations      =                       10
+ Threads         =                        1
+ Time in seconds =                     0.32
+ Mop/s total     =                   258.80
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randlc2
+Tue Jan 19 14:08:48 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - MG Benchmark
+
+ No input file. Using compiled defaults
+ Size: 256x256x256 (class A)
+ Iterations:   4
+ Initialization time:           2.320 seconds
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ L2 Norm is   2.433365309069e-06
+ Error is     6.948550079506e-17
+
+
+ MG Benchmark Completed
+ Class           =                        A
+ Size            =              256x256x256
+ Iterations      =                        4
+ Threads         =                        1
+ Time in seconds =                     1.30
+ Mop/s total     =                  2990.90
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - MG Benchmark
+
+ No input file. Using compiled defaults
+ Size: 256x256x256 (class A)
+ Iterations:   4
+ Initialization time:           2.249 seconds
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ L2 Norm is   2.433365309069e-06
+ Error is     6.948550079506e-17
+
+
+ MG Benchmark Completed
+ Class           =                        A
+ Size            =              256x256x256
+ Iterations      =                        4
+ Threads         =                        1
+ Time in seconds =                     1.30
+ Mop/s total     =                  2998.87
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - MG Benchmark
+
+ No input file. Using compiled defaults
+ Size: 256x256x256 (class A)
+ Iterations:   4
+ Initialization time:           2.513 seconds
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ L2 Norm is   2.433365309069e-06
+ Error is     6.948550079506e-17
+
+
+ MG Benchmark Completed
+ Class           =                        A
+ Size            =              256x256x256
+ Iterations      =                        4
+ Threads         =                        1
+ Time in seconds =                     1.36
+ Mop/s total     =                  2872.15
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = randdp
+Tue Jan 19 14:08:59 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults Size:  64x 64x 64
+ Iterations: 400   dt:   0.001500
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for cclass A
+ accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0 2.4799822399302e+00 2.4799822399300e+00 7.0374318275763e-14
+           1 1.1276337964369e+00 1.1276337964369e+00 5.4150794830138e-14
+           2 1.5028977888770e+00 1.5028977888770e+00 1.8320295108875e-14
+           3 1.4217816211695e+00 1.4217816211695e+00 1.4367961541308e-14
+           4 2.1292113035139e+00 2.1292113035138e+00 2.6696936451070e-14
+ Comparison of RMS-norms of solution error
+           0 1.0900140297827e-04 1.0900140297821e-04 6.3609024320826e-13
+           1 3.7343951769288e-05 3.7343951769282e-05 1.5042656816013e-13
+           2 5.0092785406562e-05 5.0092785406542e-05 4.0798711402227e-13
+           3 4.7671093939551e-05 4.7671093939528e-05 4.7988548088415e-13
+           4 1.3621613399222e-04 1.3621613399213e-04 6.6839275764302e-13
+ Verification Successful
+
+
+ SP Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      400
+ Threads         =                        1
+ Time in seconds =                    60.05
+ Mop/s total     =                  1415.61
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = (none)
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults Size:  64x 64x 64
+ Iterations: 400   dt:   0.001500
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for cclass A
+ accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0 2.4799822399302e+00 2.4799822399300e+00 7.0374318275763e-14
+           1 1.1276337964369e+00 1.1276337964369e+00 5.4150794830138e-14
+           2 1.5028977888770e+00 1.5028977888770e+00 1.8320295108875e-14
+           3 1.4217816211695e+00 1.4217816211695e+00 1.4367961541308e-14
+           4 2.1292113035139e+00 2.1292113035138e+00 2.6696936451070e-14
+ Comparison of RMS-norms of solution error
+           0 1.0900140297827e-04 1.0900140297821e-04 6.3609024320826e-13
+           1 3.7343951769288e-05 3.7343951769282e-05 1.5042656816013e-13
+           2 5.0092785406562e-05 5.0092785406542e-05 4.0798711402227e-13
+           3 4.7671093939551e-05 4.7671093939528e-05 4.7988548088415e-13
+           4 1.3621613399222e-04 1.3621613399213e-04 6.6839275764302e-13
+ Verification Successful
+
+
+ SP Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      400
+ Threads         =                        1
+ Time in seconds =                    60.20
+ Mop/s total     =                  1412.16
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = (none)
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults Size:  64x 64x 64
+ Iterations: 400   dt:   0.001500
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for cclass A
+ accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0 2.4799822399302e+00 2.4799822399300e+00 7.0374318275763e-14
+           1 1.1276337964369e+00 1.1276337964369e+00 5.4150794830138e-14
+           2 1.5028977888770e+00 1.5028977888770e+00 1.8320295108875e-14
+           3 1.4217816211695e+00 1.4217816211695e+00 1.4367961541308e-14
+           4 2.1292113035139e+00 2.1292113035138e+00 2.6696936451070e-14
+ Comparison of RMS-norms of solution error
+           0 1.0900140297827e-04 1.0900140297821e-04 6.3609024320826e-13
+           1 3.7343951769288e-05 3.7343951769282e-05 1.5042656816013e-13
+           2 5.0092785406562e-05 5.0092785406542e-05 4.0798711402227e-13
+           3 4.7671093939551e-05 4.7671093939528e-05 4.7988548088415e-13
+           4 1.3621613399222e-04 1.3621613399213e-04 6.6839275764302e-13
+ Verification Successful
+
+
+ SP Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      400
+ Threads         =                        1
+ Time in seconds =                    61.49
+ Mop/s total     =                  1382.41
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              19 Jan 2010
+
+ Compile options:
+    CC           = ompTranslator
+    CLINK        = gcc
+    C_LIB        = $(omniInstallPath)/lib/openmp/lib/libompc.a...
+    C_INC        = -I../common -I/home/liao6/opt/roseLatest/in...
+    CFLAGS       = -O3
+    CLINKFLAGS   = -lm
+    RAND         = (none)
