@@ -23,6 +23,12 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%		
+%
+%% !!BUG: ROSE generate wrongcode location for switch stmt
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 %%% cfg for function definition
 %	see document.txt for function structure in ROSE   
 cfg(Function) :-
@@ -30,12 +36,14 @@ cfg(Function) :-
 	cfg(FunctionBody, _, _). % call the cfg(Block, _, _)
 
 %%% variable declaration
+%	comment   
 cfg(VarDecl, Entry, Exit) :-
 	isVariableDecl(VarDecl), !,
 	Entry = VarDecl,
 	Exit = VarDecl.
 
 %%%  The basic statement (Expression statement)
+%	 comment
 cfg(Stmt, Entry, Exit) :-
 	isBasicStatement(Stmt), !,
 	Entry = Stmt,
@@ -67,6 +75,7 @@ cfg(Stmt, Entry, Exit) :-
 %	@tbd   
 
 %%% The ForStatement
+%	comment   
 %	@tbd what if ForInit, ForIncr empty?
 cfg(ForStatement, Entry, Exit) :-
 	isForStatement(ForStatement), !,
@@ -83,7 +92,7 @@ cfg(ForStatement, Entry, Exit) :-
 	setNext(ForIncr, ConditionStmt).
 
 %%% The while statement
-%	@comment in Rose, while(...); hasBody ExpressionStatement:NullExpr
+%	in Rose, while(...); hasBody ExpressionStatement:NullExpr
 cfg(Stmt, Entry, Exit) :-
 	isWhileStatement(Stmt), !,
 	c_has(hasCondition, Stmt, ConditionStmt),
@@ -96,6 +105,7 @@ cfg(Stmt, Entry, Exit) :-
 	setNext(BodyExit, ConditionStmt).
 
 %%% The DoWhile ...
+%	comment   
 cfg(DoWhileStmt, Entry, Exit) :-
 	isDoWhileStatement(DoWhileStmt), !,
 	c_has(hasBody, DoWhileStmt, BodyStmt),
@@ -108,7 +118,8 @@ cfg(DoWhileStmt, Entry, Exit) :-
 	setFalseNext(ConditionStmt, Exit).
 
 %%% The Switch case statement 
-%	@tbd the ROSE gets bug here! cause cycle
+%	to be completed, the ROSE gets bug here! make
+% 	it into dead cycle
 cfg(SwitchStmt, Entry, Exit) :-
 	isSwitchStatement(SwitchStmt), !,
 	Entry = SwitchStmt,
@@ -116,6 +127,7 @@ cfg(SwitchStmt, Entry, Exit) :-
 	writeln('SwitchStmt not supported yet').
 
 %%% The Break 
+%	comment   
 cfg(BreakStmt, Entry, Exit) :-
 	isBreakStatement(BreakStmt), !,
 	Entry = BreakStmt,
@@ -125,6 +137,7 @@ cfg(BreakStmt, Entry, Exit) :-
 	Exit = none. % mark the divergent, will be checked in cfg(Block, ...)
 	
 %%% The continue 
+%	comment   
 cfg(ContinueStatement, Entry, Exit) :-
 	isContinueStatement(ContinueStatement), !,
 	Entry = ContinueStatement,
@@ -136,6 +149,7 @@ cfg(ContinueStatement, Entry, Exit) :-
 
 %%% Goto and labels
 %	!not functionaly properly   
+%	@tbd test the goto case  
 cfg(GotoStatement, Entry, Exit) :-
 	isGotoStatement(GotoStatement), !,
 	Entry = GotoStatement, % !
@@ -143,6 +157,7 @@ cfg(GotoStatement, Entry, Exit) :-
 	writeln('GotoStatement not supported yet').
 
 %%% Return
+%	comment   
 %	@tbd should jump to the exit of function 
 cfg(ReturnStmt, Entry, Exit) :-
 	isReturnStatement(ReturnStmt), !,
@@ -151,7 +166,8 @@ cfg(ReturnStmt, Entry, Exit) :-
 	Exit = exit(FunctionDef).
 	  	      
 %%% Block contains a sequence of statements 
-%	@comment check ChildStmts is in texture order [checked, yes]
+%	assume the children are in its code order   
+%	@comment check ChildStmts is in order [checked, yes]
 cfg(Block, Entry, Exit) :-
 	isBlock(Block), !,
 	findall(ChildStmt, hasChild(Block, ChildStmt), ChildStmts), 
@@ -163,8 +179,9 @@ cfg(Block, Entry, Exit) :-
 		cfg_sq(Rest, FirstExit, Exit)
 	).
 
+
 %% The final guard catching the Unknown situation
-%% @comment must put at last
+%% must put at last
 cfg(Stmt, Entry, Exit) :-
 	c_is_a(Stmt, Class), !,
 	write('Unknown statement: '), write(Stmt), tab(4), writeln(Class),
@@ -239,7 +256,7 @@ strip_exit(ExitNodeInURL, ExitNodeInID) :-
 	term_to_atom(ExitNodeInID_, ExitNodeAtom),
 	atomic_list_concat(['"', ExitNodeAtom, '"'], ExitNodeInID).
 
-%% turn off dbg out
+% turn off dbg out
 dbg_out(_, _, _) :- !. 
 
 dbg_out(Pred, Next, Label) :-

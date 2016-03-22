@@ -1,7 +1,7 @@
 For most up-to-date information, please visit:
 https://en.wikibooks.org/wiki/ROSE_Compiler_Framework/OpenK 
 
-# Structure
+## Structure
 
 The `OntoGeneratorInterface.hpp` defines the basic class handling the knowledge generation.
 It defines the interface methods by virtual functions.
@@ -15,7 +15,7 @@ OntoNTriple is to generate into RDF turtles.
 
 
 
-# Note
+## Note
 
 http://answers.semanticweb.com/questions/14362/what-is-difference-bw-turtle-triples-and-n-triples
 

@@ -24,12 +24,9 @@ TRANSLATOR = rosePrgKnowledgeBuilder
 TRANSLATOR_EXE = $(TRANSLATOR).exe
 DEP = $(TRANSLATOR).o 
 
+TESTDIR = test/
 # promote all C files to be cpp files
-TEST_CODES_REQUIRED_TO_PASS = \
-ut.cpp \
-is.cpp \
-templateMax_minimum.cpp \
-templateInheritance.cpp
+TEST_CODES_REQUIRED_TO_PASS = $(addprefix $(TESTDIR), ut.cpp is.cpp templateMax_minimum.cpp templateInheritance.cpp)
 
 TEST_CODES_OWL_RESULTS = $(TEST_CODES_REQUIRED_TO_PASS:.cpp=.cpp.owl) # change .c to .c.owl
 TEST_CODES_TTL_RESULTS = $(TEST_CODES_REQUIRED_TO_PASS:.cpp=.cpp.ttl) 
@@ -44,6 +41,7 @@ $(TEST_CODES_TTL_RESULTS): %.cpp.ttl:%.cpp $(TRANSLATOR).exe
 
 $(TEST_CODES_PL_RESULTS): %.cpp.pl:%.cpp $(TRANSLATOR).exe
 	./$(TRANSLATOR).exe -emit-pl $@ -c $< 
+
 #-------------------------------------------------------------
 # Makefile Targets
 #-------------------------------------------------------------
@@ -56,15 +54,16 @@ all : $(TRANSLATOR).exe
 $(TRANSLATOR).exe : $(TRANSLATOR).cpp
 	$(CC) -o $@ $^ $(CCFLAGS) $(LIBS) $(PLFLAGS)
 
-#$(TRANSLATOR).o : $(TRANSLATOR).cpp
-#	$(CC) -c -o $@ $< $(CCFLAGS) $(LIBS) $(PLFLAGS)
-
+.PHONY: test
+test:
+	@echo $(TEST_CODES_REQUIRED_TO_PASS)
 # test the translator
-check: $(TEST_CODES_OWL_RESULTS) $(TEST_CODES_TTL_RESULTS) $(TEST_CODES_PL_RESULTS)
+check: 
+	$(TEST_CODES_OWL_RESULTS) $(TEST_CODES_TTL_RESULTS) $(TEST_CODES_PL_RESULTS)
 
 check-alive:
 	./$(TRANSLATOR).exe -alive true -c $(TESTDIR)/$(TESTCODE)
-	
+
 clean:
 	rm -rf $(TRANSLATOR_EXE) *.exe *.o *.c.pl *.dot *_report.txt *.owl *.pl *.ttl
 

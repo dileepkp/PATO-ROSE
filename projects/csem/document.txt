@@ -21,4 +21,69 @@ function definition and basic block has the same location
 
 function call 
 	create_seq(a, b);
+	
+
+## to do
+	function call
+	function analysis:
+		input, output, variable access, call graph
+
+	pointer
+		variable pointer,
+		multi-level pointer
+		function pointer
+
+	array
+
+	def-use chain/access 
+	struct
+
+	recursive!
+		data struct
+		function call
+
+
+
+caution:
+	malloc - may more than once?
+
+
+
+
+
+## document
+
+
+
+### predicate 
+
+argument, input first, output later
+
+	predicate(+In, -Out)
+	+ instantiated
+	- unbounded
+	? unknown
+
+
+### Processing names
+
+notation of names
+
+	URL full name: 'http://www.example.com#id'
+	Short: c:id
+	argument: InArg = +Arg, OutArg = -Arg
+
+Prolog predicate argument naming convention
+
+	ID : local name
+	URL, Resouce: full name in URL
+	Short: 'prefix:localname'
+
+Name processing:
+
++ only shorten names for c ontology entities
++ use full names for resources (program ontology entities)
+
+
+
 
