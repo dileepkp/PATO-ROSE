@@ -141,7 +141,7 @@ int main(int argc, char ** argv)
     onto_generator->prefix_register("rdfs:", "http://www.w3.org/2000/01/rdf-schema#");
     onto_generator->prefix_register("c:", c_onto_url + "#");
 
-    onto_generator->import_register("file:///home/yzhao30/openk/ontology/c.owl"); // may not necessary for local file
+    //onto_generator->import_register("file:///home/yzhao30/openk/ontology/c.owl"); // may not need for local file
     //onto_generator->import_register("http://www.semanticweb.org/yzhao30/ontologies/2015/7/c");
 
     

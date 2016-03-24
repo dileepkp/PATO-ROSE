@@ -17,12 +17,12 @@ def run(cmd):
 	p = subprocess.Popen(args)
 	p.wait()
 
-CPARSER = ROOT + "/tools/rosePrgKnowledgeBuilder/rosePrgKnowledgeBuilder.exe" 
+CPARSER = ROOT + "/tools/onto-build-rose/rosePrgKnowledgeBuilder.exe" 
 FLAG = " -c -w -emit-owl "
 def build_kb():
 	for mainc in TESTDIRS:
 		F = os.path.basename(mainc)
-		#INCL = " -I{L}/common" 
+		#INCL = " -I{L}/common"
 		cmd = CPARSER + FLAG + "{}.owl ".format(F) + mainc
 		run(cmd)
 
@@ -43,7 +43,7 @@ def openk_run(runpl, of):
 		run(cmd)
 
 
-swipl = "time swipl --nosignal --quiet "  
+swipl = "time swipl --nosignal --quiet "
 def openk_cl():
 	runpl = swipl + ROOT + "/projects/canonicalloop/run.pl"
 	openk_run(runpl, 'of')
@@ -65,7 +65,7 @@ clangCfg = "time clang -cc1 -analyze -analyzer-checker=debug.DumpCFG "
 clangNone = "time clang -cc1 -analyze -analyzer-disable-checker=debug.DumpCFG "
 def clang_cfg():
 	for mainc in TESTDIRS:
-		cmd = clangCfg + mainc 
+		cmd = clangCfg + mainc
 		run(cmd)
 		run(clangNone + mainc)
 
@@ -82,7 +82,7 @@ def clean():
 if __name__ == '__main__':
 
 	if len(sys.argv) < 2:
-		print sys.argv[0] + ' <option>' 
+		print sys.argv[0] + ' <option>'
 		print 'clean: clean the result files.'
 		print 'build-kb: build knoledge from the input codes'
 		print 'openk-cl: run the openk canonical loop analysis. Must after the build-kb step'
@@ -90,15 +90,12 @@ if __name__ == '__main__':
 		print 'openk-cfg: openk cfg'
 		sys.exit('exiting')
 
-	invokes = {"clean":clean, "build-kb":build_kb, 
-		"rose-cl":rose_cl, "openk-cl":openk_cl, 
-		"rose-cfg":rose_cfg, "openk-cfg":openk_cfg, "clang-cfg":clang_cfg, 
+	invokes = {"clean":clean, "build-kb":build_kb,
+		"rose-cl":rose_cl, "openk-cl":openk_cl,
+		"rose-cfg":rose_cfg, "openk-cfg":openk_cfg, "clang-cfg":clang_cfg,
 		"clang-la": clang_la}
 
 	if sys.argv[1] in invokes:
 		invokes[sys.argv[1]]()
 	else:
 		print "unknown cmd"
-
-
-

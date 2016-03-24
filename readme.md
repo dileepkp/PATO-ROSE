@@ -11,10 +11,25 @@
 ## Directory
 
 + ontology/ - owl files.
-+ projects/ - contains independent projects or programs.
++ projects/ - contains separate analysis projects.
 + test/ - test bench and run test script.
 + tools/ - the knowledge generator: use ROSE frontend to parse the C code and build knowledge base.
-	
+
 ## Usage and detail
 
-is comming ...
+Edit set.rose to set the correct PATH to your install and run `. set.rose`.
+
+### Generate ontology represented database from program
+
+	$ rosePrgKnowledgeBuilder.exe -c -w -emit-owl out.owl input.c [-I/extra-include-dir]
+
+
+### To run a prolog inference
+
+Canonical Loop
+
+	$ swipl --nosignal --quiet projects/canonicalloop/run.pl out.owl report.txt
+
+or CFG
+
+	$ swipl --nosignal --quiet projects/cfg_test/run.pl out.owl report.txt
