@@ -1,9 +1,8 @@
 ## Installation
 
 1. Follow the instruction [1][1] and [2][2] to install EDG 4.x-based ROSE.
-2. Modify the `set.rose` to set the current path.
-3. Change to `tools/rosePrgKnowledgeBuilder/` and run `make`
-4. Check `test/npb2.3-test/run_test.py` to see how to run the program.
+2. Edit `set.rose` to set the correct PATH to your install and run `. set.rose`. 
+3. `$ cd tools/onto-build-rose/` and run `make`
 
 [1]: https://en.wikibooks.org/wiki/ROSE_Compiler_Framework/Installation
 [2]: https://en.wikibooks.org/wiki/ROSE_Compiler_Framework/Virtual_Machine_Image#V2
@@ -16,8 +15,6 @@
 + tools/ - the knowledge generator: use ROSE frontend to parse the C code and build knowledge base.
 
 ## Usage and detail
-
-Edit set.rose to set the correct PATH to your install and run `. set.rose`.
 
 ### Generate ontology represented database from program
 
