@@ -1,7 +1,7 @@
-ROSE_INS=/home/demo/opt/rose_inst
+ROSE_INS=/home/yzhao30/opt/edg4x-rose-inst
 export ROSE_INS 
 
-BOOST_INS=/home/demo/opt/boost_1.45.0_inst
+BOOST_INS=/home/yzhao30/opt/boost_1.45.0_inst
 export BOOST_INS
 
 PATH=$ROSE_INS/bin:$PATH

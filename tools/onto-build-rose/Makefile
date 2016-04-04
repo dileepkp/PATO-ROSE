@@ -24,9 +24,24 @@ TRANSLATOR = rosePrgKnowledgeBuilder
 TRANSLATOR_EXE = $(TRANSLATOR).exe
 DEP = $(TRANSLATOR).o 
 
+#-------------------------------------------------------------
+# Makefile Targets
+#-------------------------------------------------------------
+
+all : $(TRANSLATOR).exe
+
+# compile the translator and generate an executable
+# -g is recommended to be used by default to enable debugging your code
+# Note: depending on the version of boost, you may have to use something like -I $(BOOST_ROOT)/include/boost-1_40 instead. 
+$(TRANSLATOR).exe : $(TRANSLATOR).cpp
+	$(CC) -o $@ $^ $(CCFLAGS) $(LIBS) $(PLFLAGS)
+
+# test the translator
 TESTDIR = test/
+TESTCODE = test.c
+
 # promote all C files to be cpp files
-TEST_CODES_REQUIRED_TO_PASS = $(addprefix $(TESTDIR), ut.cpp is.cpp templateMax_minimum.cpp templateInheritance.cpp)
+TEST_CODES_REQUIRED_TO_PASS = $(addprefix $(TESTDIR), ut.cpp is.cpp)
 
 TEST_CODES_OWL_RESULTS = $(TEST_CODES_REQUIRED_TO_PASS:.cpp=.cpp.owl) # change .c to .c.owl
 TEST_CODES_TTL_RESULTS = $(TEST_CODES_REQUIRED_TO_PASS:.cpp=.cpp.ttl) 
@@ -42,28 +57,11 @@ $(TEST_CODES_TTL_RESULTS): %.cpp.ttl:%.cpp $(TRANSLATOR).exe
 $(TEST_CODES_PL_RESULTS): %.cpp.pl:%.cpp $(TRANSLATOR).exe
 	./$(TRANSLATOR).exe -emit-pl $@ -c $< 
 
-#-------------------------------------------------------------
-# Makefile Targets
-#-------------------------------------------------------------
-
-all : $(TRANSLATOR).exe
-
-# compile the translator and generate an executable
-# -g is recommended to be used by default to enable debugging your code
-# Note: depending on the version of boost, you may have to use something like -I $(BOOST_ROOT)/include/boost-1_40 instead. 
-$(TRANSLATOR).exe : $(TRANSLATOR).cpp
-	$(CC) -o $@ $^ $(CCFLAGS) $(LIBS) $(PLFLAGS)
-
-.PHONY: test
-test:
-	@echo $(TEST_CODES_REQUIRED_TO_PASS)
-# test the translator
-check: 
-	$(TEST_CODES_OWL_RESULTS) $(TEST_CODES_TTL_RESULTS) $(TEST_CODES_PL_RESULTS)
+check: $(TEST_CODES_OWL_RESULTS) $(TEST_CODES_TTL_RESULTS) $(TEST_CODES_PL_RESULTS)
 
 check-alive:
-	./$(TRANSLATOR).exe -alive true -c $(TESTDIR)/$(TESTCODE)
+	./$(TRANSLATOR).exe -alive true -c $(TESTDIR)$(TESTCODE)
 
 clean:
-	rm -rf $(TRANSLATOR_EXE) *.exe *.o *.c.pl *.dot *_report.txt *.owl *.pl *.ttl
+	rm -rf $(TRANSLATOR_EXE) *.exe *.o $(TESTDIR)*.owl $(TESTDIR)*.pl $(TESTDIR)*.ttl
 

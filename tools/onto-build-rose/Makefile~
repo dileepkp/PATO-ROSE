@@ -9,8 +9,6 @@
 LEVEL=../..
 
 include $(LEVEL)/Makefile.common
-#ROSE_INS=/export/liao6/rose/install
-#BOOST_INS=/export/liao6/opt/boost_1_50_inst
 
 ## Configure
 CC=g++
@@ -26,18 +24,22 @@ TRANSLATOR = rosePrgKnowledgeBuilder
 TRANSLATOR_EXE = $(TRANSLATOR).exe
 DEP = $(TRANSLATOR).o 
 
+#-------------------------------------------------------------
+# Makefile Targets
+#-------------------------------------------------------------
 
-## Input testcode for your translator
-#TESTDIR = .
-#TESTCODE = ut.cc#is.c
-#TESTFLAGS = -emit-ttl $(TESTCODE).ttl
+all : $(TRANSLATOR).exe
 
+# compile the translator and generate an executable
+# -g is recommended to be used by default to enable debugging your code
+# Note: depending on the version of boost, you may have to use something like -I $(BOOST_ROOT)/include/boost-1_40 instead. 
+$(TRANSLATOR).exe : $(TRANSLATOR).cpp
+	$(CC) -o $@ $^ $(CCFLAGS) $(LIBS) $(PLFLAGS)
+
+# test the translator
+TESTDIR = test/
 # promote all C files to be cpp files
-TEST_CODES_REQUIRED_TO_PASS = \
-ut.cpp \
-is.cpp \
-templateMax_minimum.cpp \
-templateInheritance.cpp
+TEST_CODES_REQUIRED_TO_PASS = $(addprefix $(TESTDIR), ut.cpp is.cpp test.c)
 
 TEST_CODES_OWL_RESULTS = $(TEST_CODES_REQUIRED_TO_PASS:.cpp=.cpp.owl) # change .c to .c.owl
 TEST_CODES_TTL_RESULTS = $(TEST_CODES_REQUIRED_TO_PASS:.cpp=.cpp.ttl) 
@@ -52,39 +54,12 @@ $(TEST_CODES_TTL_RESULTS): %.cpp.ttl:%.cpp $(TRANSLATOR).exe
 
 $(TEST_CODES_PL_RESULTS): %.cpp.pl:%.cpp $(TRANSLATOR).exe
 	./$(TRANSLATOR).exe -emit-pl $@ -c $< 
-#-------------------------------------------------------------
-# Makefile Targets
-#-------------------------------------------------------------
 
-all : $(TRANSLATOR).exe
-
-# compile the translator and generate an executable
-# -g is recommended to be used by default to enable debugging your code
-# Note: depending on the version of boost, you may have to use something like -I $(BOOST_ROOT)/include/boost-1_40 instead. 
-$(TRANSLATOR).exe : $(TRANSLATOR).cpp
-	$(CC) -o $@ $^ $(CCFLAGS) $(LIBS) $(PLFLAGS)
-
-#$(TRANSLATOR).o : $(TRANSLATOR).cpp
-#	$(CC) -c -o $@ $< $(CCFLAGS) $(LIBS) $(PLFLAGS)
-
-# test the translator
 check: $(TEST_CODES_OWL_RESULTS) $(TEST_CODES_TTL_RESULTS) $(TEST_CODES_PL_RESULTS)
-#check:$(TESTCODE).ttl $(TESTCODE).owl $(TESTCODE).pl
-#$(TESTCODE).ttl:$(TRANSLATOR).exe
-#	./$(TRANSLATOR).exe -emit-ttl $@ -c $(TESTDIR)/$(TESTCODE) 
-#	
-#$(TESTCODE).owl:$(TRANSLATOR).exe
-#	./$(TRANSLATOR).exe -emit-owl $@ -c $(TESTDIR)/$(TESTCODE) 
-#
-#$(TESTCODE).pl:$(TRANSLATOR).exe
-#	./$(TRANSLATOR).exe -emit-pl $@ -c $(TESTDIR)/$(TESTCODE) 
 
 check-alive:
-	./$(TRANSLATOR).exe -alive true -c $(TESTDIR)/$(TESTCODE)
-	
-#check-owl: $(TESTCODE).owl
+	./$(TRANSLATOR).exe -alive true -c $(TESTDIR)$(TESTCODE)
 
-	
 clean:
-	rm -rf $(TRANSLATOR_EXE) *.exe *.o *.c.pl *.dot *_report.txt *.owl *.pl *.ttl
+	rm -rf $(TRANSLATOR_EXE) *.exe *.o $(TESTDIR)*.owl $(TESTDIR)*.pl $(TESTDIR)*.ttl
 
