@@ -35,21 +35,21 @@ for generating different format of the ontology (owl, ttl, pl).
 
 1. Generate knowledge base from program, represented as ontology or linked data
 
-	$ rosePrgKnowledgeBuilder.exe -c -w -emit-owl out.owl input.c [-I/extra-include-dir]
+		$ rosePrgKnowledgeBuilder.exe -c -w -emit-owl out.owl input.c [-I/extra-include-dir]
 
 2. Run a program analysis based on logic inference (as Prolog script)
 
-Canonical Loop
+	Canonical Loop
 
-	$ swipl --nosignal --quiet projects/canonicalloop/run.pl out.owl report.txt
+		$ swipl --nosignal --quiet projects/canonicalloop/run.pl out.owl report.txt
 
-or CFG
+	or CFG
 
-	$ swipl --nosignal --quiet projects/cfg/run.pl out.owl report.txt
+		$ swipl --nosignal --quiet projects/cfg/run.pl out.owl report.txt
 
 ## See Also
 
 Another sub-project implementing the pointer analysis is in
- [repository](https://github.com/yzhao30/PATO-Pointer-Analysis). If you want to
- extend the project, that one is recommended. We shift the C program parser to
+ [repository](https://github.com/yzhao30/PATO-Pointer-Analysis). If you are interested in
+ extending the project, that one is recommended. We shift the C program parser to
  more popular Clang.
