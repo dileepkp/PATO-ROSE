@@ -1,0 +1,11 @@
+ROSE_INS=/home/yzhao30/opt/edg4x-rose-inst
+export ROSE_INS 
+
+BOOST_INS=/home/yzhao30/opt/boost_1.45.0_inst
+export BOOST_INS
+
+PATH=$ROSE_INS/bin:$PATH
+export PATH
+
+LD_LIBRARY_PATH=$ROSE_INS/lib:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH

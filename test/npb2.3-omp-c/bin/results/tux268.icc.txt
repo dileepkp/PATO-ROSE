@@ -1,0 +1,5284 @@
+//////////////////////////
+set OpenMP threads to be 1
+//////////////////////////
+Tue Jan 12 14:22:21 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  64x 64x 64
+ Iterations: 200   dt:   0.000800
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class A
+ accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0 1.0806346714637e+02 1.0806346714637e+02 4.8656742037554e-15
+           1 1.1319730901221e+01 1.1319730901221e+01 6.1201027958304e-15
+           2 2.5974354511583e+01 2.5974354511582e+01 7.7963315547005e-15
+           3 2.3665622544679e+01 2.3665622544679e+01 1.1709460269776e-14
+           4 2.5278963211748e+02 2.5278963211748e+02 1.6864838873531e-15
+ Comparison of RMS-norms of solution error
+           0 4.2348416040526e+00 4.2348416040525e+00 1.4261721732830e-14
+           1 4.4390282496995e-01 4.4390282496996e-01 1.1754933562523e-14
+           2 9.6692480136345e-01 9.6692480136346e-01 5.1668998496764e-15
+           3 8.8302063039765e-01 8.8302063039765e-01 7.7952683275091e-15
+           4 9.7379901770830e+00 9.7379901770829e+00 5.4724541936200e-15
+ Verification Successful
+
+
+ BT Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      200
+ Threads         =                        1
+ Time in seconds =                   194.68
+ Mop/s total     =                   864.43
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = (none)
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  64x 64x 64
+ Iterations: 200   dt:   0.000800
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class A
+ accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0 1.0806346714637e+02 1.0806346714637e+02 4.8656742037554e-15
+           1 1.1319730901221e+01 1.1319730901221e+01 6.1201027958304e-15
+           2 2.5974354511583e+01 2.5974354511582e+01 7.7963315547005e-15
+           3 2.3665622544679e+01 2.3665622544679e+01 1.1709460269776e-14
+           4 2.5278963211748e+02 2.5278963211748e+02 1.6864838873531e-15
+ Comparison of RMS-norms of solution error
+           0 4.2348416040526e+00 4.2348416040525e+00 1.4261721732830e-14
+           1 4.4390282496995e-01 4.4390282496996e-01 1.1754933562523e-14
+           2 9.6692480136345e-01 9.6692480136346e-01 5.1668998496764e-15
+           3 8.8302063039765e-01 8.8302063039765e-01 7.7952683275091e-15
+           4 9.7379901770830e+00 9.7379901770829e+00 5.4724541936200e-15
+ Verification Successful
+
+
+ BT Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      200
+ Threads         =                        1
+ Time in seconds =                   195.43
+ Mop/s total     =                   861.08
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = (none)
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  64x 64x 64
+ Iterations: 200   dt:   0.000800
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class A
+ accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0 1.0806346714637e+02 1.0806346714637e+02 4.8656742037554e-15
+           1 1.1319730901221e+01 1.1319730901221e+01 6.1201027958304e-15
+           2 2.5974354511583e+01 2.5974354511582e+01 7.7963315547005e-15
+           3 2.3665622544679e+01 2.3665622544679e+01 1.1709460269776e-14
+           4 2.5278963211748e+02 2.5278963211748e+02 1.6864838873531e-15
+ Comparison of RMS-norms of solution error
+           0 4.2348416040526e+00 4.2348416040525e+00 1.4261721732830e-14
+           1 4.4390282496995e-01 4.4390282496996e-01 1.1754933562523e-14
+           2 9.6692480136345e-01 9.6692480136346e-01 5.1668998496764e-15
+           3 8.8302063039765e-01 8.8302063039765e-01 7.7952683275091e-15
+           4 9.7379901770830e+00 9.7379901770829e+00 5.4724541936200e-15
+ Verification Successful
+
+
+ BT Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      200
+ Threads         =                        1
+ Time in seconds =                   196.26
+ Mop/s total     =                   857.47
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = (none)
+Tue Jan 12 14:32:12 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - CG Benchmark
+ Size:      14000
+ Iterations:    15
+   iteration           ||r||                 zeta
+        1       2.81200644451055e-13 1.9999758127704e+01
+        2       2.68623238681147e-15 1.7114049574551e+01
+        3       2.66974666149572e-15 1.7129666894614e+01
+        4       2.67955474004549e-15 1.7130211358119e+01
+        5       2.63744220626303e-15 1.7130233885635e+01
+        6       2.65710505670700e-15 1.7130234987948e+01
+        7       2.67066732908953e-15 1.7130235049892e+01
+        8       2.60724413226556e-15 1.7130235053751e+01
+        9       2.63022405188413e-15 1.7130235054010e+01
+       10       2.61569173495571e-15 1.7130235054028e+01
+       11       2.62634936723501e-15 1.7130235054030e+01
+       12       2.62169962940300e-15 1.7130235054030e+01
+       13       2.63937212926246e-15 1.7130235054030e+01
+       14       2.54355657112260e-15 1.7130235054030e+01
+       15       2.52432934110331e-15 1.7130235054030e+01
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ Zeta is      1.713023505403e+01
+ Error is     9.059419880941e-13
+
+
+ CG Benchmark Completed
+ Class           =                        A
+ Size            =                    14000
+ Iterations      =                       15
+ Threads         =                        1
+ Time in seconds =                     3.54
+ Mop/s total     =                   422.15
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - CG Benchmark
+ Size:      14000
+ Iterations:    15
+   iteration           ||r||                 zeta
+        1       2.81200644451055e-13 1.9999758127704e+01
+        2       2.68623238681147e-15 1.7114049574551e+01
+        3       2.66974666149572e-15 1.7129666894614e+01
+        4       2.67955474004549e-15 1.7130211358119e+01
+        5       2.63744220626303e-15 1.7130233885635e+01
+        6       2.65710505670700e-15 1.7130234987948e+01
+        7       2.67066732908953e-15 1.7130235049892e+01
+        8       2.60724413226556e-15 1.7130235053751e+01
+        9       2.63022405188413e-15 1.7130235054010e+01
+       10       2.61569173495571e-15 1.7130235054028e+01
+       11       2.62634936723501e-15 1.7130235054030e+01
+       12       2.62169962940300e-15 1.7130235054030e+01
+       13       2.63937212926246e-15 1.7130235054030e+01
+       14       2.54355657112260e-15 1.7130235054030e+01
+       15       2.52432934110331e-15 1.7130235054030e+01
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ Zeta is      1.713023505403e+01
+ Error is     9.059419880941e-13
+
+
+ CG Benchmark Completed
+ Class           =                        A
+ Size            =                    14000
+ Iterations      =                       15
+ Threads         =                        1
+ Time in seconds =                     3.48
+ Mop/s total     =                   429.45
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - CG Benchmark
+ Size:      14000
+ Iterations:    15
+   iteration           ||r||                 zeta
+        1       2.81200644451055e-13 1.9999758127704e+01
+        2       2.68623238681147e-15 1.7114049574551e+01
+        3       2.66974666149572e-15 1.7129666894614e+01
+        4       2.67955474004549e-15 1.7130211358119e+01
+        5       2.63744220626303e-15 1.7130233885635e+01
+        6       2.65710505670700e-15 1.7130234987948e+01
+        7       2.67066732908953e-15 1.7130235049892e+01
+        8       2.60724413226556e-15 1.7130235053751e+01
+        9       2.63022405188413e-15 1.7130235054010e+01
+       10       2.61569173495571e-15 1.7130235054028e+01
+       11       2.62634936723501e-15 1.7130235054030e+01
+       12       2.62169962940300e-15 1.7130235054030e+01
+       13       2.63937212926246e-15 1.7130235054030e+01
+       14       2.54355657112260e-15 1.7130235054030e+01
+       15       2.52432934110331e-15 1.7130235054030e+01
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ Zeta is      1.713023505403e+01
+ Error is     9.059419880941e-13
+
+
+ CG Benchmark Completed
+ Class           =                        A
+ Size            =                    14000
+ Iterations      =                       15
+ Threads         =                        1
+ Time in seconds =                     3.49
+ Mop/s total     =                   428.23
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randdp
+Tue Jan 12 14:32:25 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - EP Benchmark
+ Number of random numbers generated:     536870912
+Debug: 231, sx is:-4295.875166, sy is:-15807.325737
+EP Benchmark Results: 
+CPU Time =    22.0091
+N = 2^   28
+No. Gaussian Pairs =       210832767
+Sums =    -4.295875165629885e+03    -1.580732573678432e+04
+Counts:
+  0        98257395
+  1        93827014
+  2        17611549
+  3         1110028
+  4           26536
+  5             245
+  6               0
+  7               0
+  8               0
+  9               0
+
+
+ EP Benchmark Completed
+ Class           =                        A
+ Size            =                       29
+ Iterations      =                        0
+ Threads         =                        1
+ Time in seconds =                    22.01
+ Mop/s total     =                    24.39
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - EP Benchmark
+ Number of random numbers generated:     536870912
+Debug: 231, sx is:-4295.875166, sy is:-15807.325737
+EP Benchmark Results: 
+CPU Time =    22.0735
+N = 2^   28
+No. Gaussian Pairs =       210832767
+Sums =    -4.295875165629885e+03    -1.580732573678432e+04
+Counts:
+  0        98257395
+  1        93827014
+  2        17611549
+  3         1110028
+  4           26536
+  5             245
+  6               0
+  7               0
+  8               0
+  9               0
+
+
+ EP Benchmark Completed
+ Class           =                        A
+ Size            =                       29
+ Iterations      =                        0
+ Threads         =                        1
+ Time in seconds =                    22.07
+ Mop/s total     =                    24.32
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - EP Benchmark
+ Number of random numbers generated:     536870912
+Debug: 231, sx is:-4295.875166, sy is:-15807.325737
+EP Benchmark Results: 
+CPU Time =    21.5009
+N = 2^   28
+No. Gaussian Pairs =       210832767
+Sums =    -4.295875165629885e+03    -1.580732573678432e+04
+Counts:
+  0        98257395
+  1        93827014
+  2        17611549
+  3         1110028
+  4           26536
+  5             245
+  6               0
+  7               0
+  8               0
+  9               0
+
+
+ EP Benchmark Completed
+ Class           =                        A
+ Size            =                       29
+ Iterations      =                        0
+ Threads         =                        1
+ Time in seconds =                    21.50
+ Mop/s total     =                    24.97
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randdp
+Tue Jan 12 14:33:30 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - FT Benchmark
+
+ Size                : 256x256x128
+ Iterations          :           6
+T =     1     Checksum =     5.046735008193e+02     5.114047905510e+02
+T =     2     Checksum =     5.059412319734e+02     5.098809666433e+02
+T =     3     Checksum =     5.069376896287e+02     5.098144042213e+02
+T =     4     Checksum =     5.077892868474e+02     5.101336130759e+02
+T =     5     Checksum =     5.085233095391e+02     5.104914655194e+02
+T =     6     Checksum =     5.091487099959e+02     5.107917842803e+02
+Result verification successful
+cclass = A
+
+
+ FT Benchmark Completed
+ Class           =                        A
+ Size            =              256x256x128
+ Iterations      =                        6
+ Threads         =                        1
+ Time in seconds =                     6.52
+ Mop/s total     =                  1095.07
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - FT Benchmark
+
+ Size                : 256x256x128
+ Iterations          :           6
+T =     1     Checksum =     5.046735008193e+02     5.114047905510e+02
+T =     2     Checksum =     5.059412319734e+02     5.098809666433e+02
+T =     3     Checksum =     5.069376896287e+02     5.098144042213e+02
+T =     4     Checksum =     5.077892868474e+02     5.101336130759e+02
+T =     5     Checksum =     5.085233095391e+02     5.104914655194e+02
+T =     6     Checksum =     5.091487099959e+02     5.107917842803e+02
+Result verification successful
+cclass = A
+
+
+ FT Benchmark Completed
+ Class           =                        A
+ Size            =              256x256x128
+ Iterations      =                        6
+ Threads         =                        1
+ Time in seconds =                     6.52
+ Mop/s total     =                  1094.49
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - FT Benchmark
+
+ Size                : 256x256x128
+ Iterations          :           6
+T =     1     Checksum =     5.046735008193e+02     5.114047905510e+02
+T =     2     Checksum =     5.059412319734e+02     5.098809666433e+02
+T =     3     Checksum =     5.069376896287e+02     5.098144042213e+02
+T =     4     Checksum =     5.077892868474e+02     5.101336130759e+02
+T =     5     Checksum =     5.085233095391e+02     5.104914655194e+02
+T =     6     Checksum =     5.091487099959e+02     5.107917842803e+02
+Result verification successful
+cclass = A
+
+
+ FT Benchmark Completed
+ Class           =                        A
+ Size            =              256x256x128
+ Iterations      =                        6
+ Threads         =                        1
+ Time in seconds =                     6.54
+ Mop/s total     =                  1091.06
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randdp
+Tue Jan 12 14:33:57 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - IS Benchmark
+
+ Size:  8388608  (class A)
+ Iterations:   10
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        A
+ Size            =                  8388608
+ Iterations      =                       10
+ Threads         =                        1
+ Time in seconds =                     0.55
+ Mop/s total     =                   152.03
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randlc2
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - IS Benchmark
+
+ Size:  8388608  (class A)
+ Iterations:   10
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        A
+ Size            =                  8388608
+ Iterations      =                       10
+ Threads         =                        1
+ Time in seconds =                     0.55
+ Mop/s total     =                   153.30
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randlc2
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - IS Benchmark
+
+ Size:  8388608  (class A)
+ Iterations:   10
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        A
+ Size            =                  8388608
+ Iterations      =                       10
+ Threads         =                        1
+ Time in seconds =                     0.55
+ Mop/s total     =                   152.55
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randlc2
+Tue Jan 12 14:34:04 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - LU Benchmark
+
+ Size:  64x 64x 64
+ Iterations: 250
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  250
+
+ Verification being performed for cclass A
+ Accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0   7.7902107606689e+02 7.7902107606689e+02 4.6699363070625e-15
+           1   6.3402765259692e+01 6.3402765259693e+01 7.3964945169323e-15
+           2   1.9499249727292e+02 1.9499249727292e+02 9.7657835992107e-15
+           3   1.7845301160419e+02 1.7845301160419e+02 2.3890078268988e-15
+           4   1.8384760349464e+03 1.8384760349464e+03 8.4099056154356e-15
+ Comparison of RMS-norms of solution error
+           0   2.9964085685472e+01 2.9964085685472e+01 8.2996010666400e-15
+           1   2.8194576365004e+00 2.8194576365003e+00 1.0238067870416e-14
+           2   7.3473412698776e+00 7.3473412698775e+00 1.3539044853442e-14
+           3   6.7139225687777e+00 6.7139225687777e+00 3.5718042748100e-15
+           4   7.0715315688391e+01 7.0715315688393e+01 2.2708327993527e-14
+ Comparison of surface integral
+               2.6030925604886e+01 2.6030925604886e+01 1.3648049757146e-15
+ Verification Successful
+
+
+ LU Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      250
+ Threads         =                        1
+ Time in seconds =                    93.70
+ Mop/s total     =                  1273.12
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = (none)
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - LU Benchmark
+
+ Size:  64x 64x 64
+ Iterations: 250
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  250
+
+ Verification being performed for cclass A
+ Accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0   7.7902107606689e+02 7.7902107606689e+02 4.6699363070625e-15
+           1   6.3402765259692e+01 6.3402765259693e+01 7.3964945169323e-15
+           2   1.9499249727292e+02 1.9499249727292e+02 9.7657835992107e-15
+           3   1.7845301160419e+02 1.7845301160419e+02 2.3890078268988e-15
+           4   1.8384760349464e+03 1.8384760349464e+03 8.4099056154356e-15
+ Comparison of RMS-norms of solution error
+           0   2.9964085685472e+01 2.9964085685472e+01 8.2996010666400e-15
+           1   2.8194576365004e+00 2.8194576365003e+00 1.0238067870416e-14
+           2   7.3473412698776e+00 7.3473412698775e+00 1.3539044853442e-14
+           3   6.7139225687777e+00 6.7139225687777e+00 3.5718042748100e-15
+           4   7.0715315688391e+01 7.0715315688393e+01 2.2708327993527e-14
+ Comparison of surface integral
+               2.6030925604886e+01 2.6030925604886e+01 1.3648049757146e-15
+ Verification Successful
+
+
+ LU Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      250
+ Threads         =                        1
+ Time in seconds =                    95.46
+ Mop/s total     =                  1249.67
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = (none)
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - LU Benchmark
+
+ Size:  64x 64x 64
+ Iterations: 250
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  250
+
+ Verification being performed for cclass A
+ Accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0   7.7902107606689e+02 7.7902107606689e+02 4.6699363070625e-15
+           1   6.3402765259692e+01 6.3402765259693e+01 7.3964945169323e-15
+           2   1.9499249727292e+02 1.9499249727292e+02 9.7657835992107e-15
+           3   1.7845301160419e+02 1.7845301160419e+02 2.3890078268988e-15
+           4   1.8384760349464e+03 1.8384760349464e+03 8.4099056154356e-15
+ Comparison of RMS-norms of solution error
+           0   2.9964085685472e+01 2.9964085685472e+01 8.2996010666400e-15
+           1   2.8194576365004e+00 2.8194576365003e+00 1.0238067870416e-14
+           2   7.3473412698776e+00 7.3473412698775e+00 1.3539044853442e-14
+           3   6.7139225687777e+00 6.7139225687777e+00 3.5718042748100e-15
+           4   7.0715315688391e+01 7.0715315688393e+01 2.2708327993527e-14
+ Comparison of surface integral
+               2.6030925604886e+01 2.6030925604886e+01 1.3648049757146e-15
+ Verification Successful
+
+
+ LU Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      250
+ Threads         =                        1
+ Time in seconds =                    97.36
+ Mop/s total     =                  1225.26
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = (none)
+Tue Jan 12 14:38:51 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - MG Benchmark
+
+ No input file. Using compiled defaults
+ Size: 256x256x256 (class A)
+ Iterations:   4
+ Initialization time:           2.633 seconds
+ Benchmark completed
+ VERIFICATION FAILED
+ L2 Norm is               3.974422534428e-06
+ The correct L2 Norm is   2.433365309000e-06
+
+
+ MG Benchmark Completed
+ Class           =                        A
+ Size            =              256x256x256
+ Iterations      =                        4
+ Threads         =                        1
+ Time in seconds =                     3.08
+ Mop/s total     =                  1264.43
+ Operation type  =           floating point
+ Verification    =             UNSUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - MG Benchmark
+
+ No input file. Using compiled defaults
+ Size: 256x256x256 (class A)
+ Iterations:   4
+ Initialization time:           2.624 seconds
+ Benchmark completed
+ VERIFICATION FAILED
+ L2 Norm is               3.974422534428e-06
+ The correct L2 Norm is   2.433365309000e-06
+
+
+ MG Benchmark Completed
+ Class           =                        A
+ Size            =              256x256x256
+ Iterations      =                        4
+ Threads         =                        1
+ Time in seconds =                     3.07
+ Mop/s total     =                  1268.36
+ Operation type  =           floating point
+ Verification    =             UNSUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - MG Benchmark
+
+ No input file. Using compiled defaults
+ Size: 256x256x256 (class A)
+ Iterations:   4
+ Initialization time:           2.628 seconds
+ Benchmark completed
+ VERIFICATION FAILED
+ L2 Norm is               3.974422534428e-06
+ The correct L2 Norm is   2.433365309000e-06
+
+
+ MG Benchmark Completed
+ Class           =                        A
+ Size            =              256x256x256
+ Iterations      =                        4
+ Threads         =                        1
+ Time in seconds =                     3.08
+ Mop/s total     =                  1264.97
+ Operation type  =           floating point
+ Verification    =             UNSUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randdp
+Tue Jan 12 14:39:09 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults Size:  64x 64x 64
+ Iterations: 400   dt:   0.001500
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for cclass A
+ accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0 2.4799822399303e+00 2.4799822399300e+00 1.0081613534161e-13
+           1 1.1276337964369e+00 1.1276337964369e+00 2.0085022082451e-14
+           2 1.5028977888770e+00 1.5028977888770e+00 4.0334198102605e-14
+           3 1.4217816211695e+00 1.4217816211695e+00 7.6525012556969e-15
+           4 2.1292113035138e+00 2.1292113035138e+00 4.3799661365036e-15
+ Comparison of RMS-norms of solution error
+           0 1.0900140297816e-04 1.0900140297821e-04 3.8630421924317e-13
+           1 3.7343951769284e-05 3.7343951769282e-05 5.7339922241980e-14
+           2 5.0092785406537e-05 5.0092785406542e-05 8.7792983090336e-14
+           3 4.7671093939536e-05 4.7671093939528e-05 1.6986467703097e-13
+           4 1.3621613399215e-04 1.3621613399213e-04 1.8207185866132e-13
+ Verification Successful
+
+
+ SP Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      400
+ Threads         =                        1
+ Time in seconds =                   123.78
+ Mop/s total     =                   686.81
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = (none)
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults Size:  64x 64x 64
+ Iterations: 400   dt:   0.001500
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for cclass A
+ accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0 2.4799822399303e+00 2.4799822399300e+00 1.0081613534161e-13
+           1 1.1276337964369e+00 1.1276337964369e+00 2.0085022082451e-14
+           2 1.5028977888770e+00 1.5028977888770e+00 4.0334198102605e-14
+           3 1.4217816211695e+00 1.4217816211695e+00 7.6525012556969e-15
+           4 2.1292113035138e+00 2.1292113035138e+00 4.3799661365036e-15
+ Comparison of RMS-norms of solution error
+           0 1.0900140297816e-04 1.0900140297821e-04 3.8630421924317e-13
+           1 3.7343951769284e-05 3.7343951769282e-05 5.7339922241980e-14
+           2 5.0092785406537e-05 5.0092785406542e-05 8.7792983090336e-14
+           3 4.7671093939536e-05 4.7671093939528e-05 1.6986467703097e-13
+           4 1.3621613399215e-04 1.3621613399213e-04 1.8207185866132e-13
+ Verification Successful
+
+
+ SP Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      400
+ Threads         =                        1
+ Time in seconds =                   123.46
+ Mop/s total     =                   688.55
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = (none)
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults Size:  64x 64x 64
+ Iterations: 400   dt:   0.001500
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for cclass A
+ accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0 2.4799822399303e+00 2.4799822399300e+00 1.0081613534161e-13
+           1 1.1276337964369e+00 1.1276337964369e+00 2.0085022082451e-14
+           2 1.5028977888770e+00 1.5028977888770e+00 4.0334198102605e-14
+           3 1.4217816211695e+00 1.4217816211695e+00 7.6525012556969e-15
+           4 2.1292113035138e+00 2.1292113035138e+00 4.3799661365036e-15
+ Comparison of RMS-norms of solution error
+           0 1.0900140297816e-04 1.0900140297821e-04 3.8630421924317e-13
+           1 3.7343951769284e-05 3.7343951769282e-05 5.7339922241980e-14
+           2 5.0092785406537e-05 5.0092785406542e-05 8.7792983090336e-14
+           3 4.7671093939536e-05 4.7671093939528e-05 1.6986467703097e-13
+           4 1.3621613399215e-04 1.3621613399213e-04 1.8207185866132e-13
+ Verification Successful
+
+
+ SP Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      400
+ Threads         =                        1
+ Time in seconds =                   123.53
+ Mop/s total     =                   688.19
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = (none)
+//////////////////////////
+set OpenMP threads to be 2
+//////////////////////////
+Tue Jan 12 14:45:22 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  64x 64x 64
+ Iterations: 200   dt:   0.000800
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class A
+ accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0 1.0806346714637e+02 1.0806346714637e+02 4.8656742037554e-15
+           1 1.1319730901221e+01 1.1319730901221e+01 6.1201027958304e-15
+           2 2.5974354511583e+01 2.5974354511582e+01 7.7963315547005e-15
+           3 2.3665622544679e+01 2.3665622544679e+01 1.1709460269776e-14
+           4 2.5278963211748e+02 2.5278963211748e+02 1.6864838873531e-15
+ Comparison of RMS-norms of solution error
+           0 4.2348416040526e+00 4.2348416040525e+00 1.4261721732830e-14
+           1 4.4390282496995e-01 4.4390282496996e-01 1.1754933562523e-14
+           2 9.6692480136345e-01 9.6692480136346e-01 5.1668998496764e-15
+           3 8.8302063039765e-01 8.8302063039765e-01 7.7952683275091e-15
+           4 9.7379901770830e+00 9.7379901770829e+00 5.4724541936200e-15
+ Verification Successful
+
+
+ BT Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      200
+ Threads         =                        2
+ Time in seconds =                   117.96
+ Mop/s total     =                  1426.67
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = (none)
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  64x 64x 64
+ Iterations: 200   dt:   0.000800
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class A
+ accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0 1.0806346714637e+02 1.0806346714637e+02 4.8656742037554e-15
+           1 1.1319730901221e+01 1.1319730901221e+01 6.1201027958304e-15
+           2 2.5974354511583e+01 2.5974354511582e+01 7.7963315547005e-15
+           3 2.3665622544679e+01 2.3665622544679e+01 1.1709460269776e-14
+           4 2.5278963211748e+02 2.5278963211748e+02 1.6864838873531e-15
+ Comparison of RMS-norms of solution error
+           0 4.2348416040526e+00 4.2348416040525e+00 1.4261721732830e-14
+           1 4.4390282496995e-01 4.4390282496996e-01 1.1754933562523e-14
+           2 9.6692480136345e-01 9.6692480136346e-01 5.1668998496764e-15
+           3 8.8302063039765e-01 8.8302063039765e-01 7.7952683275091e-15
+           4 9.7379901770830e+00 9.7379901770829e+00 5.4724541936200e-15
+ Verification Successful
+
+
+ BT Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      200
+ Threads         =                        2
+ Time in seconds =                   114.05
+ Mop/s total     =                  1475.58
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = (none)
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  64x 64x 64
+ Iterations: 200   dt:   0.000800
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class A
+ accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0 1.0806346714637e+02 1.0806346714637e+02 4.8656742037554e-15
+           1 1.1319730901221e+01 1.1319730901221e+01 6.1201027958304e-15
+           2 2.5974354511583e+01 2.5974354511582e+01 7.7963315547005e-15
+           3 2.3665622544679e+01 2.3665622544679e+01 1.1709460269776e-14
+           4 2.5278963211748e+02 2.5278963211748e+02 1.6864838873531e-15
+ Comparison of RMS-norms of solution error
+           0 4.2348416040526e+00 4.2348416040525e+00 1.4261721732830e-14
+           1 4.4390282496995e-01 4.4390282496996e-01 1.1754933562523e-14
+           2 9.6692480136345e-01 9.6692480136346e-01 5.1668998496764e-15
+           3 8.8302063039765e-01 8.8302063039765e-01 7.7952683275091e-15
+           4 9.7379901770830e+00 9.7379901770829e+00 5.4724541936200e-15
+ Verification Successful
+
+
+ BT Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      200
+ Threads         =                        2
+ Time in seconds =                   103.05
+ Mop/s total     =                  1632.98
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = (none)
+Tue Jan 12 14:51:00 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - CG Benchmark
+ Size:      14000
+ Iterations:    15
+   iteration           ||r||                 zeta
+        1       2.78624862510063e-13 1.9999758127704e+01
+        2       2.66398270692186e-15 1.7114049574551e+01
+        3       2.69937671205264e-15 1.7129666894614e+01
+        4       2.66314998248641e-15 1.7130211358119e+01
+        5       2.66046023837318e-15 1.7130233885635e+01
+        6       2.64740519612322e-15 1.7130234987948e+01
+        7       2.67908798184554e-15 1.7130235049892e+01
+        8       2.63791975345099e-15 1.7130235053751e+01
+        9       2.61662646909409e-15 1.7130235054010e+01
+       10       2.61082896641952e-15 1.7130235054028e+01
+       11       2.57200885096277e-15 1.7130235054030e+01
+       12       2.62027607436698e-15 1.7130235054030e+01
+       13       2.58859610164184e-15 1.7130235054030e+01
+       14       2.55817601678713e-15 1.7130235054030e+01
+       15       2.50128983622859e-15 1.7130235054030e+01
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ Zeta is      1.713023505403e+01
+ Error is     8.952838470577e-13
+
+
+ CG Benchmark Completed
+ Class           =                        A
+ Size            =                    14000
+ Iterations      =                       15
+ Threads         =                        2
+ Time in seconds =                     1.81
+ Mop/s total     =                   827.44
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - CG Benchmark
+ Size:      14000
+ Iterations:    15
+   iteration           ||r||                 zeta
+        1       2.78624862510063e-13 1.9999758127704e+01
+        2       2.66398270692186e-15 1.7114049574551e+01
+        3       2.69937671205264e-15 1.7129666894614e+01
+        4       2.66314998248641e-15 1.7130211358119e+01
+        5       2.66046023837318e-15 1.7130233885635e+01
+        6       2.64740519612322e-15 1.7130234987948e+01
+        7       2.67908798184554e-15 1.7130235049892e+01
+        8       2.63791975345099e-15 1.7130235053751e+01
+        9       2.61662646909409e-15 1.7130235054010e+01
+       10       2.61082896641952e-15 1.7130235054028e+01
+       11       2.57200885096277e-15 1.7130235054030e+01
+       12       2.62027607436698e-15 1.7130235054030e+01
+       13       2.58859610164184e-15 1.7130235054030e+01
+       14       2.55817601678713e-15 1.7130235054030e+01
+       15       2.50128983622859e-15 1.7130235054030e+01
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ Zeta is      1.713023505403e+01
+ Error is     8.952838470577e-13
+
+
+ CG Benchmark Completed
+ Class           =                        A
+ Size            =                    14000
+ Iterations      =                       15
+ Threads         =                        2
+ Time in seconds =                     1.80
+ Mop/s total     =                   829.22
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - CG Benchmark
+ Size:      14000
+ Iterations:    15
+   iteration           ||r||                 zeta
+        1       2.78624862510063e-13 1.9999758127704e+01
+        2       2.66398270692186e-15 1.7114049574551e+01
+        3       2.69937671205264e-15 1.7129666894614e+01
+        4       2.66314998248641e-15 1.7130211358119e+01
+        5       2.66046023837318e-15 1.7130233885635e+01
+        6       2.64740519612322e-15 1.7130234987948e+01
+        7       2.67908798184554e-15 1.7130235049892e+01
+        8       2.63791975345099e-15 1.7130235053751e+01
+        9       2.61662646909409e-15 1.7130235054010e+01
+       10       2.61082896641952e-15 1.7130235054028e+01
+       11       2.57200885096277e-15 1.7130235054030e+01
+       12       2.62027607436698e-15 1.7130235054030e+01
+       13       2.58859610164184e-15 1.7130235054030e+01
+       14       2.55817601678713e-15 1.7130235054030e+01
+       15       2.50128983622859e-15 1.7130235054030e+01
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ Zeta is      1.713023505403e+01
+ Error is     8.952838470577e-13
+
+
+ CG Benchmark Completed
+ Class           =                        A
+ Size            =                    14000
+ Iterations      =                       15
+ Threads         =                        2
+ Time in seconds =                     2.72
+ Mop/s total     =                   549.97
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randdp
+Tue Jan 12 14:51:08 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - EP Benchmark
+ Number of random numbers generated:     536870912
+Debug: 231, sx is:-4295.875166, sy is:-15807.325737
+EP Benchmark Results: 
+CPU Time =    10.7515
+N = 2^   28
+No. Gaussian Pairs =       210832767
+Sums =    -4.295875165638687e+03    -1.580732573678578e+04
+Counts:
+  0        98257395
+  1        93827014
+  2        17611549
+  3         1110028
+  4           26536
+  5             245
+  6               0
+  7               0
+  8               0
+  9               0
+
+
+ EP Benchmark Completed
+ Class           =                        A
+ Size            =                       29
+ Iterations      =                        0
+ Threads         =                        2
+ Time in seconds =                    10.75
+ Mop/s total     =                    49.93
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - EP Benchmark
+ Number of random numbers generated:     536870912
+Debug: 231, sx is:-4295.875166, sy is:-15807.325737
+EP Benchmark Results: 
+CPU Time =    10.7470
+N = 2^   28
+No. Gaussian Pairs =       210832767
+Sums =    -4.295875165638687e+03    -1.580732573678578e+04
+Counts:
+  0        98257395
+  1        93827014
+  2        17611549
+  3         1110028
+  4           26536
+  5             245
+  6               0
+  7               0
+  8               0
+  9               0
+
+
+ EP Benchmark Completed
+ Class           =                        A
+ Size            =                       29
+ Iterations      =                        0
+ Threads         =                        2
+ Time in seconds =                    10.75
+ Mop/s total     =                    49.96
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - EP Benchmark
+ Number of random numbers generated:     536870912
+Debug: 231, sx is:-4295.875166, sy is:-15807.325737
+EP Benchmark Results: 
+CPU Time =    10.7542
+N = 2^   28
+No. Gaussian Pairs =       210832767
+Sums =    -4.295875165638687e+03    -1.580732573678578e+04
+Counts:
+  0        98257395
+  1        93827014
+  2        17611549
+  3         1110028
+  4           26536
+  5             245
+  6               0
+  7               0
+  8               0
+  9               0
+
+
+ EP Benchmark Completed
+ Class           =                        A
+ Size            =                       29
+ Iterations      =                        0
+ Threads         =                        2
+ Time in seconds =                    10.75
+ Mop/s total     =                    49.92
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randdp
+Tue Jan 12 14:51:41 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - FT Benchmark
+
+ Size                : 256x256x128
+ Iterations          :           6
+T =     1     Checksum =     5.046735008193e+02     5.114047905510e+02
+T =     2     Checksum =     5.059412319734e+02     5.098809666433e+02
+T =     3     Checksum =     5.069376896287e+02     5.098144042213e+02
+T =     4     Checksum =     5.077892868474e+02     5.101336130759e+02
+T =     5     Checksum =     5.085233095391e+02     5.104914655194e+02
+T =     6     Checksum =     5.091487099959e+02     5.107917842803e+02
+Result verification successful
+cclass = A
+
+
+ FT Benchmark Completed
+ Class           =                        A
+ Size            =              256x256x128
+ Iterations      =                        6
+ Threads         =                        2
+ Time in seconds =                     4.25
+ Mop/s total     =                  1677.37
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - FT Benchmark
+
+ Size                : 256x256x128
+ Iterations          :           6
+T =     1     Checksum =     5.046735008193e+02     5.114047905510e+02
+T =     2     Checksum =     5.059412319734e+02     5.098809666433e+02
+T =     3     Checksum =     5.069376896287e+02     5.098144042213e+02
+T =     4     Checksum =     5.077892868474e+02     5.101336130759e+02
+T =     5     Checksum =     5.085233095391e+02     5.104914655194e+02
+T =     6     Checksum =     5.091487099959e+02     5.107917842803e+02
+Result verification successful
+cclass = A
+
+
+ FT Benchmark Completed
+ Class           =                        A
+ Size            =              256x256x128
+ Iterations      =                        6
+ Threads         =                        2
+ Time in seconds =                     3.65
+ Mop/s total     =                  1955.35
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - FT Benchmark
+
+ Size                : 256x256x128
+ Iterations          :           6
+T =     1     Checksum =     5.046735008193e+02     5.114047905510e+02
+T =     2     Checksum =     5.059412319734e+02     5.098809666433e+02
+T =     3     Checksum =     5.069376896287e+02     5.098144042213e+02
+T =     4     Checksum =     5.077892868474e+02     5.101336130759e+02
+T =     5     Checksum =     5.085233095391e+02     5.104914655194e+02
+T =     6     Checksum =     5.091487099959e+02     5.107917842803e+02
+Result verification successful
+cclass = A
+
+
+ FT Benchmark Completed
+ Class           =                        A
+ Size            =              256x256x128
+ Iterations      =                        6
+ Threads         =                        2
+ Time in seconds =                     3.63
+ Mop/s total     =                  1967.66
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randdp
+Tue Jan 12 14:51:56 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - IS Benchmark
+
+ Size:  8388608  (class A)
+ Iterations:   10
+Tue Jan 12 14:51:59 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - LU Benchmark
+
+ Size:  64x 64x 64
+ Iterations: 250
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  250
+
+ Verification being performed for cclass A
+ Accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0   7.7902107606688e+02 7.7902107606689e+02 1.3426066882805e-14
+           1   6.3402765259692e+01 6.3402765259693e+01 6.7240859244839e-15
+           2   1.9499249727292e+02 1.9499249727292e+02 8.5997198858721e-15
+           3   1.7845301160419e+02 1.7845301160419e+02 1.4334046961393e-15
+           4   1.8384760349464e+03 1.8384760349464e+03 1.3356908918633e-14
+ Comparison of RMS-norms of solution error
+           0   2.9964085685472e+01 2.9964085685472e+01 8.2996010666400e-15
+           1   2.8194576365004e+00 2.8194576365003e+00 1.0238067870416e-14
+           2   7.3473412698776e+00 7.3473412698775e+00 1.3539044853442e-14
+           3   6.7139225687777e+00 6.7139225687777e+00 3.5718042748100e-15
+           4   7.0715315688391e+01 7.0715315688393e+01 2.2708327993527e-14
+ Comparison of surface integral
+               2.6030925604886e+01 2.6030925604886e+01 1.3648049757146e-15
+ Verification Successful
+
+
+ LU Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      250
+ Threads         =                        2
+ Time in seconds =                    40.43
+ Mop/s total     =                  2950.73
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = (none)
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - LU Benchmark
+
+ Size:  64x 64x 64
+ Iterations: 250
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  250
+
+ Verification being performed for cclass A
+ Accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0   7.7902107606688e+02 7.7902107606689e+02 1.3426066882805e-14
+           1   6.3402765259692e+01 6.3402765259693e+01 6.7240859244839e-15
+           2   1.9499249727292e+02 1.9499249727292e+02 8.5997198858721e-15
+           3   1.7845301160419e+02 1.7845301160419e+02 1.4334046961393e-15
+           4   1.8384760349464e+03 1.8384760349464e+03 1.3356908918633e-14
+ Comparison of RMS-norms of solution error
+           0   2.9964085685472e+01 2.9964085685472e+01 8.2996010666400e-15
+           1   2.8194576365004e+00 2.8194576365003e+00 1.0238067870416e-14
+           2   7.3473412698776e+00 7.3473412698775e+00 1.3539044853442e-14
+           3   6.7139225687777e+00 6.7139225687777e+00 3.5718042748100e-15
+           4   7.0715315688391e+01 7.0715315688393e+01 2.2708327993527e-14
+ Comparison of surface integral
+               2.6030925604886e+01 2.6030925604886e+01 1.3648049757146e-15
+ Verification Successful
+
+
+ LU Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      250
+ Threads         =                        2
+ Time in seconds =                    41.03
+ Mop/s total     =                  2907.56
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = (none)
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - LU Benchmark
+
+ Size:  64x 64x 64
+ Iterations: 250
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  250
+
+ Verification being performed for cclass A
+ Accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0   7.7902107606688e+02 7.7902107606689e+02 1.3426066882805e-14
+           1   6.3402765259692e+01 6.3402765259693e+01 6.7240859244839e-15
+           2   1.9499249727292e+02 1.9499249727292e+02 8.5997198858721e-15
+           3   1.7845301160419e+02 1.7845301160419e+02 1.4334046961393e-15
+           4   1.8384760349464e+03 1.8384760349464e+03 1.3356908918633e-14
+ Comparison of RMS-norms of solution error
+           0   2.9964085685472e+01 2.9964085685472e+01 8.2996010666400e-15
+           1   2.8194576365004e+00 2.8194576365003e+00 1.0238067870416e-14
+           2   7.3473412698776e+00 7.3473412698775e+00 1.3539044853442e-14
+           3   6.7139225687777e+00 6.7139225687777e+00 3.5718042748100e-15
+           4   7.0715315688391e+01 7.0715315688393e+01 2.2708327993527e-14
+ Comparison of surface integral
+               2.6030925604886e+01 2.6030925604886e+01 1.3648049757146e-15
+ Verification Successful
+
+
+ LU Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      250
+ Threads         =                        2
+ Time in seconds =                    41.21
+ Mop/s total     =                  2894.63
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = (none)
+Tue Jan 12 14:54:03 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - MG Benchmark
+
+ No input file. Using compiled defaults
+ Size: 256x256x256 (class A)
+ Iterations:   4
+ Initialization time:           2.333 seconds
+ Benchmark completed
+ VERIFICATION FAILED
+ L2 Norm is               3.974422534428e-06
+ The correct L2 Norm is   2.433365309000e-06
+
+
+ MG Benchmark Completed
+ Class           =                        A
+ Size            =              256x256x256
+ Iterations      =                        4
+ Threads         =                        2
+ Time in seconds =                     2.11
+ Mop/s total     =                  1840.45
+ Operation type  =           floating point
+ Verification    =             UNSUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - MG Benchmark
+
+ No input file. Using compiled defaults
+ Size: 256x256x256 (class A)
+ Iterations:   4
+ Initialization time:           1.980 seconds
+ Benchmark completed
+ VERIFICATION FAILED
+ L2 Norm is               3.974422534428e-06
+ The correct L2 Norm is   2.433365309000e-06
+
+
+ MG Benchmark Completed
+ Class           =                        A
+ Size            =              256x256x256
+ Iterations      =                        4
+ Threads         =                        2
+ Time in seconds =                     1.60
+ Mop/s total     =                  2439.11
+ Operation type  =           floating point
+ Verification    =             UNSUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - MG Benchmark
+
+ No input file. Using compiled defaults
+ Size: 256x256x256 (class A)
+ Iterations:   4
+ Initialization time:           2.008 seconds
+ Benchmark completed
+ VERIFICATION FAILED
+ L2 Norm is               3.974422534428e-06
+ The correct L2 Norm is   2.433365309000e-06
+
+
+ MG Benchmark Completed
+ Class           =                        A
+ Size            =              256x256x256
+ Iterations      =                        4
+ Threads         =                        2
+ Time in seconds =                     1.59
+ Mop/s total     =                  2452.15
+ Operation type  =           floating point
+ Verification    =             UNSUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randdp
+Tue Jan 12 14:54:15 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults Size:  64x 64x 64
+ Iterations: 400   dt:   0.001500
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for cclass A
+ accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0 2.4799822399303e+00 2.4799822399300e+00 1.0081613534161e-13
+           1 1.1276337964369e+00 1.1276337964369e+00 2.0085022082451e-14
+           2 1.5028977888770e+00 1.5028977888770e+00 4.0334198102605e-14
+           3 1.4217816211695e+00 1.4217816211695e+00 7.6525012556969e-15
+           4 2.1292113035138e+00 2.1292113035138e+00 4.3799661365036e-15
+ Comparison of RMS-norms of solution error
+           0 1.0900140297816e-04 1.0900140297821e-04 3.8630421924317e-13
+           1 3.7343951769284e-05 3.7343951769282e-05 5.7339922241980e-14
+           2 5.0092785406537e-05 5.0092785406542e-05 8.7792983090336e-14
+           3 4.7671093939536e-05 4.7671093939528e-05 1.6986467703097e-13
+           4 1.3621613399215e-04 1.3621613399213e-04 1.8207185866132e-13
+ Verification Successful
+
+
+ SP Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      400
+ Threads         =                        2
+ Time in seconds =                    71.42
+ Mop/s total     =                  1190.33
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = (none)
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults Size:  64x 64x 64
+ Iterations: 400   dt:   0.001500
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for cclass A
+ accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0 2.4799822399303e+00 2.4799822399300e+00 1.0081613534161e-13
+           1 1.1276337964369e+00 1.1276337964369e+00 2.0085022082451e-14
+           2 1.5028977888770e+00 1.5028977888770e+00 4.0334198102605e-14
+           3 1.4217816211695e+00 1.4217816211695e+00 7.6525012556969e-15
+           4 2.1292113035138e+00 2.1292113035138e+00 4.3799661365036e-15
+ Comparison of RMS-norms of solution error
+           0 1.0900140297816e-04 1.0900140297821e-04 3.8630421924317e-13
+           1 3.7343951769284e-05 3.7343951769282e-05 5.7339922241980e-14
+           2 5.0092785406537e-05 5.0092785406542e-05 8.7792983090336e-14
+           3 4.7671093939536e-05 4.7671093939528e-05 1.6986467703097e-13
+           4 1.3621613399215e-04 1.3621613399213e-04 1.8207185866132e-13
+ Verification Successful
+
+
+ SP Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      400
+ Threads         =                        2
+ Time in seconds =                    76.33
+ Mop/s total     =                  1113.68
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = (none)
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults Size:  64x 64x 64
+ Iterations: 400   dt:   0.001500
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for cclass A
+ accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0 2.4799822399303e+00 2.4799822399300e+00 1.0081613534161e-13
+           1 1.1276337964369e+00 1.1276337964369e+00 2.0085022082451e-14
+           2 1.5028977888770e+00 1.5028977888770e+00 4.0334198102605e-14
+           3 1.4217816211695e+00 1.4217816211695e+00 7.6525012556969e-15
+           4 2.1292113035138e+00 2.1292113035138e+00 4.3799661365036e-15
+ Comparison of RMS-norms of solution error
+           0 1.0900140297816e-04 1.0900140297821e-04 3.8630421924317e-13
+           1 3.7343951769284e-05 3.7343951769282e-05 5.7339922241980e-14
+           2 5.0092785406537e-05 5.0092785406542e-05 8.7792983090336e-14
+           3 4.7671093939536e-05 4.7671093939528e-05 1.6986467703097e-13
+           4 1.3621613399215e-04 1.3621613399213e-04 1.8207185866132e-13
+ Verification Successful
+
+
+ SP Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      400
+ Threads         =                        2
+ Time in seconds =                    74.18
+ Mop/s total     =                  1145.97
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = (none)
+//////////////////////////
+set OpenMP threads to be 4
+//////////////////////////
+Tue Jan 12 14:57:59 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  64x 64x 64
+ Iterations: 200   dt:   0.000800
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class A
+ accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0 1.0806346714637e+02 1.0806346714637e+02 4.8656742037554e-15
+           1 1.1319730901221e+01 1.1319730901221e+01 6.1201027958304e-15
+           2 2.5974354511583e+01 2.5974354511582e+01 7.7963315547005e-15
+           3 2.3665622544679e+01 2.3665622544679e+01 1.1709460269776e-14
+           4 2.5278963211748e+02 2.5278963211748e+02 1.6864838873531e-15
+ Comparison of RMS-norms of solution error
+           0 4.2348416040526e+00 4.2348416040525e+00 1.4261721732830e-14
+           1 4.4390282496995e-01 4.4390282496996e-01 1.1754933562523e-14
+           2 9.6692480136345e-01 9.6692480136346e-01 5.1668998496764e-15
+           3 8.8302063039765e-01 8.8302063039765e-01 7.7952683275091e-15
+           4 9.7379901770830e+00 9.7379901770829e+00 5.4724541936200e-15
+ Verification Successful
+
+
+ BT Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      200
+ Threads         =                        4
+ Time in seconds =                    69.24
+ Mop/s total     =                  2430.54
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = (none)
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  64x 64x 64
+ Iterations: 200   dt:   0.000800
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class A
+ accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0 1.0806346714637e+02 1.0806346714637e+02 4.8656742037554e-15
+           1 1.1319730901221e+01 1.1319730901221e+01 6.1201027958304e-15
+           2 2.5974354511583e+01 2.5974354511582e+01 7.7963315547005e-15
+           3 2.3665622544679e+01 2.3665622544679e+01 1.1709460269776e-14
+           4 2.5278963211748e+02 2.5278963211748e+02 1.6864838873531e-15
+ Comparison of RMS-norms of solution error
+           0 4.2348416040526e+00 4.2348416040525e+00 1.4261721732830e-14
+           1 4.4390282496995e-01 4.4390282496996e-01 1.1754933562523e-14
+           2 9.6692480136345e-01 9.6692480136346e-01 5.1668998496764e-15
+           3 8.8302063039765e-01 8.8302063039765e-01 7.7952683275091e-15
+           4 9.7379901770830e+00 9.7379901770829e+00 5.4724541936200e-15
+ Verification Successful
+
+
+ BT Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      200
+ Threads         =                        4
+ Time in seconds =                    69.20
+ Mop/s total     =                  2431.96
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = (none)
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  64x 64x 64
+ Iterations: 200   dt:   0.000800
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class A
+ accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0 1.0806346714637e+02 1.0806346714637e+02 4.8656742037554e-15
+           1 1.1319730901221e+01 1.1319730901221e+01 6.1201027958304e-15
+           2 2.5974354511583e+01 2.5974354511582e+01 7.7963315547005e-15
+           3 2.3665622544679e+01 2.3665622544679e+01 1.1709460269776e-14
+           4 2.5278963211748e+02 2.5278963211748e+02 1.6864838873531e-15
+ Comparison of RMS-norms of solution error
+           0 4.2348416040526e+00 4.2348416040525e+00 1.4261721732830e-14
+           1 4.4390282496995e-01 4.4390282496996e-01 1.1754933562523e-14
+           2 9.6692480136345e-01 9.6692480136346e-01 5.1668998496764e-15
+           3 8.8302063039765e-01 8.8302063039765e-01 7.7952683275091e-15
+           4 9.7379901770830e+00 9.7379901770829e+00 5.4724541936200e-15
+ Verification Successful
+
+
+ BT Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      200
+ Threads         =                        4
+ Time in seconds =                    76.42
+ Mop/s total     =                  2202.13
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = (none)
+Tue Jan 12 15:01:36 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - CG Benchmark
+ Size:      14000
+ Iterations:    15
+   iteration           ||r||                 zeta
+        1       2.80851887710752e-13 1.9999758127704e+01
+        2       2.71396315773821e-15 1.7114049574551e+01
+        3       2.69630071300648e-15 1.7129666894614e+01
+        4       2.68693832607782e-15 1.7130211358119e+01
+        5       2.64766599696197e-15 1.7130233885635e+01
+        6       2.63224643619913e-15 1.7130234987948e+01
+        7       2.66558127182329e-15 1.7130235049892e+01
+        8       2.64500927281313e-15 1.7130235053751e+01
+        9       2.58935735061299e-15 1.7130235054010e+01
+       10       2.60450480132841e-15 1.7130235054028e+01
+       11       2.59304620445783e-15 1.7130235054030e+01
+       12       2.57996249828397e-15 1.7130235054030e+01
+       13       2.56969856791809e-15 1.7130235054030e+01
+       14       2.57926440633328e-15 1.7130235054030e+01
+       15       2.54752079227036e-15 1.7130235054030e+01
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ Zeta is      1.713023505403e+01
+ Error is     8.917311333789e-13
+
+
+ CG Benchmark Completed
+ Class           =                        A
+ Size            =                    14000
+ Iterations      =                       15
+ Threads         =                        4
+ Time in seconds =                     0.87
+ Mop/s total     =                  1726.72
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - CG Benchmark
+ Size:      14000
+ Iterations:    15
+   iteration           ||r||                 zeta
+        1       2.80803409529712e-13 1.9999758127704e+01
+        2       2.70752491667679e-15 1.7114049574551e+01
+        3       2.70298497047196e-15 1.7129666894614e+01
+        4       2.69228742093092e-15 1.7130211358119e+01
+        5       2.64413058179407e-15 1.7130233885635e+01
+        6       2.62745601232269e-15 1.7130234987948e+01
+        7       2.64385321885095e-15 1.7130235049892e+01
+        8       2.62099684353277e-15 1.7130235053751e+01
+        9       2.59342608789045e-15 1.7130235054010e+01
+       10       2.58343001699689e-15 1.7130235054028e+01
+       11       2.57970854000338e-15 1.7130235054030e+01
+       12       2.58834656063673e-15 1.7130235054030e+01
+       13       2.59131467828331e-15 1.7130235054030e+01
+       14       2.56308281841324e-15 1.7130235054030e+01
+       15       2.53862166293405e-15 1.7130235054030e+01
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ Zeta is      1.713023505403e+01
+ Error is     8.917311333789e-13
+
+
+ CG Benchmark Completed
+ Class           =                        A
+ Size            =                    14000
+ Iterations      =                       15
+ Threads         =                        4
+ Time in seconds =                     0.80
+ Mop/s total     =                  1874.10
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - CG Benchmark
+ Size:      14000
+ Iterations:    15
+   iteration           ||r||                 zeta
+        1       2.80886644641744e-13 1.9999758127704e+01
+        2       2.71817326074197e-15 1.7114049574551e+01
+        3       2.69871039084835e-15 1.7129666894614e+01
+        4       2.67794977198480e-15 1.7130211358119e+01
+        5       2.65370384526882e-15 1.7130233885635e+01
+        6       2.68702277733992e-15 1.7130234987948e+01
+        7       2.65481096089184e-15 1.7130235049892e+01
+        8       2.66560369165423e-15 1.7130235053751e+01
+        9       2.59702999767600e-15 1.7130235054010e+01
+       10       2.60054908755128e-15 1.7130235054028e+01
+       11       2.55716563197315e-15 1.7130235054030e+01
+       12       2.56476466491325e-15 1.7130235054030e+01
+       13       2.58667793783673e-15 1.7130235054030e+01
+       14       2.55594292367580e-15 1.7130235054030e+01
+       15       2.57170464229215e-15 1.7130235054030e+01
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ Zeta is      1.713023505403e+01
+ Error is     8.917311333789e-13
+
+
+ CG Benchmark Completed
+ Class           =                        A
+ Size            =                    14000
+ Iterations      =                       15
+ Threads         =                        4
+ Time in seconds =                     0.91
+ Mop/s total     =                  1635.98
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randdp
+Tue Jan 12 15:01:39 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - EP Benchmark
+ Number of random numbers generated:     536870912
+Debug: 231, sx is:-4295.875166, sy is:-15807.325737
+EP Benchmark Results: 
+CPU Time =     5.4013
+N = 2^   28
+No. Gaussian Pairs =       210832767
+Sums =    -4.295875165634796e+03    -1.580732573678614e+04
+Counts:
+  0        98257395
+  1        93827014
+  2        17611549
+  3         1110028
+  4           26536
+  5             245
+  6               0
+  7               0
+  8               0
+  9               0
+
+
+ EP Benchmark Completed
+ Class           =                        A
+ Size            =                       29
+ Iterations      =                        0
+ Threads         =                        4
+ Time in seconds =                     5.40
+ Mop/s total     =                    99.40
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - EP Benchmark
+ Number of random numbers generated:     536870912
+Debug: 231, sx is:-4295.875166, sy is:-15807.325737
+EP Benchmark Results: 
+CPU Time =     5.5025
+N = 2^   28
+No. Gaussian Pairs =       210832767
+Sums =    -4.295875165634796e+03    -1.580732573678614e+04
+Counts:
+  0        98257395
+  1        93827014
+  2        17611549
+  3         1110028
+  4           26536
+  5             245
+  6               0
+  7               0
+  8               0
+  9               0
+
+
+ EP Benchmark Completed
+ Class           =                        A
+ Size            =                       29
+ Iterations      =                        0
+ Threads         =                        4
+ Time in seconds =                     5.50
+ Mop/s total     =                    97.57
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - EP Benchmark
+ Number of random numbers generated:     536870912
+Debug: 231, sx is:-4295.875166, sy is:-15807.325737
+EP Benchmark Results: 
+CPU Time =     5.7242
+N = 2^   28
+No. Gaussian Pairs =       210832767
+Sums =    -4.295875165634796e+03    -1.580732573678614e+04
+Counts:
+  0        98257395
+  1        93827014
+  2        17611549
+  3         1110028
+  4           26536
+  5             245
+  6               0
+  7               0
+  8               0
+  9               0
+
+
+ EP Benchmark Completed
+ Class           =                        A
+ Size            =                       29
+ Iterations      =                        0
+ Threads         =                        4
+ Time in seconds =                     5.72
+ Mop/s total     =                    93.79
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randdp
+Tue Jan 12 15:01:56 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - FT Benchmark
+
+ Size                : 256x256x128
+ Iterations          :           6
+T =     1     Checksum =     5.046735008193e+02     5.114047905510e+02
+T =     2     Checksum =     5.059412319734e+02     5.098809666433e+02
+T =     3     Checksum =     5.069376896287e+02     5.098144042213e+02
+T =     4     Checksum =     5.077892868474e+02     5.101336130759e+02
+T =     5     Checksum =     5.085233095391e+02     5.104914655194e+02
+T =     6     Checksum =     5.091487099959e+02     5.107917842803e+02
+Result verification successful
+cclass = A
+
+
+ FT Benchmark Completed
+ Class           =                        A
+ Size            =              256x256x128
+ Iterations      =                        6
+ Threads         =                        4
+ Time in seconds =                     2.60
+ Mop/s total     =                  2744.08
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - FT Benchmark
+
+ Size                : 256x256x128
+ Iterations          :           6
+T =     1     Checksum =     5.046735008193e+02     5.114047905510e+02
+T =     2     Checksum =     5.059412319734e+02     5.098809666433e+02
+T =     3     Checksum =     5.069376896287e+02     5.098144042213e+02
+T =     4     Checksum =     5.077892868474e+02     5.101336130759e+02
+T =     5     Checksum =     5.085233095391e+02     5.104914655194e+02
+T =     6     Checksum =     5.091487099959e+02     5.107917842803e+02
+Result verification successful
+cclass = A
+
+
+ FT Benchmark Completed
+ Class           =                        A
+ Size            =              256x256x128
+ Iterations      =                        6
+ Threads         =                        4
+ Time in seconds =                     2.62
+ Mop/s total     =                  2721.25
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - FT Benchmark
+
+ Size                : 256x256x128
+ Iterations          :           6
+T =     1     Checksum =     5.046735008193e+02     5.114047905510e+02
+T =     2     Checksum =     5.059412319734e+02     5.098809666433e+02
+T =     3     Checksum =     5.069376896287e+02     5.098144042213e+02
+T =     4     Checksum =     5.077892868474e+02     5.101336130759e+02
+T =     5     Checksum =     5.085233095391e+02     5.104914655194e+02
+T =     6     Checksum =     5.091487099959e+02     5.107917842803e+02
+Result verification successful
+cclass = A
+
+
+ FT Benchmark Completed
+ Class           =                        A
+ Size            =              256x256x128
+ Iterations      =                        6
+ Threads         =                        4
+ Time in seconds =                     2.62
+ Mop/s total     =                  2723.95
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randdp
+Tue Jan 12 15:02:08 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - IS Benchmark
+
+ Size:  8388608  (class A)
+ Iterations:   10
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - IS Benchmark
+
+ Size:  8388608  (class A)
+ Iterations:   10
+Tue Jan 12 15:02:11 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - LU Benchmark
+
+ Size:  64x 64x 64
+ Iterations: 250
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  250
+
+ Verification being performed for cclass A
+ Accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0   7.7902107606688e+02 7.7902107606689e+02 1.4447615449975e-14
+           1   6.3402765259693e+01 6.3402765259693e+01 5.4913368383286e-15
+           2   1.9499249727292e+02 1.9499249727292e+02 7.5794141367009e-15
+           3   1.7845301160419e+02 1.7845301160419e+02 9.5560313075952e-16
+           4   1.8384760349464e+03 1.8384760349464e+03 1.1872807927674e-14
+ Comparison of RMS-norms of solution error
+           0   2.9964085685472e+01 2.9964085685472e+01 8.2996010666400e-15
+           1   2.8194576365004e+00 2.8194576365003e+00 1.0238067870416e-14
+           2   7.3473412698776e+00 7.3473412698775e+00 1.3539044853442e-14
+           3   6.7139225687777e+00 6.7139225687777e+00 3.5718042748100e-15
+           4   7.0715315688391e+01 7.0715315688393e+01 2.2708327993527e-14
+ Comparison of surface integral
+               2.6030925604886e+01 2.6030925604886e+01 1.3648049757146e-15
+ Verification Successful
+
+
+ LU Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      250
+ Threads         =                        4
+ Time in seconds =                    24.45
+ Mop/s total     =                  4878.28
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = (none)
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - LU Benchmark
+
+ Size:  64x 64x 64
+ Iterations: 250
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  250
+
+ Verification being performed for cclass A
+ Accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0   7.7902107606688e+02 7.7902107606689e+02 1.4447615449975e-14
+           1   6.3402765259693e+01 6.3402765259693e+01 5.6034049370699e-15
+           2   1.9499249727292e+02 1.9499249727292e+02 7.5794141367009e-15
+           3   1.7845301160419e+02 1.7845301160419e+02 1.1148703192194e-15
+           4   1.8384760349464e+03 1.8384760349464e+03 1.1872807927674e-14
+ Comparison of RMS-norms of solution error
+           0   2.9964085685472e+01 2.9964085685472e+01 8.2996010666400e-15
+           1   2.8194576365004e+00 2.8194576365003e+00 1.0238067870416e-14
+           2   7.3473412698776e+00 7.3473412698775e+00 1.3539044853442e-14
+           3   6.7139225687777e+00 6.7139225687777e+00 3.5718042748100e-15
+           4   7.0715315688391e+01 7.0715315688393e+01 2.2708327993527e-14
+ Comparison of surface integral
+               2.6030925604886e+01 2.6030925604886e+01 1.3648049757146e-15
+ Verification Successful
+
+
+ LU Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      250
+ Threads         =                        4
+ Time in seconds =                    23.51
+ Mop/s total     =                  5073.98
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = (none)
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - LU Benchmark
+
+ Size:  64x 64x 64
+ Iterations: 250
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  250
+
+ Verification being performed for cclass A
+ Accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0   7.7902107606688e+02 7.7902107606689e+02 1.4447615449975e-14
+           1   6.3402765259693e+01 6.3402765259693e+01 5.4913368383286e-15
+           2   1.9499249727292e+02 1.9499249727292e+02 7.5794141367009e-15
+           3   1.7845301160419e+02 1.7845301160419e+02 9.5560313075952e-16
+           4   1.8384760349464e+03 1.8384760349464e+03 1.1872807927674e-14
+ Comparison of RMS-norms of solution error
+           0   2.9964085685472e+01 2.9964085685472e+01 8.2996010666400e-15
+           1   2.8194576365004e+00 2.8194576365003e+00 1.0238067870416e-14
+           2   7.3473412698776e+00 7.3473412698775e+00 1.3539044853442e-14
+           3   6.7139225687777e+00 6.7139225687777e+00 3.5718042748100e-15
+           4   7.0715315688391e+01 7.0715315688393e+01 2.2708327993527e-14
+ Comparison of surface integral
+               2.6030925604886e+01 2.6030925604886e+01 1.3648049757146e-15
+ Verification Successful
+
+
+ LU Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      250
+ Threads         =                        4
+ Time in seconds =                    24.53
+ Mop/s total     =                  4863.14
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = (none)
+Tue Jan 12 15:03:24 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - MG Benchmark
+
+ No input file. Using compiled defaults
+ Size: 256x256x256 (class A)
+ Iterations:   4
+ Initialization time:           1.869 seconds
+ Benchmark completed
+ VERIFICATION FAILED
+ L2 Norm is               3.974422534428e-06
+ The correct L2 Norm is   2.433365309000e-06
+
+
+ MG Benchmark Completed
+ Class           =                        A
+ Size            =              256x256x256
+ Iterations      =                        4
+ Threads         =                        4
+ Time in seconds =                     1.44
+ Mop/s total     =                  2702.12
+ Operation type  =           floating point
+ Verification    =             UNSUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - MG Benchmark
+
+ No input file. Using compiled defaults
+ Size: 256x256x256 (class A)
+ Iterations:   4
+ Initialization time:           1.983 seconds
+ Benchmark completed
+ VERIFICATION FAILED
+ L2 Norm is               3.974422534428e-06
+ The correct L2 Norm is   2.433365309000e-06
+
+
+ MG Benchmark Completed
+ Class           =                        A
+ Size            =              256x256x256
+ Iterations      =                        4
+ Threads         =                        4
+ Time in seconds =                     1.43
+ Mop/s total     =                  2729.33
+ Operation type  =           floating point
+ Verification    =             UNSUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - MG Benchmark
+
+ No input file. Using compiled defaults
+ Size: 256x256x256 (class A)
+ Iterations:   4
+ Initialization time:           1.878 seconds
+ Benchmark completed
+ VERIFICATION FAILED
+ L2 Norm is               3.974422534428e-06
+ The correct L2 Norm is   2.433365309000e-06
+
+
+ MG Benchmark Completed
+ Class           =                        A
+ Size            =              256x256x256
+ Iterations      =                        4
+ Threads         =                        4
+ Time in seconds =                     1.38
+ Mop/s total     =                  2824.03
+ Operation type  =           floating point
+ Verification    =             UNSUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randdp
+Tue Jan 12 15:03:34 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults Size:  64x 64x 64
+ Iterations: 400   dt:   0.001500
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for cclass A
+ accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0 2.4799822399303e+00 2.4799822399300e+00 1.0081613534161e-13
+           1 1.1276337964369e+00 1.1276337964369e+00 2.0085022082451e-14
+           2 1.5028977888770e+00 1.5028977888770e+00 4.0334198102605e-14
+           3 1.4217816211695e+00 1.4217816211695e+00 7.6525012556969e-15
+           4 2.1292113035138e+00 2.1292113035138e+00 4.3799661365036e-15
+ Comparison of RMS-norms of solution error
+           0 1.0900140297816e-04 1.0900140297821e-04 3.8630421924317e-13
+           1 3.7343951769284e-05 3.7343951769282e-05 5.7339922241980e-14
+           2 5.0092785406537e-05 5.0092785406542e-05 8.7792983090336e-14
+           3 4.7671093939536e-05 4.7671093939528e-05 1.6986467703097e-13
+           4 1.3621613399215e-04 1.3621613399213e-04 1.8207185866132e-13
+ Verification Successful
+
+
+ SP Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      400
+ Threads         =                        4
+ Time in seconds =                    58.64
+ Mop/s total     =                  1449.58
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = (none)
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults Size:  64x 64x 64
+ Iterations: 400   dt:   0.001500
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for cclass A
+ accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0 2.4799822399303e+00 2.4799822399300e+00 1.0081613534161e-13
+           1 1.1276337964369e+00 1.1276337964369e+00 2.0085022082451e-14
+           2 1.5028977888770e+00 1.5028977888770e+00 4.0334198102605e-14
+           3 1.4217816211695e+00 1.4217816211695e+00 7.6525012556969e-15
+           4 2.1292113035138e+00 2.1292113035138e+00 4.3799661365036e-15
+ Comparison of RMS-norms of solution error
+           0 1.0900140297816e-04 1.0900140297821e-04 3.8630421924317e-13
+           1 3.7343951769284e-05 3.7343951769282e-05 5.7339922241980e-14
+           2 5.0092785406537e-05 5.0092785406542e-05 8.7792983090336e-14
+           3 4.7671093939536e-05 4.7671093939528e-05 1.6986467703097e-13
+           4 1.3621613399215e-04 1.3621613399213e-04 1.8207185866132e-13
+ Verification Successful
+
+
+ SP Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      400
+ Threads         =                        4
+ Time in seconds =                    55.64
+ Mop/s total     =                  1527.89
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = (none)
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults Size:  64x 64x 64
+ Iterations: 400   dt:   0.001500
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for cclass A
+ accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0 2.4799822399303e+00 2.4799822399300e+00 1.0081613534161e-13
+           1 1.1276337964369e+00 1.1276337964369e+00 2.0085022082451e-14
+           2 1.5028977888770e+00 1.5028977888770e+00 4.0334198102605e-14
+           3 1.4217816211695e+00 1.4217816211695e+00 7.6525012556969e-15
+           4 2.1292113035138e+00 2.1292113035138e+00 4.3799661365036e-15
+ Comparison of RMS-norms of solution error
+           0 1.0900140297816e-04 1.0900140297821e-04 3.8630421924317e-13
+           1 3.7343951769284e-05 3.7343951769282e-05 5.7339922241980e-14
+           2 5.0092785406537e-05 5.0092785406542e-05 8.7792983090336e-14
+           3 4.7671093939536e-05 4.7671093939528e-05 1.6986467703097e-13
+           4 1.3621613399215e-04 1.3621613399213e-04 1.8207185866132e-13
+ Verification Successful
+
+
+ SP Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      400
+ Threads         =                        4
+ Time in seconds =                    55.67
+ Mop/s total     =                  1527.05
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = (none)
+//////////////////////////
+set OpenMP threads to be 6
+//////////////////////////
+Tue Jan 12 15:06:26 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  64x 64x 64
+ Iterations: 200   dt:   0.000800
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class A
+ accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0 1.0806346714637e+02 1.0806346714637e+02 4.8656742037554e-15
+           1 1.1319730901221e+01 1.1319730901221e+01 6.1201027958304e-15
+           2 2.5974354511583e+01 2.5974354511582e+01 7.7963315547005e-15
+           3 2.3665622544679e+01 2.3665622544679e+01 1.1709460269776e-14
+           4 2.5278963211748e+02 2.5278963211748e+02 1.6864838873531e-15
+ Comparison of RMS-norms of solution error
+           0 4.2348416040526e+00 4.2348416040525e+00 1.4261721732830e-14
+           1 4.4390282496995e-01 4.4390282496996e-01 1.1754933562523e-14
+           2 9.6692480136345e-01 9.6692480136346e-01 5.1668998496764e-15
+           3 8.8302063039765e-01 8.8302063039765e-01 7.7952683275091e-15
+           4 9.7379901770830e+00 9.7379901770829e+00 5.4724541936200e-15
+ Verification Successful
+
+
+ BT Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      200
+ Threads         =                        6
+ Time in seconds =                    69.50
+ Mop/s total     =                  2421.39
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = (none)
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  64x 64x 64
+ Iterations: 200   dt:   0.000800
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class A
+ accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0 1.0806346714637e+02 1.0806346714637e+02 4.8656742037554e-15
+           1 1.1319730901221e+01 1.1319730901221e+01 6.1201027958304e-15
+           2 2.5974354511583e+01 2.5974354511582e+01 7.7963315547005e-15
+           3 2.3665622544679e+01 2.3665622544679e+01 1.1709460269776e-14
+           4 2.5278963211748e+02 2.5278963211748e+02 1.6864838873531e-15
+ Comparison of RMS-norms of solution error
+           0 4.2348416040526e+00 4.2348416040525e+00 1.4261721732830e-14
+           1 4.4390282496995e-01 4.4390282496996e-01 1.1754933562523e-14
+           2 9.6692480136345e-01 9.6692480136346e-01 5.1668998496764e-15
+           3 8.8302063039765e-01 8.8302063039765e-01 7.7952683275091e-15
+           4 9.7379901770830e+00 9.7379901770829e+00 5.4724541936200e-15
+ Verification Successful
+
+
+ BT Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      200
+ Threads         =                        6
+ Time in seconds =                    71.92
+ Mop/s total     =                  2339.90
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = (none)
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  64x 64x 64
+ Iterations: 200   dt:   0.000800
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class A
+ accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0 1.0806346714637e+02 1.0806346714637e+02 4.8656742037554e-15
+           1 1.1319730901221e+01 1.1319730901221e+01 6.1201027958304e-15
+           2 2.5974354511583e+01 2.5974354511582e+01 7.7963315547005e-15
+           3 2.3665622544679e+01 2.3665622544679e+01 1.1709460269776e-14
+           4 2.5278963211748e+02 2.5278963211748e+02 1.6864838873531e-15
+ Comparison of RMS-norms of solution error
+           0 4.2348416040526e+00 4.2348416040525e+00 1.4261721732830e-14
+           1 4.4390282496995e-01 4.4390282496996e-01 1.1754933562523e-14
+           2 9.6692480136345e-01 9.6692480136346e-01 5.1668998496764e-15
+           3 8.8302063039765e-01 8.8302063039765e-01 7.7952683275091e-15
+           4 9.7379901770830e+00 9.7379901770829e+00 5.4724541936200e-15
+ Verification Successful
+
+
+ BT Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      200
+ Threads         =                        6
+ Time in seconds =                    73.61
+ Mop/s total     =                  2286.28
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = (none)
+Tue Jan 12 15:10:03 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - CG Benchmark
+ Size:      14000
+ Iterations:    15
+   iteration           ||r||                 zeta
+        1       2.79477935116452e-13 1.9999758127704e+01
+        2       2.69932645848477e-15 1.7114049574551e+01
+        3       2.69942602626700e-15 1.7129666894614e+01
+        4       2.69855475276208e-15 1.7130211358119e+01
+        5       2.63636286797848e-15 1.7130233885635e+01
+        6       2.66346692204289e-15 1.7130234987948e+01
+        7       2.65227668111264e-15 1.7130235049892e+01
+        8       2.65544579731619e-15 1.7130235053751e+01
+        9       2.59775656901972e-15 1.7130235054010e+01
+       10       2.61278974590237e-15 1.7130235054028e+01
+       11       2.59289776665898e-15 1.7130235054030e+01
+       12       2.56913195878240e-15 1.7130235054030e+01
+       13       2.58546034222676e-15 1.7130235054030e+01
+       14       2.54671413782067e-15 1.7130235054030e+01
+       15       2.57214131072997e-15 1.7130235054030e+01
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ Zeta is      1.713023505403e+01
+ Error is     8.917311333789e-13
+
+
+ CG Benchmark Completed
+ Class           =                        A
+ Size            =                    14000
+ Iterations      =                       15
+ Threads         =                        6
+ Time in seconds =                     1.21
+ Mop/s total     =                  1235.27
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - CG Benchmark
+ Size:      14000
+ Iterations:    15
+   iteration           ||r||                 zeta
+        1       2.79315697451134e-13 1.9999758127704e+01
+        2       2.67131762553033e-15 1.7114049574551e+01
+        3       2.69729613735540e-15 1.7129666894614e+01
+        4       2.69799124617982e-15 1.7130211358119e+01
+        5       2.65552865501592e-15 1.7130233885635e+01
+        6       2.66274130004778e-15 1.7130234987948e+01
+        7       2.66362199666246e-15 1.7130235049892e+01
+        8       2.67836456919395e-15 1.7130235053751e+01
+        9       2.59420514844784e-15 1.7130235054010e+01
+       10       2.61413897577994e-15 1.7130235054028e+01
+       11       2.58572198733666e-15 1.7130235054030e+01
+       12       2.56437770905650e-15 1.7130235054030e+01
+       13       2.62037448344227e-15 1.7130235054030e+01
+       14       2.54239973872768e-15 1.7130235054030e+01
+       15       2.56148672026023e-15 1.7130235054030e+01
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ Zeta is      1.713023505403e+01
+ Error is     8.917311333789e-13
+
+
+ CG Benchmark Completed
+ Class           =                        A
+ Size            =                    14000
+ Iterations      =                       15
+ Threads         =                        6
+ Time in seconds =                     1.06
+ Mop/s total     =                  1411.21
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - CG Benchmark
+ Size:      14000
+ Iterations:    15
+   iteration           ||r||                 zeta
+        1       2.79556340119486e-13 1.9999758127704e+01
+        2       2.68658851680702e-15 1.7114049574551e+01
+        3       2.70452162611500e-15 1.7129666894614e+01
+        4       2.69785351375302e-15 1.7130211358119e+01
+        5       2.66212933054736e-15 1.7130233885635e+01
+        6       2.66131253688041e-15 1.7130234987948e+01
+        7       2.65650147342041e-15 1.7130235049892e+01
+        8       2.66326251146421e-15 1.7130235053751e+01
+        9       2.60210717630747e-15 1.7130235054010e+01
+       10       2.62079555513863e-15 1.7130235054028e+01
+       11       2.57479222517917e-15 1.7130235054030e+01
+       12       2.57476373067939e-15 1.7130235054030e+01
+       13       2.59797912397632e-15 1.7130235054030e+01
+       14       2.53908117315840e-15 1.7130235054030e+01
+       15       2.56055965674344e-15 1.7130235054030e+01
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ Zeta is      1.713023505403e+01
+ Error is     8.917311333789e-13
+
+
+ CG Benchmark Completed
+ Class           =                        A
+ Size            =                    14000
+ Iterations      =                       15
+ Threads         =                        6
+ Time in seconds =                     0.84
+ Mop/s total     =                  1773.18
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randdp
+Tue Jan 12 15:10:07 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - EP Benchmark
+ Number of random numbers generated:     536870912
+Debug: 231, sx is:-4295.875166, sy is:-15807.325737
+EP Benchmark Results: 
+CPU Time =     3.6021
+N = 2^   28
+No. Gaussian Pairs =       210832767
+Sums =    -4.295875165634672e+03    -1.580732573678290e+04
+Counts:
+  0        98257395
+  1        93827014
+  2        17611549
+  3         1110028
+  4           26536
+  5             245
+  6               0
+  7               0
+  8               0
+  9               0
+
+
+ EP Benchmark Completed
+ Class           =                        A
+ Size            =                       29
+ Iterations      =                        0
+ Threads         =                        6
+ Time in seconds =                     3.60
+ Mop/s total     =                   149.05
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - EP Benchmark
+ Number of random numbers generated:     536870912
+Debug: 231, sx is:-4295.875166, sy is:-15807.325737
+EP Benchmark Results: 
+CPU Time =     3.6244
+N = 2^   28
+No. Gaussian Pairs =       210832767
+Sums =    -4.295875165634674e+03    -1.580732573678290e+04
+Counts:
+  0        98257395
+  1        93827014
+  2        17611549
+  3         1110028
+  4           26536
+  5             245
+  6               0
+  7               0
+  8               0
+  9               0
+
+
+ EP Benchmark Completed
+ Class           =                        A
+ Size            =                       29
+ Iterations      =                        0
+ Threads         =                        6
+ Time in seconds =                     3.62
+ Mop/s total     =                   148.13
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - EP Benchmark
+ Number of random numbers generated:     536870912
+Debug: 231, sx is:-4295.875166, sy is:-15807.325737
+EP Benchmark Results: 
+CPU Time =     3.6095
+N = 2^   28
+No. Gaussian Pairs =       210832767
+Sums =    -4.295875165634675e+03    -1.580732573678290e+04
+Counts:
+  0        98257395
+  1        93827014
+  2        17611549
+  3         1110028
+  4           26536
+  5             245
+  6               0
+  7               0
+  8               0
+  9               0
+
+
+ EP Benchmark Completed
+ Class           =                        A
+ Size            =                       29
+ Iterations      =                        0
+ Threads         =                        6
+ Time in seconds =                     3.61
+ Mop/s total     =                   148.74
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randdp
+Tue Jan 12 15:10:18 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - FT Benchmark
+
+ Size                : 256x256x128
+ Iterations          :           6
+T =     1     Checksum =     5.046735008193e+02     5.114047905510e+02
+T =     2     Checksum =     5.059412319734e+02     5.098809666433e+02
+T =     3     Checksum =     5.069376896287e+02     5.098144042213e+02
+T =     4     Checksum =     5.077892868474e+02     5.101336130759e+02
+T =     5     Checksum =     5.085233095391e+02     5.104914655194e+02
+T =     6     Checksum =     5.091487099959e+02     5.107917842803e+02
+Result verification successful
+cclass = A
+
+
+ FT Benchmark Completed
+ Class           =                        A
+ Size            =              256x256x128
+ Iterations      =                        6
+ Threads         =                        6
+ Time in seconds =                     2.14
+ Mop/s total     =                  3331.67
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - FT Benchmark
+
+ Size                : 256x256x128
+ Iterations          :           6
+T =     1     Checksum =     5.046735008193e+02     5.114047905510e+02
+T =     2     Checksum =     5.059412319734e+02     5.098809666433e+02
+T =     3     Checksum =     5.069376896287e+02     5.098144042213e+02
+T =     4     Checksum =     5.077892868474e+02     5.101336130759e+02
+T =     5     Checksum =     5.085233095391e+02     5.104914655194e+02
+T =     6     Checksum =     5.091487099959e+02     5.107917842803e+02
+Result verification successful
+cclass = A
+
+
+ FT Benchmark Completed
+ Class           =                        A
+ Size            =              256x256x128
+ Iterations      =                        6
+ Threads         =                        6
+ Time in seconds =                     2.29
+ Mop/s total     =                  3110.76
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - FT Benchmark
+
+ Size                : 256x256x128
+ Iterations          :           6
+T =     1     Checksum =     5.046735008193e+02     5.114047905510e+02
+T =     2     Checksum =     5.059412319734e+02     5.098809666433e+02
+T =     3     Checksum =     5.069376896287e+02     5.098144042213e+02
+T =     4     Checksum =     5.077892868474e+02     5.101336130759e+02
+T =     5     Checksum =     5.085233095391e+02     5.104914655194e+02
+T =     6     Checksum =     5.091487099959e+02     5.107917842803e+02
+Result verification successful
+cclass = A
+
+
+ FT Benchmark Completed
+ Class           =                        A
+ Size            =              256x256x128
+ Iterations      =                        6
+ Threads         =                        6
+ Time in seconds =                     2.11
+ Mop/s total     =                  3389.87
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randdp
+Tue Jan 12 15:10:27 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - IS Benchmark
+
+ Size:  8388608  (class A)
+ Iterations:   10
+Tue Jan 12 15:10:30 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - LU Benchmark
+
+ Size:  64x 64x 64
+ Iterations: 250
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  250
+
+ Verification being performed for cclass A
+ Accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0   7.7902107606688e+02 7.7902107606689e+02 1.5177292997953e-14
+           1   6.3402765259693e+01 6.3402765259693e+01 1.7930895798624e-15
+           2   1.9499249727292e+02 1.9499249727292e+02 9.6200256350434e-15
+           3   1.7845301160419e+02 1.7845301160419e+02 3.1853437691984e-16
+           4   1.8384760349464e+03 1.8384760349464e+03 1.0759732184454e-14
+ Comparison of RMS-norms of solution error
+           0   2.9964085685472e+01 2.9964085685472e+01 8.2996010666400e-15
+           1   2.8194576365004e+00 2.8194576365003e+00 1.0238067870416e-14
+           2   7.3473412698776e+00 7.3473412698775e+00 1.3539044853442e-14
+           3   6.7139225687777e+00 6.7139225687777e+00 3.5718042748100e-15
+           4   7.0715315688391e+01 7.0715315688393e+01 2.2708327993527e-14
+ Comparison of surface integral
+               2.6030925604886e+01 2.6030925604886e+01 1.3648049757146e-15
+ Verification Successful
+
+
+ LU Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      250
+ Threads         =                        6
+ Time in seconds =                    17.90
+ Mop/s total     =                  6663.34
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = (none)
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - LU Benchmark
+
+ Size:  64x 64x 64
+ Iterations: 250
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  250
+
+ Verification being performed for cclass A
+ Accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0   7.7902107606688e+02 7.7902107606689e+02 1.5031357488358e-14
+           1   6.3402765259693e+01 6.3402765259693e+01 1.7930895798624e-15
+           2   1.9499249727292e+02 1.9499249727292e+02 9.4742676708761e-15
+           3   1.7845301160419e+02 1.7845301160419e+02 3.1853437691984e-16
+           4   1.8384760349464e+03 1.8384760349464e+03 1.0759732184454e-14
+ Comparison of RMS-norms of solution error
+           0   2.9964085685472e+01 2.9964085685472e+01 8.2996010666400e-15
+           1   2.8194576365004e+00 2.8194576365003e+00 1.0238067870416e-14
+           2   7.3473412698776e+00 7.3473412698775e+00 1.3539044853442e-14
+           3   6.7139225687777e+00 6.7139225687777e+00 3.5718042748100e-15
+           4   7.0715315688391e+01 7.0715315688393e+01 2.2708327993527e-14
+ Comparison of surface integral
+               2.6030925604886e+01 2.6030925604886e+01 1.3648049757146e-15
+ Verification Successful
+
+
+ LU Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      250
+ Threads         =                        6
+ Time in seconds =                    17.63
+ Mop/s total     =                  6767.69
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = (none)
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - LU Benchmark
+
+ Size:  64x 64x 64
+ Iterations: 250
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  250
+
+ Verification being performed for cclass A
+ Accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0   7.7902107606688e+02 7.7902107606689e+02 1.5031357488358e-14
+           1   6.3402765259693e+01 6.3402765259693e+01 1.7930895798624e-15
+           2   1.9499249727292e+02 1.9499249727292e+02 9.4742676708761e-15
+           3   1.7845301160419e+02 1.7845301160419e+02 3.1853437691984e-16
+           4   1.8384760349464e+03 1.8384760349464e+03 1.0759732184454e-14
+ Comparison of RMS-norms of solution error
+           0   2.9964085685472e+01 2.9964085685472e+01 8.2996010666400e-15
+           1   2.8194576365004e+00 2.8194576365003e+00 1.0238067870416e-14
+           2   7.3473412698776e+00 7.3473412698775e+00 1.3539044853442e-14
+           3   6.7139225687777e+00 6.7139225687777e+00 3.5718042748100e-15
+           4   7.0715315688391e+01 7.0715315688393e+01 2.2708327993527e-14
+ Comparison of surface integral
+               2.6030925604886e+01 2.6030925604886e+01 1.3648049757146e-15
+ Verification Successful
+
+
+ LU Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      250
+ Threads         =                        6
+ Time in seconds =                    17.95
+ Mop/s total     =                  6646.46
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = (none)
+Tue Jan 12 15:11:24 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - MG Benchmark
+
+ No input file. Using compiled defaults
+ Size: 256x256x256 (class A)
+ Iterations:   4
+ Initialization time:           1.856 seconds
+ Benchmark completed
+ VERIFICATION FAILED
+ L2 Norm is               3.974422534428e-06
+ The correct L2 Norm is   2.433365309000e-06
+
+
+ MG Benchmark Completed
+ Class           =                        A
+ Size            =              256x256x256
+ Iterations      =                        4
+ Threads         =                        6
+ Time in seconds =                     1.60
+ Mop/s total     =                  2435.40
+ Operation type  =           floating point
+ Verification    =             UNSUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - MG Benchmark
+
+ No input file. Using compiled defaults
+ Size: 256x256x256 (class A)
+ Iterations:   4
+ Initialization time:           2.037 seconds
+ Benchmark completed
+ VERIFICATION FAILED
+ L2 Norm is               3.974422534428e-06
+ The correct L2 Norm is   2.433365309000e-06
+
+
+ MG Benchmark Completed
+ Class           =                        A
+ Size            =              256x256x256
+ Iterations      =                        4
+ Threads         =                        6
+ Time in seconds =                     1.69
+ Mop/s total     =                  2308.14
+ Operation type  =           floating point
+ Verification    =             UNSUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - MG Benchmark
+
+ No input file. Using compiled defaults
+ Size: 256x256x256 (class A)
+ Iterations:   4
+ Initialization time:           1.855 seconds
+ Benchmark completed
+ VERIFICATION FAILED
+ L2 Norm is               3.974422534428e-06
+ The correct L2 Norm is   2.433365309000e-06
+
+
+ MG Benchmark Completed
+ Class           =                        A
+ Size            =              256x256x256
+ Iterations      =                        4
+ Threads         =                        6
+ Time in seconds =                     1.29
+ Mop/s total     =                  3024.49
+ Operation type  =           floating point
+ Verification    =             UNSUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randdp
+Tue Jan 12 15:11:35 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults Size:  64x 64x 64
+ Iterations: 400   dt:   0.001500
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for cclass A
+ accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0 2.4799822399303e+00 2.4799822399300e+00 1.0081613534161e-13
+           1 1.1276337964369e+00 1.1276337964369e+00 2.0085022082451e-14
+           2 1.5028977888770e+00 1.5028977888770e+00 4.0334198102605e-14
+           3 1.4217816211695e+00 1.4217816211695e+00 7.6525012556969e-15
+           4 2.1292113035138e+00 2.1292113035138e+00 4.3799661365036e-15
+ Comparison of RMS-norms of solution error
+           0 1.0900140297816e-04 1.0900140297821e-04 3.8630421924317e-13
+           1 3.7343951769284e-05 3.7343951769282e-05 5.7339922241980e-14
+           2 5.0092785406537e-05 5.0092785406542e-05 8.7792983090336e-14
+           3 4.7671093939536e-05 4.7671093939528e-05 1.6986467703097e-13
+           4 1.3621613399215e-04 1.3621613399213e-04 1.8207185866132e-13
+ Verification Successful
+
+
+ SP Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      400
+ Threads         =                        6
+ Time in seconds =                    66.04
+ Mop/s total     =                  1287.29
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = (none)
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults Size:  64x 64x 64
+ Iterations: 400   dt:   0.001500
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for cclass A
+ accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0 2.4799822399303e+00 2.4799822399300e+00 1.0081613534161e-13
+           1 1.1276337964369e+00 1.1276337964369e+00 2.0085022082451e-14
+           2 1.5028977888770e+00 1.5028977888770e+00 4.0334198102605e-14
+           3 1.4217816211695e+00 1.4217816211695e+00 7.6525012556969e-15
+           4 2.1292113035138e+00 2.1292113035138e+00 4.3799661365036e-15
+ Comparison of RMS-norms of solution error
+           0 1.0900140297816e-04 1.0900140297821e-04 3.8630421924317e-13
+           1 3.7343951769284e-05 3.7343951769282e-05 5.7339922241980e-14
+           2 5.0092785406537e-05 5.0092785406542e-05 8.7792983090336e-14
+           3 4.7671093939536e-05 4.7671093939528e-05 1.6986467703097e-13
+           4 1.3621613399215e-04 1.3621613399213e-04 1.8207185866132e-13
+ Verification Successful
+
+
+ SP Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      400
+ Threads         =                        6
+ Time in seconds =                    61.04
+ Mop/s total     =                  1392.77
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = (none)
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults Size:  64x 64x 64
+ Iterations: 400   dt:   0.001500
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for cclass A
+ accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0 2.4799822399303e+00 2.4799822399300e+00 1.0081613534161e-13
+           1 1.1276337964369e+00 1.1276337964369e+00 2.0085022082451e-14
+           2 1.5028977888770e+00 1.5028977888770e+00 4.0334198102605e-14
+           3 1.4217816211695e+00 1.4217816211695e+00 7.6525012556969e-15
+           4 2.1292113035138e+00 2.1292113035138e+00 4.3799661365036e-15
+ Comparison of RMS-norms of solution error
+           0 1.0900140297816e-04 1.0900140297821e-04 3.8630421924317e-13
+           1 3.7343951769284e-05 3.7343951769282e-05 5.7339922241980e-14
+           2 5.0092785406537e-05 5.0092785406542e-05 8.7792983090336e-14
+           3 4.7671093939536e-05 4.7671093939528e-05 1.6986467703097e-13
+           4 1.3621613399215e-04 1.3621613399213e-04 1.8207185866132e-13
+ Verification Successful
+
+
+ SP Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      400
+ Threads         =                        6
+ Time in seconds =                    61.09
+ Mop/s total     =                  1391.51
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = (none)
+//////////////////////////
+set OpenMP threads to be 8
+//////////////////////////
+Tue Jan 12 15:14:45 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  64x 64x 64
+ Iterations: 200   dt:   0.000800
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class A
+ accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0 1.0806346714637e+02 1.0806346714637e+02 4.8656742037554e-15
+           1 1.1319730901221e+01 1.1319730901221e+01 6.1201027958304e-15
+           2 2.5974354511583e+01 2.5974354511582e+01 7.7963315547005e-15
+           3 2.3665622544679e+01 2.3665622544679e+01 1.1709460269776e-14
+           4 2.5278963211748e+02 2.5278963211748e+02 1.6864838873531e-15
+ Comparison of RMS-norms of solution error
+           0 4.2348416040526e+00 4.2348416040525e+00 1.4261721732830e-14
+           1 4.4390282496995e-01 4.4390282496996e-01 1.1754933562523e-14
+           2 9.6692480136345e-01 9.6692480136346e-01 5.1668998496764e-15
+           3 8.8302063039765e-01 8.8302063039765e-01 7.7952683275091e-15
+           4 9.7379901770830e+00 9.7379901770829e+00 5.4724541936200e-15
+ Verification Successful
+
+
+ BT Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      200
+ Threads         =                        8
+ Time in seconds =                    82.25
+ Mop/s total     =                  2046.10
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = (none)
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  64x 64x 64
+ Iterations: 200   dt:   0.000800
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class A
+ accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0 1.0806346714637e+02 1.0806346714637e+02 4.8656742037554e-15
+           1 1.1319730901221e+01 1.1319730901221e+01 6.1201027958304e-15
+           2 2.5974354511583e+01 2.5974354511582e+01 7.7963315547005e-15
+           3 2.3665622544679e+01 2.3665622544679e+01 1.1709460269776e-14
+           4 2.5278963211748e+02 2.5278963211748e+02 1.6864838873531e-15
+ Comparison of RMS-norms of solution error
+           0 4.2348416040526e+00 4.2348416040525e+00 1.4261721732830e-14
+           1 4.4390282496995e-01 4.4390282496996e-01 1.1754933562523e-14
+           2 9.6692480136345e-01 9.6692480136346e-01 5.1668998496764e-15
+           3 8.8302063039765e-01 8.8302063039765e-01 7.7952683275091e-15
+           4 9.7379901770830e+00 9.7379901770829e+00 5.4724541936200e-15
+ Verification Successful
+
+
+ BT Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      200
+ Threads         =                        8
+ Time in seconds =                    99.10
+ Mop/s total     =                  1698.08
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = (none)
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  64x 64x 64
+ Iterations: 200   dt:   0.000800
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class A
+ accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0 1.0806346714637e+02 1.0806346714637e+02 4.8656742037554e-15
+           1 1.1319730901221e+01 1.1319730901221e+01 6.1201027958304e-15
+           2 2.5974354511583e+01 2.5974354511582e+01 7.7963315547005e-15
+           3 2.3665622544679e+01 2.3665622544679e+01 1.1709460269776e-14
+           4 2.5278963211748e+02 2.5278963211748e+02 1.6864838873531e-15
+ Comparison of RMS-norms of solution error
+           0 4.2348416040526e+00 4.2348416040525e+00 1.4261721732830e-14
+           1 4.4390282496995e-01 4.4390282496996e-01 1.1754933562523e-14
+           2 9.6692480136345e-01 9.6692480136346e-01 5.1668998496764e-15
+           3 8.8302063039765e-01 8.8302063039765e-01 7.7952683275091e-15
+           4 9.7379901770830e+00 9.7379901770829e+00 5.4724541936200e-15
+ Verification Successful
+
+
+ BT Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      200
+ Threads         =                        8
+ Time in seconds =                    89.92
+ Mop/s total     =                  1871.42
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = (none)
+Tue Jan 12 15:19:18 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - CG Benchmark
+ Size:      14000
+ Iterations:    15
+   iteration           ||r||                 zeta
+        1       2.82254678912070e-13 1.9999758127704e+01
+        2       2.69839509139709e-15 1.7114049574551e+01
+        3       2.66903456984407e-15 1.7129666894614e+01
+        4       2.70980093784590e-15 1.7130211358119e+01
+        5       2.63986283400512e-15 1.7130233885635e+01
+        6       2.66842238782101e-15 1.7130234987948e+01
+        7       2.65507969417471e-15 1.7130235049892e+01
+        8       2.67011185202974e-15 1.7130235053751e+01
+        9       2.57203438073049e-15 1.7130235054010e+01
+       10       2.60477520465362e-15 1.7130235054028e+01
+       11       2.54855417350561e-15 1.7130235054030e+01
+       12       2.57258187236087e-15 1.7130235054030e+01
+       13       2.55927412354459e-15 1.7130235054030e+01
+       14       2.55186035833532e-15 1.7130235054030e+01
+       15       2.54486640028667e-15 1.7130235054030e+01
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ Zeta is      1.713023505403e+01
+ Error is     8.952838470577e-13
+
+
+ CG Benchmark Completed
+ Class           =                        A
+ Size            =                    14000
+ Iterations      =                       15
+ Threads         =                        8
+ Time in seconds =                     0.51
+ Mop/s total     =                  2910.96
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - CG Benchmark
+ Size:      14000
+ Iterations:    15
+   iteration           ||r||                 zeta
+        1       2.80830667191910e-13 1.9999758127704e+01
+        2       2.69041183543375e-15 1.7114049574551e+01
+        3       2.68545421535697e-15 1.7129666894614e+01
+        4       2.67214248620409e-15 1.7130211358119e+01
+        5       2.65014983818997e-15 1.7130233885635e+01
+        6       2.66996969422837e-15 1.7130234987948e+01
+        7       2.65535373908826e-15 1.7130235049892e+01
+        8       2.65885758604242e-15 1.7130235053751e+01
+        9       2.57854997951592e-15 1.7130235054010e+01
+       10       2.60287594476611e-15 1.7130235054028e+01
+       11       2.55426893787399e-15 1.7130235054030e+01
+       12       2.55997647631392e-15 1.7130235054030e+01
+       13       2.55273393461927e-15 1.7130235054030e+01
+       14       2.51922484406398e-15 1.7130235054030e+01
+       15       2.51809217940468e-15 1.7130235054030e+01
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ Zeta is      1.713023505403e+01
+ Error is     8.952838470577e-13
+
+
+ CG Benchmark Completed
+ Class           =                        A
+ Size            =                    14000
+ Iterations      =                       15
+ Threads         =                        8
+ Time in seconds =                     0.49
+ Mop/s total     =                  3084.33
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - CG Benchmark
+ Size:      14000
+ Iterations:    15
+   iteration           ||r||                 zeta
+        1       2.81714186692111e-13 1.9999758127704e+01
+        2       2.68265705883636e-15 1.7114049574551e+01
+        3       2.69660741261969e-15 1.7129666894614e+01
+        4       2.67598613280743e-15 1.7130211358119e+01
+        5       2.62219718275662e-15 1.7130233885635e+01
+        6       2.64577544370577e-15 1.7130234987948e+01
+        7       2.64504217189132e-15 1.7130235049892e+01
+        8       2.64832049162381e-15 1.7130235053751e+01
+        9       2.57789284831953e-15 1.7130235054010e+01
+       10       2.59759521081954e-15 1.7130235054028e+01
+       11       2.56920618986567e-15 1.7130235054030e+01
+       12       2.57879662699089e-15 1.7130235054030e+01
+       13       2.56747570960148e-15 1.7130235054030e+01
+       14       2.53345615254371e-15 1.7130235054030e+01
+       15       2.52220172922689e-15 1.7130235054030e+01
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ Zeta is      1.713023505403e+01
+ Error is     8.952838470577e-13
+
+
+ CG Benchmark Completed
+ Class           =                        A
+ Size            =                    14000
+ Iterations      =                       15
+ Threads         =                        8
+ Time in seconds =                     0.54
+ Mop/s total     =                  2751.60
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randdp
+Tue Jan 12 15:19:21 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - EP Benchmark
+ Number of random numbers generated:     536870912
+Debug: 231, sx is:-4295.875166, sy is:-15807.325737
+EP Benchmark Results: 
+CPU Time =     2.8882
+N = 2^   28
+No. Gaussian Pairs =       210832767
+Sums =    -4.295875165636595e+03    -1.580732573678463e+04
+Counts:
+  0        98257395
+  1        93827014
+  2        17611549
+  3         1110028
+  4           26536
+  5             245
+  6               0
+  7               0
+  8               0
+  9               0
+
+
+ EP Benchmark Completed
+ Class           =                        A
+ Size            =                       29
+ Iterations      =                        0
+ Threads         =                        8
+ Time in seconds =                     2.89
+ Mop/s total     =                   185.89
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - EP Benchmark
+ Number of random numbers generated:     536870912
+Debug: 231, sx is:-4295.875166, sy is:-15807.325737
+EP Benchmark Results: 
+CPU Time =     2.8792
+N = 2^   28
+No. Gaussian Pairs =       210832767
+Sums =    -4.295875165636595e+03    -1.580732573678463e+04
+Counts:
+  0        98257395
+  1        93827014
+  2        17611549
+  3         1110028
+  4           26536
+  5             245
+  6               0
+  7               0
+  8               0
+  9               0
+
+
+ EP Benchmark Completed
+ Class           =                        A
+ Size            =                       29
+ Iterations      =                        0
+ Threads         =                        8
+ Time in seconds =                     2.88
+ Mop/s total     =                   186.47
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - EP Benchmark
+ Number of random numbers generated:     536870912
+Debug: 231, sx is:-4295.875166, sy is:-15807.325737
+EP Benchmark Results: 
+CPU Time =     3.0122
+N = 2^   28
+No. Gaussian Pairs =       210832767
+Sums =    -4.295875165636594e+03    -1.580732573678463e+04
+Counts:
+  0        98257395
+  1        93827014
+  2        17611549
+  3         1110028
+  4           26536
+  5             245
+  6               0
+  7               0
+  8               0
+  9               0
+
+
+ EP Benchmark Completed
+ Class           =                        A
+ Size            =                       29
+ Iterations      =                        0
+ Threads         =                        8
+ Time in seconds =                     3.01
+ Mop/s total     =                   178.23
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randdp
+Tue Jan 12 15:19:30 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - FT Benchmark
+
+ Size                : 256x256x128
+ Iterations          :           6
+T =     1     Checksum =     5.046735008193e+02     5.114047905510e+02
+T =     2     Checksum =     5.059412319734e+02     5.098809666433e+02
+T =     3     Checksum =     5.069376896287e+02     5.098144042213e+02
+T =     4     Checksum =     5.077892868474e+02     5.101336130759e+02
+T =     5     Checksum =     5.085233095391e+02     5.104914655194e+02
+T =     6     Checksum =     5.091487099959e+02     5.107917842803e+02
+Result verification successful
+cclass = A
+
+
+ FT Benchmark Completed
+ Class           =                        A
+ Size            =              256x256x128
+ Iterations      =                        6
+ Threads         =                        8
+ Time in seconds =                     2.08
+ Mop/s total     =                  3424.84
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - FT Benchmark
+
+ Size                : 256x256x128
+ Iterations          :           6
+T =     1     Checksum =     5.046735008193e+02     5.114047905510e+02
+T =     2     Checksum =     5.059412319734e+02     5.098809666433e+02
+T =     3     Checksum =     5.069376896287e+02     5.098144042213e+02
+T =     4     Checksum =     5.077892868474e+02     5.101336130759e+02
+T =     5     Checksum =     5.085233095391e+02     5.104914655194e+02
+T =     6     Checksum =     5.091487099959e+02     5.107917842803e+02
+Result verification successful
+cclass = A
+
+
+ FT Benchmark Completed
+ Class           =                        A
+ Size            =              256x256x128
+ Iterations      =                        6
+ Threads         =                        8
+ Time in seconds =                     1.94
+ Mop/s total     =                  3676.43
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - FT Benchmark
+
+ Size                : 256x256x128
+ Iterations          :           6
+T =     1     Checksum =     5.046735008193e+02     5.114047905510e+02
+T =     2     Checksum =     5.059412319734e+02     5.098809666433e+02
+T =     3     Checksum =     5.069376896287e+02     5.098144042213e+02
+T =     4     Checksum =     5.077892868474e+02     5.101336130759e+02
+T =     5     Checksum =     5.085233095391e+02     5.104914655194e+02
+T =     6     Checksum =     5.091487099959e+02     5.107917842803e+02
+Result verification successful
+cclass = A
+
+
+ FT Benchmark Completed
+ Class           =                        A
+ Size            =              256x256x128
+ Iterations      =                        6
+ Threads         =                        8
+ Time in seconds =                     2.16
+ Mop/s total     =                  3302.26
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randdp
+Tue Jan 12 15:19:39 PST 2010
+Tue Jan 12 15:19:42 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - LU Benchmark
+
+ Size:  64x 64x 64
+ Iterations: 250
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  250
+
+ Verification being performed for cclass A
+ Accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0   7.7902107606688e+02 7.7902107606689e+02 1.4447615449975e-14
+           1   6.3402765259693e+01 6.3402765259693e+01 3.6982472584662e-15
+           2   1.9499249727292e+02 1.9499249727292e+02 8.7454778500394e-15
+           3   1.7845301160419e+02 1.7845301160419e+02 1.5926718845992e-16
+           4   1.8384760349464e+03 1.8384760349464e+03 1.0759732184454e-14
+ Comparison of RMS-norms of solution error
+           0   2.9964085685472e+01 2.9964085685472e+01 8.2996010666400e-15
+           1   2.8194576365004e+00 2.8194576365003e+00 1.0238067870416e-14
+           2   7.3473412698776e+00 7.3473412698775e+00 1.3539044853442e-14
+           3   6.7139225687777e+00 6.7139225687777e+00 3.5718042748100e-15
+           4   7.0715315688391e+01 7.0715315688393e+01 2.2708327993527e-14
+ Comparison of surface integral
+               2.6030925604886e+01 2.6030925604886e+01 1.3648049757146e-15
+ Verification Successful
+
+
+ LU Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      250
+ Threads         =                        8
+ Time in seconds =                    14.99
+ Mop/s total     =                  7960.27
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = (none)
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - LU Benchmark
+
+ Size:  64x 64x 64
+ Iterations: 250
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  250
+
+ Verification being performed for cclass A
+ Accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0   7.7902107606688e+02 7.7902107606689e+02 1.4447615449975e-14
+           1   6.3402765259693e+01 6.3402765259693e+01 3.8103153572076e-15
+           2   1.9499249727292e+02 1.9499249727292e+02 8.7454778500394e-15
+           3   1.7845301160419e+02 1.7845301160419e+02 1.5926718845992e-16
+           4   1.8384760349464e+03 1.8384760349464e+03 1.0759732184454e-14
+ Comparison of RMS-norms of solution error
+           0   2.9964085685472e+01 2.9964085685472e+01 8.2996010666400e-15
+           1   2.8194576365004e+00 2.8194576365003e+00 1.0238067870416e-14
+           2   7.3473412698776e+00 7.3473412698775e+00 1.3539044853442e-14
+           3   6.7139225687777e+00 6.7139225687777e+00 3.5718042748100e-15
+           4   7.0715315688391e+01 7.0715315688393e+01 2.2708327993527e-14
+ Comparison of surface integral
+               2.6030925604886e+01 2.6030925604886e+01 1.3648049757146e-15
+ Verification Successful
+
+
+ LU Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      250
+ Threads         =                        8
+ Time in seconds =                    15.88
+ Mop/s total     =                  7512.08
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = (none)
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - LU Benchmark
+
+ Size:  64x 64x 64
+ Iterations: 250
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  250
+
+ Verification being performed for cclass A
+ Accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0   7.7902107606688e+02 7.7902107606689e+02 1.4301679940379e-14
+           1   6.3402765259693e+01 6.3402765259693e+01 3.8103153572076e-15
+           2   1.9499249727292e+02 1.9499249727292e+02 8.7454778500394e-15
+           3   1.7845301160419e+02 1.7845301160419e+02 1.5926718845992e-16
+           4   1.8384760349464e+03 1.8384760349464e+03 1.0759732184454e-14
+ Comparison of RMS-norms of solution error
+           0   2.9964085685472e+01 2.9964085685472e+01 8.2996010666400e-15
+           1   2.8194576365004e+00 2.8194576365003e+00 1.0238067870416e-14
+           2   7.3473412698776e+00 7.3473412698775e+00 1.3539044853442e-14
+           3   6.7139225687777e+00 6.7139225687777e+00 3.5718042748100e-15
+           4   7.0715315688391e+01 7.0715315688393e+01 2.2708327993527e-14
+ Comparison of surface integral
+               2.6030925604886e+01 2.6030925604886e+01 1.3648049757146e-15
+ Verification Successful
+
+
+ LU Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      250
+ Threads         =                        8
+ Time in seconds =                    15.72
+ Mop/s total     =                  7586.65
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = (none)
+Tue Jan 12 15:20:29 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - MG Benchmark
+
+ No input file. Using compiled defaults
+ Size: 256x256x256 (class A)
+ Iterations:   4
+ Initialization time:           1.842 seconds
+ Benchmark completed
+ VERIFICATION FAILED
+ L2 Norm is               3.974422534428e-06
+ The correct L2 Norm is   2.433365309000e-06
+
+
+ MG Benchmark Completed
+ Class           =                        A
+ Size            =              256x256x256
+ Iterations      =                        4
+ Threads         =                        8
+ Time in seconds =                     1.32
+ Mop/s total     =                  2952.34
+ Operation type  =           floating point
+ Verification    =             UNSUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - MG Benchmark
+
+ No input file. Using compiled defaults
+ Size: 256x256x256 (class A)
+ Iterations:   4
+ Initialization time:           1.839 seconds
+ Benchmark completed
+ VERIFICATION FAILED
+ L2 Norm is               3.974422534428e-06
+ The correct L2 Norm is   2.433365309000e-06
+
+
+ MG Benchmark Completed
+ Class           =                        A
+ Size            =              256x256x256
+ Iterations      =                        4
+ Threads         =                        8
+ Time in seconds =                     1.44
+ Mop/s total     =                  2694.95
+ Operation type  =           floating point
+ Verification    =             UNSUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randdp
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - MG Benchmark
+
+ No input file. Using compiled defaults
+ Size: 256x256x256 (class A)
+ Iterations:   4
+ Initialization time:           2.012 seconds
+ Benchmark completed
+ VERIFICATION FAILED
+ L2 Norm is               3.974422534428e-06
+ The correct L2 Norm is   2.433365309000e-06
+
+
+ MG Benchmark Completed
+ Class           =                        A
+ Size            =              256x256x256
+ Iterations      =                        4
+ Threads         =                        8
+ Time in seconds =                     1.33
+ Mop/s total     =                  2932.92
+ Operation type  =           floating point
+ Verification    =             UNSUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = randdp
+Tue Jan 12 15:20:39 PST 2010
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults Size:  64x 64x 64
+ Iterations: 400   dt:   0.001500
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for cclass A
+ accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0 2.4799822399303e+00 2.4799822399300e+00 1.0081613534161e-13
+           1 1.1276337964369e+00 1.1276337964369e+00 2.0085022082451e-14
+           2 1.5028977888770e+00 1.5028977888770e+00 4.0334198102605e-14
+           3 1.4217816211695e+00 1.4217816211695e+00 7.6525012556969e-15
+           4 2.1292113035138e+00 2.1292113035138e+00 4.3799661365036e-15
+ Comparison of RMS-norms of solution error
+           0 1.0900140297816e-04 1.0900140297821e-04 3.8630421924317e-13
+           1 3.7343951769284e-05 3.7343951769282e-05 5.7339922241980e-14
+           2 5.0092785406537e-05 5.0092785406542e-05 8.7792983090336e-14
+           3 4.7671093939536e-05 4.7671093939528e-05 1.6986467703097e-13
+           4 1.3621613399215e-04 1.3621613399213e-04 1.8207185866132e-13
+ Verification Successful
+
+
+ SP Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      400
+ Threads         =                        8
+ Time in seconds =                    61.83
+ Mop/s total     =                  1374.93
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = (none)
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults Size:  64x 64x 64
+ Iterations: 400   dt:   0.001500
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for cclass A
+ accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0 2.4799822399303e+00 2.4799822399300e+00 1.0081613534161e-13
+           1 1.1276337964369e+00 1.1276337964369e+00 2.0085022082451e-14
+           2 1.5028977888770e+00 1.5028977888770e+00 4.0334198102605e-14
+           3 1.4217816211695e+00 1.4217816211695e+00 7.6525012556969e-15
+           4 2.1292113035138e+00 2.1292113035138e+00 4.3799661365036e-15
+ Comparison of RMS-norms of solution error
+           0 1.0900140297816e-04 1.0900140297821e-04 3.8630421924317e-13
+           1 3.7343951769284e-05 3.7343951769282e-05 5.7339922241980e-14
+           2 5.0092785406537e-05 5.0092785406542e-05 8.7792983090336e-14
+           3 4.7671093939536e-05 4.7671093939528e-05 1.6986467703097e-13
+           4 1.3621613399215e-04 1.3621613399213e-04 1.8207185866132e-13
+ Verification Successful
+
+
+ SP Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      400
+ Threads         =                        8
+ Time in seconds =                    78.61
+ Mop/s total     =                  1081.42
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = (none)
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults Size:  64x 64x 64
+ Iterations: 400   dt:   0.001500
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for cclass A
+ accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0 2.4799822399303e+00 2.4799822399300e+00 1.0081613534161e-13
+           1 1.1276337964369e+00 1.1276337964369e+00 2.0085022082451e-14
+           2 1.5028977888770e+00 1.5028977888770e+00 4.0334198102605e-14
+           3 1.4217816211695e+00 1.4217816211695e+00 7.6525012556969e-15
+           4 2.1292113035138e+00 2.1292113035138e+00 4.3799661365036e-15
+ Comparison of RMS-norms of solution error
+           0 1.0900140297816e-04 1.0900140297821e-04 3.8630421924317e-13
+           1 3.7343951769284e-05 3.7343951769282e-05 5.7339922241980e-14
+           2 5.0092785406537e-05 5.0092785406542e-05 8.7792983090336e-14
+           3 4.7671093939536e-05 4.7671093939528e-05 1.6986467703097e-13
+           4 1.3621613399215e-04 1.3621613399213e-04 1.8207185866132e-13
+ Verification Successful
+
+
+ SP Benchmark Completed
+ Class           =                        A
+ Size            =               64x 64x 64
+ Iterations      =                      400
+ Threads         =                        8
+ Time in seconds =                    63.30
+ Mop/s total     =                  1343.07
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              12 Jan 2010
+
+ Compile options:
+    CC           = icc
+    CLINK        = icc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -openmp -O3
+    CLINKFLAGS   = -openmp -O3
+    RAND         = (none)

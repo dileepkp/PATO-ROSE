@@ -1,0 +1,38 @@
+# run this script through bash for processing
+#$ -S /usr/bin/bash
+
+# this will be how the job is accounted for (currently unused)
+#$ -A tester
+
+# output file(s) start with "output"
+#$ -N output
+
+# where do we want to send email when job starts/ends etc.?
+#$ -M your_email@uh.edu
+# never send mail
+#$ -m n
+
+# make the job run in this directory
+#$ -cwd
+
+# put both standard output and error into same output file
+#$ -j y
+
+# run job in normal or core queue (if you have access)
+#$ -l cre
+#$ -pe hpc 2
+
+# Select the machine to run this on otherwise Grid Engine might try
+# to allocate CPUs from a number of machines, which is not what you want,
+# (see qhost output for names: "qhost -l slots=8" would show you which
+# machines currently offer 8 or more CPUs)
+#$ -q v880-4.cre
+
+# pass the login environment through to the running job
+#$ -V
+
+# pass OMP_NUM_THREADS with the same value into the job's environment.
+#$ -v OMP_NUM_THREADS=2
+
+# run the program, show how long it took
+./myscript
