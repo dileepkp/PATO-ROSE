@@ -86,10 +86,10 @@ int main(int argc, char ** argv)
         cout << "\t-alive true/false        embedding Prolog engine." << endl;
         cout << "----------------------Generic Help for ROSE tools--------------------------" << endl;
 
-        exit(1);
+        exit(1); 
     }
 
-    cout << endl;
+    cout << endl; 
 
     if ( CommandlineProcessing::isOptionWithParameter(argvList, "-emit-pl", "", output_file, true) ) {
         onto_generator = new OntoPl();
@@ -139,6 +139,7 @@ int main(int argc, char ** argv)
 //    onto_generator->prefix_register("xml:", "http://www.w3.org/XML/1998/namespace");
     onto_generator->prefix_register("xsd:", "http://www.w3.org/2001/XMLSchema#");
     onto_generator->prefix_register("rdfs:", "http://www.w3.org/2000/01/rdf-schema#");
+    onto_generator->prefix_register("pa:", "http://www.semanticweb.org/aidb/ontologies/BugFindingOntology#");
     onto_generator->prefix_register("c:", c_onto_url + "#");
 
     //onto_generator->import_register("file:///home/yzhao30/openk/ontology/c.owl"); // may not need for local file
@@ -158,6 +159,7 @@ int main(int argc, char ** argv)
         if (s_file != NULL) {
             // input file name as default namespace
             fn = s_file->get_file_info()->get_filename();
+	fn = "ftp:/" + fn;
             //fn = fn.substr(fn.find_last_of('/') + 1);
 
 // TODO: These two lines do not support multiple files
@@ -194,6 +196,7 @@ namespace KG {
 //TODO move declarations into a header
 std::string generateConceptIRI(SgNode * n);
 
+
 // generate short URI for a node, without path/file prefix info.
 string generateShortIRI(SgNode * n)
 {
@@ -214,6 +217,38 @@ string generateShortIRI(SgNode * n)
         {
             IRI = N2S(sc->get_line()) + "_" + N2S(sc->get_col()) + "_" + \
             N2S(se->get_line()) + "_" + N2S(se->get_col());
+	    // If IRI equal 0_0_0_0; do something
+            if(IRI.compare("0_0_0_0") == 0){
+                const SgNode *parent2 = n -> get_parent();
+		SgNode *parent = const_cast<SgNode* const>(parent2);
+		string IRI4 = "";
+
+		/*SgStatement * input = isSgStatement(n); 
+		SgStatement * parStmt = isSgStatement(parent);
+		if(parStmt->variantT() == V_SgIfStmt) {
+	            SgIfStmt * ifs = isSgIfStmt(parStmt);
+		if(ifs->get_true_body() == input)
+			IRI4 = ":true";
+		if(ifs->get_false_body() == input)
+			IRI4 = ":false";
+	        }
+*/
+
+		SgStatement * parStmt = isSgStatement(parent);
+		if(parStmt != NULL && parStmt->variantT() == V_SgIfStmt) {
+			if(parent -> get_childIndex(n) == 1)
+				IRI4 = "-true";
+			else if(parent -> get_childIndex(n) == 2)
+				IRI4 = "-false";
+		}
+	        
+                string IRI2 = generateShortIRI(parent);
+                string IRI3 = "-";
+		IRI3 += IRI2;
+		IRI += IRI4;		
+		IRI += IRI3;
+		//cout << "\n" << IRI << "  " << parent -> get_childIndex(n);
+		}
         }
     }
     else {
@@ -507,8 +542,10 @@ int translateStatement(SgNode * n, string thisIRI)
             // }
             // get_test_expr() is deprecated, use get_test(), return the same thing
             SgStatement * tests = fs->get_test();
-            if (tests)
+            if (tests){
                 MCObjectPropertyAssertionBetweenConstructs("hasForTest", thisIRI, generateShortIRI(tests));
+               MCObjectPropertyAssertionBetweenConstructs("hasCondition", thisIRI, generateShortIRI(tests));
+}
             // Incr relation
             SgExpression * incr = fs->get_increment();
             if (incr) {
