@@ -1,5 +1,5 @@
-#!/usr/bin/env swipl
-%% swipl --nosignals --quiet run.pl is.c.ttl is.c.report.txt
+%% #!/usr/bin/env swipl
+%% swipl --nosignals --quiet run.pl -- is.c.ttl is.c.report.txt
 
 :- set_prolog_flag(verbose, silent).
 
@@ -14,10 +14,23 @@
 
 eval :-
 	current_prolog_flag(argv, Argv),
-	[Inputfile, Outputfile|_] = Argv,
+	%% [Inputfile, Outputfile|_] = Argv,
+	% append(_, [-- | Allargs], Argv),
+	append(_, Allargs, Argv),
+	[Inputfile, Outputfile|_] = Allargs,
 	%% c_onto(Conto),
 	%% rdf_load(Conto, [register_namespaces(ture)]),
-	%% writeln('c.owl is loaded!'), 
+	%% writeln(Inputfile), 
+ open(Inputfile, read, Stream),
+ read_string(Stream, "\n", "\r", End1, String1),
+ read_string(Stream, "\n", "\r", End2, String2),
+ read_string(Stream, "\n", "\r", End3, String3),
+ read_string(Stream, "\n", "\r", End4, String4),
+ read_string(Stream, "\n", "\r", End5, String5),
+ read_string(Stream, "\n", "\r", End6, String6),
+ read_string(Stream, "\n", "\r", End7, String7), close(Stream),
+ writeln(String1),writeln(String2),writeln(String3),writeln(String4),writeln(String5),writeln(String6),writeln(String7),
+  nl,nl,
 	analysis(Inputfile, Outputfile).
 		
 main :- 
@@ -29,24 +42,25 @@ main :-
 
 
 analysis(InTurtle, OutReport) :-
-	writeln('-----------------------------------'),
-	write('|    '), write(InTurtle), writeln('    |'),
-	writeln('-----------------------------------'),
-	%atom(OutReport), open(OutReport, write, Out), !,
+	% writeln('-----------------------------------'),
+	% write('|    '), write(InTurtle), writeln('    |'),
+	% writeln('-----------------------------------'),
+	atom(OutReport), open(OutReport, write, Out), !,
 	%% load knowledge base of input program
 	statistics(cputime, T1),
 	rdf_load(InTurtle, [format(turtle), register_namespaces(true)]),
 	
+	% forall( isFunctionDef(FunctionDef), writeln(FunctionDef) ),
 	forall( isFunctionDef(FunctionDef), cfg(FunctionDef) ),
 
 	statistics(cputime, T2), % in seconds
 	Tdiff is (T2 - T1),
-	%writeln('-----------------'),
-	%write('#'), writeln(Tdiff), 
-	%writeln('-----------------'),
-	%close(Out),
-	writeln(Tdiff),
-	writeln('------------Done------------------').
+	% writeln('-----------------'),
+	% write('#'), writeln(Tdiff), 
+	% writeln('-----------------'),
+	close(Out).
+	% writeln(Tdiff),
+	% writeln('------------Done------------------').
 
 
 fwriteln(Out, Text) :-
